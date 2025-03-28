@@ -1,0 +1,12 @@
+{
+  "content": {
+    "home": "sākumlapa",
+    "me": "raktuve",
+    "setting": "uzstādīt",
+    "script": "scenārijs",
+    "market": "tirgoties"
+  },
+  "tabbar": {
+    "test": "Apakšējā izvēlnes josla"
+  }
+}

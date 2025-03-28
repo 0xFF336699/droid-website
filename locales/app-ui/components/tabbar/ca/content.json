@@ -1,0 +1,12 @@
+{
+  "content": {
+    "home": "pàgina principal",
+    "me": "mina",
+    "setting": "configurar",
+    "script": "manuscrit",
+    "market": "mercat"
+  },
+  "tabbar": {
+    "test": "Barra de menús inferior"
+  }
+}

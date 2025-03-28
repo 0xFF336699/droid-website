@@ -1,0 +1,12 @@
+{
+  "content": {
+    "home": "halaman depan",
+    "me": "Tambang",
+    "setting": "Sediakan",
+    "script": "Skrip",
+    "market": "pasaran"
+  },
+  "tabbar": {
+    "test": "Bar menu bawah"
+  }
+}

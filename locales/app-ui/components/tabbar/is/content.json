@@ -1,0 +1,12 @@
+{
+  "content": {
+    "home": "forsíðu",
+    "me": "Mín",
+    "setting": "Setja upp",
+    "script": "Handrit",
+    "market": "Markaður"
+  },
+  "tabbar": {
+    "test": "Neðri valmyndarstikan"
+  }
+}

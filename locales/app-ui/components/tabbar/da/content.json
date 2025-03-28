@@ -1,0 +1,12 @@
+{
+  "content": {
+    "home": "forside",
+    "me": "mine",
+    "setting": "opsæt",
+    "script": "manuskript",
+    "market": "marked"
+  },
+  "tabbar": {
+    "test": "Nederste menulinje"
+  }
+}

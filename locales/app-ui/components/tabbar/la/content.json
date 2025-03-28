@@ -1,0 +1,12 @@
+{
+  "content": {
+    "home": "Front Page",
+    "me": "mea",
+    "setting": "profectus",
+    "script": "sero",
+    "market": "foro"
+  },
+  "tabbar": {
+    "test": "Solum Menu Bar"
+  }
+}

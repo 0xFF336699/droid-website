@@ -1,0 +1,12 @@
+{
+  "content": {
+    "home": "foarpagina",
+    "me": "myn",
+    "setting": "opsette",
+    "script": "skrift",
+    "market": "merk"
+  },
+  "tabbar": {
+    "test": "BOTTER MENU BAR"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "content": {
+    "home": "sprednja stran",
+    "me": "moj",
+    "setting": "nastavite",
+    "script": "scenarij",
+    "market": "trg"
+  },
+  "tabbar": {
+    "test": "Spodnja vrstica"
+  }
+}

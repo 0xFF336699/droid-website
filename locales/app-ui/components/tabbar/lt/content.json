@@ -1,0 +1,12 @@
+{
+  "content": {
+    "home": "Pirmasis puslapis",
+    "me": "mano",
+    "setting": "Nustatykite",
+    "script": "scenarijus",
+    "market": "rinka"
+  },
+  "tabbar": {
+    "test": "Apatinė meniu juosta"
+  }
+}

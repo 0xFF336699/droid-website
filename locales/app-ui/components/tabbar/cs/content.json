@@ -1,0 +1,12 @@
+{
+  "content": {
+    "home": "Přední stránka",
+    "me": "moje",
+    "setting": "nastavit",
+    "script": "skript",
+    "market": "trh"
+  },
+  "tabbar": {
+    "test": "Spodní panel nabídky"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "content": {
+    "home": "címlap",
+    "me": "enyém",
+    "setting": "felállít",
+    "script": "forgatókönyv",
+    "market": "piac"
+  },
+  "tabbar": {
+    "test": "Alsó menüsor"
+  }
+}

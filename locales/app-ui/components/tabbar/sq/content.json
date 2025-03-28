@@ -1,0 +1,12 @@
+{
+  "content": {
+    "home": "në faqen e parë",
+    "me": "imi",
+    "setting": "vendos",
+    "script": "skenar",
+    "market": "tregti"
+  },
+  "tabbar": {
+    "test": "Shiriti i menusë së poshtme"
+  }
+}

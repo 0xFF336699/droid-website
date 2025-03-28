@@ -1,0 +1,12 @@
+{
+  "content": {
+    "home": "Duilleag aghaidh",
+    "me": "Mine",
+    "setting": "Suidhich",
+    "script": "sgriobt",
+    "market": "margaidh"
+  },
+  "tabbar": {
+    "test": "Bàr-clàr ìosal"
+  }
+}

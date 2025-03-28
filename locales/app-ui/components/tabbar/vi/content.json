@@ -1,0 +1,12 @@
+{
+  "content": {
+    "home": "trang nhất",
+    "me": "của tôi",
+    "setting": "cài đặt",
+    "script": "kịch bản",
+    "market": "chợ"
+  },
+  "tabbar": {
+    "test": "Thanh menu dưới cùng"
+  }
+}

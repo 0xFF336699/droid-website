@@ -1,0 +1,12 @@
+{
+  "content": {
+    "home": "strona tytułowa",
+    "me": "kopalnia",
+    "setting": "organizować coś",
+    "script": "scenariusz",
+    "market": "rynek"
+  },
+  "tabbar": {
+    "test": "Dolny pasek menu"
+  }
+}

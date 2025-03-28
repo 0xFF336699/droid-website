@@ -1,0 +1,12 @@
+{
+  "content": {
+    "home": "á forsíðu",
+    "me": "mín",
+    "setting": "skipna",
+    "script": "handrit",
+    "market": "marknaður"
+  },
+  "tabbar": {
+    "test": "Niðurstøðan er menu Barr"
+  }
+}

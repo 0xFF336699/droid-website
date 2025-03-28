@@ -1,0 +1,12 @@
+{
+  "content": {
+    "home": "ön sayfa",
+    "me": "bana ait",
+    "setting": "kurmak",
+    "script": "senaryo",
+    "market": "pazar"
+  },
+  "tabbar": {
+    "test": "Alt menü çubuğu"
+  }
+}

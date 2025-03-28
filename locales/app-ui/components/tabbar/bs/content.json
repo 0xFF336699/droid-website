@@ -1,0 +1,12 @@
+{
+  "content": {
+    "home": "naslovna strana",
+    "me": "moji",
+    "setting": "postaviti",
+    "script": "scenarij",
+    "market": "tržište"
+  },
+  "tabbar": {
+    "test": "Donja traka izbornika"
+  }
+}

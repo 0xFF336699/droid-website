@@ -1,0 +1,12 @@
+{
+  "content": {
+    "home": "Titelseite",
+    "me": "meins",
+    "setting": "aufstellen",
+    "script": "Skript",
+    "market": "Markt"
+  },
+  "tabbar": {
+    "test": "Untere Menüleiste"
+  }
+}

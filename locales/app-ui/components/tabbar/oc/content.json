@@ -1,0 +1,12 @@
+{
+  "content": {
+    "home": "primièra pagina",
+    "me": "mieu",
+    "setting": "metre en plaça",
+    "script": "scenari",
+    "market": "mercat"
+  },
+  "tabbar": {
+    "test": "Menú de fons Bar"
+  }
+}

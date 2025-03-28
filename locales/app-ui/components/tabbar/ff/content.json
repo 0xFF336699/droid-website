@@ -1,0 +1,12 @@
+{
+  "content": {
+    "home": "hello yeeso ngoo",
+    "me": "je am",
+    "setting": "taskugo",
+    "script": "windol",
+    "market": "lumo"
+  },
+  "tabbar": {
+    "test": "Bottom Menu Bar"
+  }
+}

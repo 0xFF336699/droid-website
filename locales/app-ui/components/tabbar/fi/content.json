@@ -1,0 +1,12 @@
+{
+  "content": {
+    "home": "etusivu",
+    "me": "minun",
+    "setting": "asentaa",
+    "script": "käsikirjoitus",
+    "market": "markkinoida"
+  },
+  "tabbar": {
+    "test": "Pohjavalikkopalkki"
+  }
+}

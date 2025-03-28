@@ -1,0 +1,12 @@
+{
+  "content": {
+    "home": "voorpagina",
+    "me": "de mijne",
+    "setting": "instellen",
+    "script": "script",
+    "market": "markt"
+  },
+  "tabbar": {
+    "test": "Onderste menubalk"
+  }
+}

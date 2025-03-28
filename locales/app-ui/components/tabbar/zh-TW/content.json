@@ -1,0 +1,12 @@
+{
+  "content": {
+    "home": "首頁",
+    "me": "我的",
+    "setting": "設定",
+    "script": "腳本",
+    "market": "市場"
+  },
+  "tabbar": {
+    "test": "底部菜單欄"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "content": {
+    "home": "förstasida",
+    "me": "mina",
+    "setting": "inrätta",
+    "script": "manus",
+    "market": "marknadsföra"
+  },
+  "tabbar": {
+    "test": "Nedre menyfält"
+  }
+}
