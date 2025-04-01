@@ -1,0 +1,7 @@
+{
+  "ITriggerWhenActivityIn": {
+    "title": "When entering the specified page",
+    "pnLabel": "Package name:",
+    "anLabel": "Activity name:"
+  }
+}

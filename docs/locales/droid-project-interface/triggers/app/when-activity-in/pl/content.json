@@ -1,0 +1,7 @@
+{
+  "ITriggerWhenActivityIn": {
+    "title": "Podczas wchodzenia na określoną stronę",
+    "pnLabel": "Nazwa pakietu:",
+    "anLabel": "Nazwa aktywności:"
+  }
+}

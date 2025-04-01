@@ -1,0 +1,7 @@
+{
+  "ITriggerWhenActivityIn": {
+    "title": "عند إدخال الصفحة المحددة",
+    "pnLabel": "اسم الحزمة:",
+    "anLabel": "اسم النشاط:"
+  }
+}

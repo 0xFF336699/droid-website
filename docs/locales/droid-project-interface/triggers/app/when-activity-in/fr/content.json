@@ -1,0 +1,7 @@
+{
+  "ITriggerWhenActivityIn": {
+    "title": "Lors de la saisie de la page spécifiée",
+    "pnLabel": "Nom du package:",
+    "anLabel": "Nom de l'activité:"
+  }
+}

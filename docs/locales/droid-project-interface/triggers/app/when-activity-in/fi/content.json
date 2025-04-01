@@ -1,0 +1,7 @@
+{
+  "ITriggerWhenActivityIn": {
+    "title": "Kun syödään määritettyyn sivuun",
+    "pnLabel": "Paketin nimi:",
+    "anLabel": "Aktiviteetin nimi:"
+  }
+}

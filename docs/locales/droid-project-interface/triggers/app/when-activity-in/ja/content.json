@@ -1,0 +1,7 @@
+{
+  "ITriggerWhenActivityIn": {
+    "title": "指定されたページを入力するとき",
+    "pnLabel": "パッケージ名：",
+    "anLabel": "アクティビティ名："
+  }
+}

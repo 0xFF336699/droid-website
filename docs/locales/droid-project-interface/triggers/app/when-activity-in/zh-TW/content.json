@@ -1,0 +1,7 @@
+{
+  "ITriggerWhenActivityIn": {
+    "title": "當進入指定頁面時",
+    "pnLabel": "包名：",
+    "anLabel": "Activity名："
+  }
+}

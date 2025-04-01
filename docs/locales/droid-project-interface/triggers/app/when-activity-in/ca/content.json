@@ -1,0 +1,7 @@
+{
+  "ITriggerWhenActivityIn": {
+    "title": "Quan introduïu la pàgina especificada",
+    "pnLabel": "Nom del paquet:",
+    "anLabel": "Nom de l'activitat:"
+  }
+}
