@@ -3,6 +3,7 @@
     "refreshTip": "Jos sovellus on päivitetty, napsauta päivityspainiketta",
     "searchPlaceholder": "Etsi sovelluksia",
     "all": "kaikki",
-    "recently": "äskettäinen"
+    "recently": "äskettäinen",
+    "title": "Sovellusvalinta"
   }
 }

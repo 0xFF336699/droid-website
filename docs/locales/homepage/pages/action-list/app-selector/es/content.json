@@ -3,6 +3,7 @@
     "refreshTip": "Si la aplicación se ha actualizado, haga clic en el botón Actualizar",
     "searchPlaceholder": "Buscar aplicaciones",
     "all": "todo",
-    "recently": "reciente"
+    "recently": "reciente",
+    "title": "Selección de aplicaciones"
   }
 }

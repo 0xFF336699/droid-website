@@ -3,6 +3,7 @@
     "refreshTip": "Om applikationen har uppdaterats klickar du på knappen Uppdatering",
     "searchPlaceholder": "Sök efter appar",
     "all": "alla",
-    "recently": "ny"
+    "recently": "ny",
+    "title": "Applikationsval"
   }
 }

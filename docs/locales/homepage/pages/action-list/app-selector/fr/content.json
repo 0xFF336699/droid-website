@@ -3,6 +3,7 @@
     "refreshTip": "Si l'application a été mise à jour, veuillez cliquer sur le bouton Actualiser",
     "searchPlaceholder": "Rechercher des applications",
     "all": "tous",
-    "recently": "récent"
+    "recently": "récent",
+    "title": "Sélection des applications"
   }
 }
