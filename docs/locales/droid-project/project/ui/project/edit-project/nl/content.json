@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Het project bestaat niet",
-    "clickToSetProjectName": "Naamloos"
+    "clickToSetProjectName": "Naamloze projecten",
+    "projectTools": {
+      "run": "implementeren"
+    }
   }
 }

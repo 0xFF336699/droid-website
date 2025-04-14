@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Proje mevcut değil",
-    "clickToSetProjectName": "İsimsiz"
+    "clickToSetProjectName": "İsimsiz projeler",
+    "projectTools": {
+      "run": "uygulamak"
+    }
   }
 }

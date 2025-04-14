@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Projet yango ezali te .",
-    "clickToSetProjectName": "Ezali na nkombo te ."
+    "clickToSetProjectName": "Ba projets oyo epesameli kombo te .",
+    "projectTools": {
+      "run": "kobanda kosalela"
+    }
   }
 }

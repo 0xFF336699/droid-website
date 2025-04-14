@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Umugambi ntahari",
-    "clickToSetProjectName": "bitavuzwe"
+    "clickToSetProjectName": "Imigambi itazwi",
+    "projectTools": {
+      "run": "gushira mu ngiro"
+    }
   }
 }

@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Проект нæй .",
-    "clickToSetProjectName": "Æнæном"
+    "clickToSetProjectName": "Æнæном Проекттæ",
+    "projectTools": {
+      "run": "баххæст кæнын"
+    }
   }
 }

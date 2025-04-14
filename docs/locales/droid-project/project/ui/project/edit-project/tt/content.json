@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Проект юк",
-    "clickToSetProjectName": "Исеме белән"
+    "clickToSetProjectName": "Табылдырылган проектлар",
+    "projectTools": {
+      "run": "тормышка ашыру"
+    }
   }
 }

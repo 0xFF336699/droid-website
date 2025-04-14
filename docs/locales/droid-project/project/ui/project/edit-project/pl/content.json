@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Projekt nie istnieje",
-    "clickToSetProjectName": "Anonimowy"
+    "clickToSetProjectName": "Bezimienne projekty",
+    "projectTools": {
+      "run": "narzędzie"
+    }
   }
 }

@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Ko proyecto ndoikói .",
-    "clickToSetProjectName": "Noñembohéraiva ."
+    "clickToSetProjectName": "Umi proyecto noñembohéraiva .",
+    "projectTools": {
+      "run": "moingeñepyrũ"
+    }
   }
 }

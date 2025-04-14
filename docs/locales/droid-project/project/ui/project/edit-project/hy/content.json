@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Նախագիծը գոյություն չունի",
-    "clickToSetProjectName": "Անանուն"
+    "clickToSetProjectName": "Անանուն նախագծեր",
+    "projectTools": {
+      "run": "իրագործել"
+    }
   }
 }

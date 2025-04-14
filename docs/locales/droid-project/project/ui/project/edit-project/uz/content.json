@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Loyiha mavjud emas",
-    "clickToSetProjectName": "Noma'lum"
+    "clickToSetProjectName": "Ismi oshkor qilinmagan loyihalar",
+    "projectTools": {
+      "run": "amalga oshirmoq"
+    }
   }
 }

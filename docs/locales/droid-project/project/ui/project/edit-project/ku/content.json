@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Proje nabe",
-    "clickToSetProjectName": "Birêkûpêk"
+    "clickToSetProjectName": "Projeyên Nekirî",
+    "projectTools": {
+      "run": "bicîanîn"
+    }
   }
 }

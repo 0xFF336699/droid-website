@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Das Projekt existiert nicht",
-    "clickToSetProjectName": "Unbenannt"
+    "clickToSetProjectName": "Unbenannte Projekte",
+    "projectTools": {
+      "run": "implementieren"
+    }
   }
 }

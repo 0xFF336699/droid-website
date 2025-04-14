@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Dwumadi no nni hɔ .",
-    "clickToSetProjectName": "Wɔammɔ din ."
+    "clickToSetProjectName": "Nnwuma a wɔammɔ din .",
+    "projectTools": {
+      "run": "fa yɛ adwuma"
+    }
   }
 }

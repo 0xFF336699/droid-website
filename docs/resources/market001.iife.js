@@ -1,0 +1,1 @@
+var lib=function(e){return e.market1=function(){console.log("market1")},Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),e}({});

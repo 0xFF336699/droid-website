@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Chay proyectoqa manan kanchu .",
-    "clickToSetProjectName": "Mana sutiyuq ."
+    "clickToSetProjectName": "Proyectos sin nombres .",
+    "projectTools": {
+      "run": "llamkana"
+    }
   }
 }

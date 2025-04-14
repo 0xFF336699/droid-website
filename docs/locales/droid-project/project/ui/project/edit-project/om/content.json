@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Pirojektichi hin jiru .",
-    "clickToSetProjectName": "Maqaa hin qabne ."
+    "clickToSetProjectName": "Pirojektoota maqaan isaanii hin ibsamne .",
+    "projectTools": {
+      "run": "hojiitti hiikuu"
+    }
   }
 }

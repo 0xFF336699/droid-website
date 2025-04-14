@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "‘t Project besteit neet",
-    "clickToSetProjectName": "Ongenoemd"
+    "clickToSetProjectName": "Ongenoemde Projecte",
+    "projectTools": {
+      "run": "insjtille"
+    }
   }
 }

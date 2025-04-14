@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Проектыс абу .",
-    "clickToSetProjectName": "Нимтӧм"
+    "clickToSetProjectName": "Нимтӧм проектъяс .",
+    "projectTools": {
+      "run": "збыльмӧдны"
+    }
   }
 }

@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Проект юҡ .",
-    "clickToSetProjectName": "Исемһеҙ."
+    "clickToSetProjectName": "Исемһеҙ проекттар",
+    "projectTools": {
+      "run": "булдырырға"
+    }
   }
 }

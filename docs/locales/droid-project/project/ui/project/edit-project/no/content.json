@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Prosjektet eksisterer ikke",
-    "clickToSetProjectName": "Ikke navngitt"
+    "clickToSetProjectName": "Ikke navngitte prosjekter",
+    "projectTools": {
+      "run": "implementere"
+    }
   }
 }

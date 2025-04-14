@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "المشروع غير موجود",
-    "clickToSetProjectName": "لم يكشف عن اسمه"
+    "clickToSetProjectName": "مشاريع لم يكشف عن اسمها",
+    "projectTools": {
+      "run": "ينفذ"
+    }
   }
 }

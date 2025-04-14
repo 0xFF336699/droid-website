@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Tsy misy ny tetikasa",
-    "clickToSetProjectName": "tsy voalaza anarana"
+    "clickToSetProjectName": "Tetikasa tsy fantatra anarana",
+    "projectTools": {
+      "run": "MAMPIHATRA"
+    }
   }
 }

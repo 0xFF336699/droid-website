@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Phurojeke a yi kona .",
-    "clickToSetProjectName": "Unnamed ."
+    "clickToSetProjectName": "Tiphurojeke leti nga boxiwangiki mavito .",
+    "projectTools": {
+      "run": "simeka"
+    }
   }
 }

@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Morero ha o teng",
-    "clickToSetProjectName": "E sa boleloang"
+    "clickToSetProjectName": "Merero e sa boleloang",
+    "projectTools": {
+      "run": "Ho kenya tšebetsong"
+    }
   }
 }

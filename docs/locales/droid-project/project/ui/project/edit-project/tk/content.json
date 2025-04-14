@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Taslama ýok",
-    "clickToSetProjectName": "Adyny açylan"
+    "clickToSetProjectName": "Atsyz taslamalar",
+    "projectTools": {
+      "run": "durmuşa geçiriň"
+    }
   }
 }

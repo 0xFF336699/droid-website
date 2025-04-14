@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Ntchitoyo kulibe",
-    "clickToSetProjectName": "Osatchulidwa"
+    "clickToSetProjectName": "Ntchito Zosasinthika",
+    "projectTools": {
+      "run": "chitani"
+    }
   }
 }

@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "'Oku 'ikai ke 'i ai 'a e poloseki .",
-    "clickToSetProjectName": "ʻOku teʻeki ke fakahingoa"
+    "clickToSetProjectName": "Ngaahi Poloseki Taʻe-fakahingoa .",
+    "projectTools": {
+      "run": "fakahoko"
+    }
   }
 }

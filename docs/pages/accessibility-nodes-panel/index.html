@@ -4,9 +4,9 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
     <title>辅助功能界面查看</title>
-  <script type="module" crossorigin src="/assets/accessibility-nodes-panel-CKtNYfW6.js"></script>
+  <script type="module" crossorigin src="/assets/accessibility-nodes-panel-Bf9Mikq2.js"></script>
   <link rel="modulepreload" crossorigin href="/assets/modulepreload-polyfill-B5Qt9EMX.js">
-  <link rel="modulepreload" crossorigin href="/assets/AutoWebViewJs-C3CFEN_X.js">
+  <link rel="modulepreload" crossorigin href="/assets/AutoWebViewJs-BDC28pUD.js">
   <link rel="modulepreload" crossorigin href="/assets/androidDispatchers-BsATMfwW.js">
   <link rel="stylesheet" crossorigin href="/assets/accessibility-nodes-panel-DdWsKCLz.css">
 </head>
@@ -22,7 +22,7 @@
           <span>
               <span class="tooltip">
                 <span id="howToUse">使用说明</span>
-                <span class="tooltiptext">
+                <span id="howToUseTooltip" class="tooltiptext">
               <span>下面是该节点的一些标记属性，可以用来选择进行操作，如点击、填入文字等。<br></span>
               <span>
                   属性值在app页面中可能会有重复的，如遇到重复的请叠加其它属性选择来进行确定唯一性。
@@ -37,7 +37,7 @@
           </span>
             <span>
                 <details>
-                  <summary>该位置其它节点</summary>
+                  <summary id="otherNodesSummary">该位置其它节点</summary>
                   <p id="moreNodes">这里是被展开的内容。</p>
                 </details>
             </span>
@@ -77,7 +77,7 @@
         <!--            -->
         <!--        </div>-->
     </div>
-</dialog>
+</dialog>
 </body>
 </html>
 <!--// src/htmls/single-template/index.html-->

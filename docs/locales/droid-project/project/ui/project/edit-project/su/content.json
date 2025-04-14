@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Proyék henteu aya",
-    "clickToSetProjectName": "Unesuntur"
+    "clickToSetProjectName": "Proyék anu unnamed",
+    "projectTools": {
+      "run": "nerapkeun"
+    }
   }
 }

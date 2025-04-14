@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Eɓɓoore ndee woodaani",
-    "clickToSetProjectName": "Inniraaka"
+    "clickToSetProjectName": "Eɓɓooje ɗe innde mum en alaa",
+    "projectTools": {
+      "run": "huwidugo"
+    }
   }
 }

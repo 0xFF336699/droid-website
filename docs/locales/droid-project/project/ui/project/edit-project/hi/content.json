@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "परियोजना मौजूद नहीं है",
-    "clickToSetProjectName": "अज्ञात"
+    "clickToSetProjectName": "अनाम परियोजना",
+    "projectTools": {
+      "run": "अमल में लाना"
+    }
   }
 }

@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "La projekto ne ekzistas",
-    "clickToSetProjectName": "Nenomita"
+    "clickToSetProjectName": "Nenomitaj projektoj",
+    "projectTools": {
+      "run": "efektivigi"
+    }
   }
 }

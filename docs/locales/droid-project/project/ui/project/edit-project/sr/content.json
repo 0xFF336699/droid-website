@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Пројекат не постоји",
-    "clickToSetProjectName": "Неименован"
+    "clickToSetProjectName": "Неименовани пројекти",
+    "projectTools": {
+      "run": "примена"
+    }
   }
 }

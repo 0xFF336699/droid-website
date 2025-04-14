@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "It projekt bestiet net",
-    "clickToSetProjectName": "Namme"
+    "clickToSetProjectName": "Unname projekten",
+    "projectTools": {
+      "run": "tapasse"
+    }
   }
 }

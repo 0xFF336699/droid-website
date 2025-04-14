@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "El projecte no existeix",
-    "clickToSetProjectName": "Sense nom"
+    "clickToSetProjectName": "Projectes sense nom",
+    "projectTools": {
+      "run": "realitzar"
+    }
   }
 }

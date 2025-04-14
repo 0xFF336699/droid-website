@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Cugayso matana",
-    "clickToSetProjectName": "migaq mali"
+    "clickToSetProjectName": "migaq sinni cugayso",
+    "projectTools": {
+      "run": "abnisso"
+    }
   }
 }

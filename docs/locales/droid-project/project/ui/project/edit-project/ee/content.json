@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Dɔa meli o .",
-    "clickToSetProjectName": "Ŋkɔ si womeyɔ o ."
+    "clickToSetProjectName": "Dɔ siwo ŋkɔ womeyɔ o .",
+    "projectTools": {
+      "run": "tsɔ de dɔwɔwɔ me"
+    }
   }
 }

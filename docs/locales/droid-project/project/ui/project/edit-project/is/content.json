@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Verkefnið er ekki til",
-    "clickToSetProjectName": "Ónefndur"
+    "clickToSetProjectName": "Ónefnd verkefni",
+    "projectTools": {
+      "run": "Framkvæmd"
+    }
   }
 }

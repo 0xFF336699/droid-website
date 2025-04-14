@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Mradi haipo",
-    "clickToSetProjectName": "Haijatajwa"
+    "clickToSetProjectName": "Miradi isiyo na majina",
+    "projectTools": {
+      "run": "kutekeleza"
+    }
   }
 }

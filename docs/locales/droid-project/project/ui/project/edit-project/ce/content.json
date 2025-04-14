@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Проект яц .",
-    "clickToSetProjectName": "ЦӀерпошт"
+    "clickToSetProjectName": "ЦӀе йоцу проекташ",
+    "projectTools": {
+      "run": "кхочушдар"
+    }
   }
 }

@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Chirongwa chacho hachiripo",
-    "clickToSetProjectName": "Zvisina zita"
+    "clickToSetProjectName": "Zvirongwa zvisina kutaurwa",
+    "projectTools": {
+      "run": "kuita"
+    }
   }
 }

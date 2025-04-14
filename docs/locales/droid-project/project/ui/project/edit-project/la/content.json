@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "In project non est",
-    "clickToSetProjectName": "Incautivus"
+    "clickToSetProjectName": "Incertis inceptis",
+    "projectTools": {
+      "run": "ecfectio"
+    }
   }
 }

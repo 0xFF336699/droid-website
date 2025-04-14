@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Lephrojekthi ayikho",
-    "clickToSetProjectName": "Ungakashiwo libito"
+    "clickToSetProjectName": "Emaphrojekthi Langakashiwo ligama",
+    "projectTools": {
+      "run": "sebentisa"
+    }
   }
 }

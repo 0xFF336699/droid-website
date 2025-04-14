@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Төсөл байхгүй байна",
-    "clickToSetProjectName": "Зөвшөөрөөгүй"
+    "clickToSetProjectName": "Нэргүй төсөл",
+    "projectTools": {
+      "run": "багаж"
+    }
   }
 }

@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Pulojekiti tebaawo .",
-    "clickToSetProjectName": "Unnamed erinnya ."
+    "clickToSetProjectName": "Pulojekiti ezitategeerekese mannya .",
+    "projectTools": {
+      "run": "okuteeka mu nkola"
+    }
   }
 }

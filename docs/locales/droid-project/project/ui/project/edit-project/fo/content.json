@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Verkætlanin er ikki til .",
-    "clickToSetProjectName": "Ónavngivin"
+    "clickToSetProjectName": "Ónevndar verkætlanir",
+    "projectTools": {
+      "run": "fremja"
+    }
   }
 }

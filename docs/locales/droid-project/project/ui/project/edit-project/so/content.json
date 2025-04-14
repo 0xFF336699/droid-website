@@ -1,6 +1,9 @@
 {
   "content": {
     "projectNotExist": "Mashruucu ma jiro",
-    "clickToSetProjectName": "Aan laharin"
+    "clickToSetProjectName": "Mashaariicda aan la magacaabin",
+    "projectTools": {
+      "run": "qalabayn"
+    }
   }
 }
