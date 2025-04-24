@@ -575,8 +575,8 @@ var store_page_context = __webpack_require__(57555);
 var next_router = __webpack_require__(53757);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/react@19.0.0/node_modules/react/index.js
 var react = __webpack_require__(94344);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/react-i18next@15.1.4_i18next@24.1.0_typescript@5.8.2__react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/react-i18next/dist/es/index.js + 14 modules
-var es = __webpack_require__(26954);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/react-i18next@15.1.4_i18next@24.1.0_typescript@5.8.2__react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/react-i18next/dist/es/index.js + 15 modules
+var es = __webpack_require__(4216);
 ;// __barrel_optimize__?names=I18nextProvider!=!../../node_modules/.pnpm/react-i18next@15.1.4_i18next@24.1.0_typescript@5.8.2__react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/react-i18next/dist/es/index.js
 
 
@@ -1328,4 +1328,4 @@ function parseTrigger(data, params, triggerAction) {
 /******/ _N_E = __webpack_exports__;
 /******/ }
 ]);
-//# sourceMappingURL=app-selector-c3d542a6a3f78701.js.map
+//# sourceMappingURL=app-selector-e8d7e3f111636acf.js.map

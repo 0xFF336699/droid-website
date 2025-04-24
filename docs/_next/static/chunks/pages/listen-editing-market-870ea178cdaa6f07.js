@@ -1,13 +1,13 @@
-(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([[310],{
+(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([[347],{
 
-/***/ 45018:
+/***/ 4708:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 
     (window.__NEXT_P = window.__NEXT_P || []).push([
-      "/add-market",
+      "/listen-editing-market",
       function () {
-        return __webpack_require__(60145);
+        return __webpack_require__(80591);
       }
     ]);
     if(false) {}
@@ -15,7 +15,7 @@
 
 /***/ }),
 
-/***/ 60145:
+/***/ 80591:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -24,7 +24,7 @@ __webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ Index)
+  "default": () => (/* binding */ ListenEditingMarketsPage)
 });
 
 // EXTERNAL MODULE: ../../node_modules/.pnpm/react@19.0.0/node_modules/react/jsx-runtime.js
@@ -33,212 +33,455 @@ var jsx_runtime = __webpack_require__(50612);
 var AppShell = __webpack_require__(75936);
 // EXTERNAL MODULE: ../../libs/app/ui/dist/src/components/appbar/AppBar.js + 3 modules
 var AppBar = __webpack_require__(73256);
-// EXTERNAL MODULE: ../../libs/fanfanlo/dist/src/index.js
-var src = __webpack_require__(40242);
 // EXTERNAL MODULE: ../../libs/fanfanlo/dist/src/dispatcher/Dispatcher.js
 var Dispatcher = __webpack_require__(25065);
-;// ../../libs/app/static/dist/src/utils/market-utils.js
-
-function parseMarketInfoByString(s) {
-    try {
-        const lib = new Function("".concat(s, ";return lib;"))();
-        if (!lib.marketData) {
-            throw new Error("no marketData found");
-        }
-        console.log("info=", lib);
-        return lib;
-    } catch (e) {
-        console.log("e=", e);
-        return null;
-    }
-}
-const marketUtils = {
-    parseMarketInfoByString
-}; //# sourceMappingURL=market-utils.js.map
-
-;// ../../libs/fanfanlo/dist/src/utils/url.js
-
-function isUrl(href) {
-    const pattern = new RegExp("^(https?:\\/\\/)?((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|((\\d{1,3}\\.){3}\\d{1,3}))(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*(\\?[;&a-z\\d%_.~+=-]*)?(\\#[-a-z\\d_]*)?$", "i");
-    return pattern.test(href);
-} //# sourceMappingURL=url.js.map
-
+// EXTERNAL MODULE: ../../libs/fanfanlo/dist/src/storage/store-utils.js
+var store_utils = __webpack_require__(68053);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+icons-material@6.2.0_@mui+material@6.2.0_@emotion+react@11.14.0_@types+react@19.0.1_reac_wmyh7hn3agglnr7hg6n5rawbsm/node_modules/@mui/icons-material/esm/InsertDriveFileOutlined.js
+var InsertDriveFileOutlined = __webpack_require__(5016);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+icons-material@6.2.0_@mui+material@6.2.0_@emotion+react@11.14.0_@types+react@19.0.1_reac_wmyh7hn3agglnr7hg6n5rawbsm/node_modules/@mui/icons-material/esm/ExpandLess.js
+var ExpandLess = __webpack_require__(95294);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+icons-material@6.2.0_@mui+material@6.2.0_@emotion+react@11.14.0_@types+react@19.0.1_reac_wmyh7hn3agglnr7hg6n5rawbsm/node_modules/@mui/icons-material/esm/ExpandMore.js
+var ExpandMore = __webpack_require__(26950);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.2.0_@emotion+react@11.14.0_@types+react@19.0.1_react@19.0.0__@emotion+styled@_kpkjigxuopup3qauiigb2zavni/node_modules/@mui/material/ListItem/ListItem.js + 4 modules
+var ListItem = __webpack_require__(77257);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.2.0_@emotion+react@11.14.0_@types+react@19.0.1_react@19.0.0__@emotion+styled@_kpkjigxuopup3qauiigb2zavni/node_modules/@mui/material/ListItemText/ListItemText.js
+var ListItemText = __webpack_require__(39690);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.2.0_@emotion+react@11.14.0_@types+react@19.0.1_react@19.0.0__@emotion+styled@_kpkjigxuopup3qauiigb2zavni/node_modules/@mui/material/Chip/Chip.js + 2 modules
+var Chip = __webpack_require__(92767);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.2.0_@emotion+react@11.14.0_@types+react@19.0.1_react@19.0.0__@emotion+styled@_kpkjigxuopup3qauiigb2zavni/node_modules/@mui/material/Collapse/Collapse.js + 1 modules
+var Collapse = __webpack_require__(38543);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.2.0_@emotion+react@11.14.0_@types+react@19.0.1_react@19.0.0__@emotion+styled@_kpkjigxuopup3qauiigb2zavni/node_modules/@mui/material/Box/Box.js + 2 modules
 var Box = __webpack_require__(12066);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.2.0_@emotion+react@11.14.0_@types+react@19.0.1_react@19.0.0__@emotion+styled@_kpkjigxuopup3qauiigb2zavni/node_modules/@mui/material/Stack/Stack.js + 1 modules
-var Stack = __webpack_require__(17728);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.2.0_@emotion+react@11.14.0_@types+react@19.0.1_react@19.0.0__@emotion+styled@_kpkjigxuopup3qauiigb2zavni/node_modules/@mui/material/FormControl/FormControl.js + 1 modules
-var FormControl = __webpack_require__(45144);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.2.0_@emotion+react@11.14.0_@types+react@19.0.1_react@19.0.0__@emotion+styled@_kpkjigxuopup3qauiigb2zavni/node_modules/@mui/material/InputLabel/InputLabel.js + 3 modules
-var InputLabel = __webpack_require__(95587);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.2.0_@emotion+react@11.14.0_@types+react@19.0.1_react@19.0.0__@emotion+styled@_kpkjigxuopup3qauiigb2zavni/node_modules/@mui/material/Input/Input.js + 1 modules
-var Input = __webpack_require__(3811);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.2.0_@emotion+react@11.14.0_@types+react@19.0.1_react@19.0.0__@emotion+styled@_kpkjigxuopup3qauiigb2zavni/node_modules/@mui/material/FormHelperText/FormHelperText.js + 1 modules
-var FormHelperText = __webpack_require__(16575);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/await-to-js@3.0.0/node_modules/await-to-js/dist/await-to-js.es5.js
-var await_to_js_es5 = __webpack_require__(32788);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/axios@1.7.9/node_modules/axios/lib/axios.js + 48 modules
-var axios = __webpack_require__(22467);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.2.0_@emotion+react@11.14.0_@types+react@19.0.1_react@19.0.0__@emotion+styled@_kpkjigxuopup3qauiigb2zavni/node_modules/@mui/material/Paper/Paper.js + 1 modules
+var Paper = __webpack_require__(1990);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.2.0_@emotion+react@11.14.0_@types+react@19.0.1_react@19.0.0__@emotion+styled@_kpkjigxuopup3qauiigb2zavni/node_modules/@mui/material/Typography/Typography.js
+var Typography = __webpack_require__(65820);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.2.0_@emotion+react@11.14.0_@types+react@19.0.1_react@19.0.0__@emotion+styled@_kpkjigxuopup3qauiigb2zavni/node_modules/@mui/material/List/List.js + 1 modules
+var List = __webpack_require__(71108);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.2.0_@emotion+react@11.14.0_@types+react@19.0.1_react@19.0.0__@emotion+styled@_kpkjigxuopup3qauiigb2zavni/node_modules/@mui/material/CircularProgress/CircularProgress.js + 1 modules
+var CircularProgress = __webpack_require__(76806);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.2.0_@emotion+react@11.14.0_@types+react@19.0.1_react@19.0.0__@emotion+styled@_kpkjigxuopup3qauiigb2zavni/node_modules/@mui/material/Container/Container.js + 1 modules
+var Container = __webpack_require__(44472);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.2.0_@emotion+react@11.14.0_@types+react@19.0.1_react@19.0.0__@emotion+styled@_kpkjigxuopup3qauiigb2zavni/node_modules/@mui/material/Divider/Divider.js
+var Divider = __webpack_require__(13124);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/react@19.0.0/node_modules/react/index.js
 var react = __webpack_require__(94344);
-;// ./src/components/markets/add-market-page-content/AddMarketPageContent.tsx
-/* __next_internal_client_entry_do_not_use__ AddMarketPageContent auto */ 
+;// ./src/components/page/listen-editing-market/listen-editing-market.tsx
+/**
+ 帮我实现页面加载后通过store2用改文件的路径命名的namespace获取的数据
+ 该数据记录了socket的地址，和一个MarketList的列表。
+ 获取到该列表后要展示该列表，组件要单独分离出来，而不是在一个大的组件里嵌套生成子组件。
+ socket链接后要发起请求，请求同步已有监听的Imarket.name的数据，同步后把已有的数据替换掉。
+ 不要删除该注释
+
+ */ 
+
+ // Example icons
 
 
-
-
-
-
-// import { transform } from "@babel/core";
-function test() {
-    const s = 'var script1=function(n){"use strict";return function(){function v(){return new Date().getTime()}var u={exports:{}},e={};/**\n * @license React\n * react-jsx-runtime.production.js\n *\n * Copyright (c) Meta Platforms, Inc. and affiliates.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */var c=Symbol.for("react.transitional.element"),d=Symbol.for("react.fragment");function s(T,t,r){var i=null;if(r!==void 0&&(i=""+r),t.key!==void 0&&(i=""+t.key),"key"in t){r={};for(var o in t)o!=="key"&&(r[o]=t[o])}else r=t;return t=r.ref,{$$typeof:c,type:T,key:i,ref:t!==void 0?t:null,props:r}}e.Fragment=d,e.jsx=s,e.jsxs=s,u.exports=e;var l=u.exports;function a(){return l.jsx("div",{children:l.jsx("button",{children:"按钮12"})})}const x={UI:a};function E(){return v()}n.components=x,n.printA=E,Object.defineProperty(n,Symbol.toStringTag,{value:"Module"})}(),n}({}); return script1;';
-    const o = new Function(s)();
-    o.printA();
-    console.log('cccccccccccccccomponents=', o.components);
-    return o;
-}
-function AddMarketPageContent() {
-    // const [ui, setUI] = useState(null)
-    // useEffect(() => {
-    //     setTimeout(() => {
-    //         setUI(test().components.UI())
-    //     }, 1000 * 2)
-    // }, [])
-    // url = 'http://192.168.177.180:3000/resources/markets/market1.iife.js'
-    const [url, setUrl] = (0,react.useState)('');
-    const [urlIsWrong, setUrlIsWrong] = (0,react.useState)(url ? !isUrl(url) : false);
-    const [urlFetchError, setUrlFetchError] = (0,react.useState)(undefined);
-    const [marketLib, setMarketLib] = (0,react.useState)(null);
-    const { t } = (0,src.useTranslation)('homepage/components/markets/add-market-page-content/content');
-    const [isFetchingUrl, fetchUrlTransition] = (0,react.useTransition)();
-    function onUrlChange(url) {
-        setUrlFetchError(undefined);
-        console.log('value is', url);
-        setUrl(url);
-        const urlIsOk = isUrl(url);
-        console.log('urlIsOk=', urlIsOk);
-        setUrlIsWrong(!urlIsOk && !!url);
+const MarketFileDisplay = (param)=>{
+    let { file } = param;
+    const [contentOpen, setContentOpen] = (0,react.useState)(false);
+    const toggleContent = ()=>setContentOpen(!contentOpen);
+    return /*#__PURE__*/ (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)(ListItem/* default */.Ay, {
+                sx: {
+                    pl: 4,
+                    display: 'flex',
+                    alignItems: 'center'
+                },
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(InsertDriveFileOutlined/* default */.A, {
+                        sx: {
+                            mr: 1,
+                            fontSize: '1rem',
+                            flexShrink: 0
+                        }
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(ListItemText/* default */.A, {
+                        primary: file.path,
+                        secondary: "Type: ".concat(file.type),
+                        primaryTypographyProps: {
+                            variant: 'body2',
+                            noWrap: true,
+                            flexGrow: 1,
+                            mr: 1
+                        },
+                        secondaryTypographyProps: {
+                            variant: 'caption'
+                        }
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(Chip/* default */.A, {
+                        label: contentOpen ? 'Hide Content' : 'Show Content',
+                        size: "small",
+                        onClick: toggleContent,
+                        disabled: !file.content
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(Collapse/* default */.A, {
+                in: contentOpen,
+                timeout: "auto",
+                unmountOnExit: true,
+                children: /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
+                    sx: {
+                        pl: 6,
+                        pr: 2,
+                        pb: 1
+                    },
+                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)(Paper/* default */.A, {
+                        elevation: 1,
+                        sx: {
+                            p: 1,
+                            maxHeight: '150px',
+                            overflowY: 'auto',
+                            background: '#f5f5f5'
+                        },
+                        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(Typography/* default */.A, {
+                            component: "pre",
+                            variant: "caption",
+                            sx: {
+                                whiteSpace: 'pre-wrap',
+                                wordBreak: 'break-all'
+                            },
+                            children: file.content || '(Content not loaded or empty)'
+                        })
+                    })
+                })
+            })
+        ]
+    });
+};
+const MarketItemDisplay = (param)=>{
+    let { market } = param;
+    const [open, setOpen] = (0,react.useState)(true);
+    const handleClick = ()=>{
+        setOpen(!open);
+    };
+    return /*#__PURE__*/ (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)(ListItem/* default */.Ay, {
+                button: true,
+                onClick: handleClick,
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(ListItemText/* default */.A, {
+                        primary: market.name,
+                        primaryTypographyProps: {
+                            fontWeight: 'bold'
+                        }
+                    }),
+                    market.files ? open ? /*#__PURE__*/ (0,jsx_runtime.jsx)(ExpandLess/* default */.A, {}) : /*#__PURE__*/ (0,jsx_runtime.jsx)(ExpandMore/* default */.A, {}) : null
+                ]
+            }),
+            market.files && /*#__PURE__*/ (0,jsx_runtime.jsx)(Collapse/* default */.A, {
+                in: open,
+                timeout: "auto",
+                unmountOnExit: true,
+                children: /*#__PURE__*/ (0,jsx_runtime.jsx)(List/* default */.A, {
+                    component: "div",
+                    disablePadding: true,
+                    children: market.files.length > 0 ? market.files.map((file, index)=>// Use a more specific key including path
+                        /*#__PURE__*/ (0,jsx_runtime.jsx)(MarketFileDisplay, {
+                            file: file
+                        }, "".concat(market.name, "-file-").concat(index, "-").concat(file.path))) : /*#__PURE__*/ (0,jsx_runtime.jsx)(ListItem/* default */.Ay, {
+                        sx: {
+                            pl: 4
+                        },
+                        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(ListItemText/* default */.A, {
+                            primary: "(Waiting for file data...)",
+                            primaryTypographyProps: {
+                                fontStyle: 'italic',
+                                variant: 'body2'
+                            }
+                        })
+                    })
+                })
+            })
+        ]
+    });
+};
+const MarketListDisplay = (param)=>{
+    let { marketList, isLoading } = param;
+    if (isLoading) {
+        return /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
+            sx: {
+                display: 'flex',
+                justifyContent: 'center',
+                my: 3
+            },
+            children: /*#__PURE__*/ (0,jsx_runtime.jsx)(CircularProgress/* default */.A, {})
+        });
     }
-    (0,react.useEffect)(()=>{
-        if (urlIsWrong || !url) return;
-        fetchUrlTransition(fetchUrl2);
-    }, [
-        url,
-        urlIsWrong
-    ]);
-    async function fetchUrl() {
-        console.log('fetchUrl', url);
-        if (!url) {
-            return;
-        }
-        const [err, res] = await (0,await_to_js_es5/* default */.A)(axios/* default */.A.get(url));
-        if (err) {
-            setUrlFetchError(err.message);
-            return;
-        }
-        const scriptString = res === null || res === void 0 ? void 0 : res.data;
-        const info = marketUtils.parseMarketInfoByString(scriptString);
-        console.log('info222=', info);
-        if (!info) return;
-        setMarketLib(info);
-        // const ui = info.marketData.MarketSummaryUI()
-        // console.log('uuuuuuuuuuuuui', ui)
-        // if(ui)setUI(ui as any)
-        return;
+    if (!marketList || marketList.length === 0) {
+        return /*#__PURE__*/ (0,jsx_runtime.jsx)(Typography/* default */.A, {
+            sx: {
+                mt: 2,
+                fontStyle: 'italic'
+            },
+            children: "No markets configured or found."
+        });
     }
-    async function fetchUrl2() {
-        if (!url) {
-            return;
-        }
-        console.log('url=', url);
-        const mod = await import(/* webpackIgnore: true */ url);
-        // const ui = mod.marketData.MarketSummaryUI()
-        console.log('mod=', mod, Object.keys(mod));
-        console.log('mod."marketData"=', mod.marketData, Object.keys(mod.marketData));
-    // setUI(mod.marketData.MarketSummaryUI)
-    // const container = document.getElementById("remote-root")!;
-    // const root = createRoot(container);
-    // root.render(createElement(mod.marketData.MarketSummaryUI));
-    // setUI(ui)
-    }
-    (0,react.useEffect)(()=>{
-        if (!marketLib) return;
-        const ui = marketLib.marketData.MarketSummaryUI();
-        console.log('uuuuuuuuuuuuui', ui);
-        // if(ui)setUI(ui as any)
-        return;
-    }, [
-        marketLib
-    ]);
-    return /*#__PURE__*/ (0,jsx_runtime.jsxs)(Box/* default */.A, {
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(Paper/* default */.A, {
+        elevation: 2,
         sx: {
-            width: "100%"
+            mt: 2
+        },
+        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(List/* default */.A, {
+            component: "nav",
+            "aria-labelledby": "nested-list-subheader",
+            children: marketList.map((market)=>/*#__PURE__*/ (0,jsx_runtime.jsx)(MarketItemDisplay, {
+                    market: market
+                }, market.name))
+        })
+    });
+};
+// --- Main MUI Component ---
+const STORE_NAMESPACE = 'listen-editing-market';
+function ListenEditingMarkets() {
+    const [socketAddr, setSocketAddr] = (0,react.useState)("ws://localhost:8080");
+    const [marketList, setMarketList] = (0,react.useState)([]);
+    const [isConnected, setIsConnected] = (0,react.useState)(false);
+    const [isLoading, setIsLoading] = (0,react.useState)(true);
+    const ws = (0,react.useRef)(null);
+    const initialMarketNames = (0,react.useRef)([]);
+    // 1. Fetch initial config from store2
+    (0,react.useEffect)(()=>{
+        setIsLoading(true);
+        // const marketStore = store.namespace(STORE_NAMESPACE);
+        const marketStore = store_utils/* storeUtils */.P.namespace(STORE_NAMESPACE);
+        const storedData = marketStore.read('marketData');
+        if (storedData) {
+            var _storedData_marketList;
+            console.log("[".concat(STORE_NAMESPACE, "] Fetched initial config:"), storedData);
+            setSocketAddr(storedData.socketAddr || "ws://localhost:8080"); // Fallback if addr is null/undefined
+            initialMarketNames.current = ((_storedData_marketList = storedData.marketList) === null || _storedData_marketList === void 0 ? void 0 : _storedData_marketList.map((m)=>m.name)) || [];
+            setMarketList(initialMarketNames.current.map((name)=>({
+                    name,
+                    files: []
+                })));
+        } else {
+            console.warn("[".concat(STORE_NAMESPACE, "] No initial config found in store2."));
+            setMarketList([]);
+            initialMarketNames.current = [];
+        }
+        setIsLoading(false);
+    }, []);
+    // 2. Manage WebSocket connection and communication
+    (0,react.useEffect)(()=>{
+        if (!socketAddr) {
+            console.log("[".concat(STORE_NAMESPACE, "] No socket address."));
+            setIsConnected(false);
+            return;
+        }
+        if (ws.current) {
+            ws.current.close();
+        }
+        console.log("[".concat(STORE_NAMESPACE, "] Attempting to connect: ").concat(socketAddr));
+        ws.current = new WebSocket(socketAddr);
+        setIsConnected(false);
+        ws.current.onopen = ()=>{
+            var _ws_current;
+            console.log("[".concat(STORE_NAMESPACE, "] WebSocket connected."));
+            setIsConnected(true);
+            // 3. Request ALL market data from the server
+            if (((_ws_current = ws.current) === null || _ws_current === void 0 ? void 0 : _ws_current.readyState) === WebSocket.OPEN) {
+                console.log("[".concat(STORE_NAMESPACE, "] Requesting all market data from server."));
+                const request = JSON.stringify({
+                    action: 'getAllMarkets'
+                });
+                ws.current.send(request);
+            } else {
+                console.warn("[".concat(STORE_NAMESPACE, "] WebSocket not open when trying to send getAllMarkets request."));
+            }
+        };
+        ws.current.onmessage = (event)=>{
+            try {
+                const message = JSON.parse(event.data.toString());
+                console.log("[".concat(STORE_NAMESPACE, "] Received:"), message.type, message.marketName || '');
+                setMarketList((currentList)=>{
+                    // Use structuredClone for safe deep copy and modification
+                    let updatedList = structuredClone(currentList);
+                    // Handle response containing all market data
+                    if (message.type === 'allMarketData' && Array.isArray(message.markets)) {
+                        console.log("[".concat(STORE_NAMESPACE, "] Received all market data. Replacing local list."));
+                        // Replace the entire list with the data from the server
+                        updatedList = message.markets.map((m)=>{
+                            var _m_files;
+                            return {
+                                name: m.name,
+                                files: ((_m_files = m.files) === null || _m_files === void 0 ? void 0 : _m_files.map((f)=>({
+                                        ...f,
+                                        content: f.content || ''
+                                    }))) || [],
+                                html: m.html
+                            };
+                        });
+                    } else if (message.type === 'marketData' && message.marketName) {
+                        const marketIdx = updatedList.findIndex((m)=>m.name === message.marketName);
+                        if (marketIdx !== -1) {
+                            var _message_files;
+                            updatedList[marketIdx].files = ((_message_files = message.files) === null || _message_files === void 0 ? void 0 : _message_files.map((f)=>({
+                                    ...f,
+                                    content: f.content || ''
+                                }))) || []; // Ensure content is string
+                            updatedList[marketIdx].html = message.html;
+                        } else {
+                            var _message_files1;
+                            // If server sent data for a market we didn't know about (e.g., from getAllMarkets), add it
+                            console.log("[".concat(STORE_NAMESPACE, "] Received marketData for a new market: ").concat(message.marketName, ". Adding to list."));
+                            updatedList.push({
+                                name: message.marketName,
+                                files: ((_message_files1 = message.files) === null || _message_files1 === void 0 ? void 0 : _message_files1.map((f)=>({
+                                        ...f,
+                                        content: f.content || ''
+                                    }))) || [],
+                                html: message.html
+                            });
+                        // Sort alphabetically? (Optional)
+                        // updatedList.sort((a, b) => a.name.localeCompare(b.name));
+                        }
+                    } else if (message.type === 'fileUpdate' && message.marketName && message.path) {
+                        const marketIdx = updatedList.findIndex((m)=>m.name === message.marketName);
+                        if (marketIdx !== -1) {
+                            const fileIdx = updatedList[marketIdx].files.findIndex((f)=>f.path === message.path);
+                            if (fileIdx !== -1) {
+                                updatedList[marketIdx].files[fileIdx].content = message.content || ''; // Ensure content is string
+                                updatedList[marketIdx].files[fileIdx].type = message.fileType;
+                            } else {
+                                console.warn("[".concat(STORE_NAMESPACE, "] FileUpdate for unknown file: ").concat(message.marketName, "/").concat(message.path));
+                            // Optionally add the file if it didn't exist in the initial marketData
+                            // updatedList[marketIdx].files.push({ type: message.fileType, path: message.path, content: message.content || '' });
+                            }
+                        } else {
+                            console.warn("[".concat(STORE_NAMESPACE, "] FileUpdate for unknown market: ").concat(message.marketName));
+                        }
+                    } else if (message.type === 'error') {
+                        console.error("[".concat(STORE_NAMESPACE, "] Server error:"), message.message);
+                    // TODO: Show error feedback (e.g., Snackbar)
+                    } else {
+                        console.log("[".concat(STORE_NAMESPACE, "] Unhandled message type:"), message.type);
+                    }
+                    return updatedList;
+                });
+            } catch (error) {
+                console.error("[".concat(STORE_NAMESPACE, "] Error processing message:"), error, event.data);
+            }
+        };
+        ws.current.onerror = (error)=>{
+            console.error("[".concat(STORE_NAMESPACE, "] WebSocket error:"), error);
+            setIsConnected(false);
+        };
+        ws.current.onclose = (event)=>{
+            console.log("[".concat(STORE_NAMESPACE, "] WebSocket disconnected. Code: ").concat(event.code, ", Reason: ").concat(event.reason));
+            setIsConnected(false);
+        // Decide if you want to clear data or show stale
+        // setMarketList(current => current.map(m => ({...m, files: m.files.map(f => ({...f, content: '(Disconnected)'})) })));
+        };
+        // Cleanup
+        return ()=>{
+            if (ws.current) {
+                console.log("[".concat(STORE_NAMESPACE, "] Closing WebSocket on unmount."));
+                ws.current.onopen = null;
+                ws.current.onmessage = null;
+                ws.current.onerror = null;
+                ws.current.onclose = null;
+                ws.current.close();
+                ws.current = null;
+            }
+        };
+    }, [
+        socketAddr
+    ]);
+    return /*#__PURE__*/ (0,jsx_runtime.jsxs)(Container/* default */.A, {
+        maxWidth: "md",
+        sx: {
+            py: 3
         },
         children: [
-            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                id: "remote-root"
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(Typography/* default */.A, {
+                variant: "h5",
+                gutterBottom: true,
+                component: "div",
+                children: "Market Watcher Status"
             }),
-            /*#__PURE__*/ (0,jsx_runtime.jsxs)(Stack/* default */.A, {
-                direction: "column",
-                spacing: 2,
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)(Box/* default */.A, {
+                sx: {
+                    display: 'flex',
+                    alignItems: 'center',
+                    mb: 2
+                },
                 children: [
-                    /*#__PURE__*/ (0,jsx_runtime.jsxs)(FormControl/* default */.A, {
-                        error: urlIsWrong,
-                        variant: "standard",
-                        children: [
-                            /*#__PURE__*/ (0,jsx_runtime.jsxs)(InputLabel/* default */.A, {
-                                htmlFor: "component-error",
-                                children: [
-                                    t("AddMarketPageContent.url"),
-                                    " "
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime.jsx)(Input/* default */.A, {
-                                id: "component-error",
-                                value: url,
-                                onChange: (e)=>onUrlChange(e.currentTarget.value),
-                                "aria-describedby": "component-error-text"
-                            }),
-                            urlIsWrong && /*#__PURE__*/ (0,jsx_runtime.jsx)(FormHelperText/* default */.A, {
-                                id: "component-error-text",
-                                children: t("AddMarketPageContent.urlIsNotValid")
-                            })
-                        ]
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(Chip/* default */.A, {
+                        label: isConnected ? 'Connected' : socketAddr ? 'Connecting...' : 'Disconnected',
+                        color: isConnected ? 'success' : socketAddr ? 'warning' : 'error',
+                        size: "small",
+                        sx: {
+                            mr: 2
+                        }
                     }),
-                    urlFetchError && /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
-                        children: urlFetchError
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
-                        children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                children: t("AddMarketPageContent.summary")
-                            })
-                        })
-                    }),
-                    marketLib && /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {}),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {})
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(Typography/* default */.A, {
+                        variant: "body2",
+                        color: "textSecondary",
+                        children: socketAddr || 'No address configured'
+                    })
                 ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(Divider/* default */.A, {
+                sx: {
+                    mb: 2
+                }
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(Typography/* default */.A, {
+                variant: "h6",
+                gutterBottom: true,
+                component: "div",
+                children: "Watched Markets"
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(MarketListDisplay, {
+                marketList: marketList,
+                isLoading: isLoading && marketList.length === 0
             })
         ]
     });
 }
 
-;// ./src/pages/add-market/index.tsx
+;// ./src/pages/listen-editing-market/index.tsx
 
 
 
 
-function Index() {
-    const { t } = (0,src.useTranslation)('homepage/pages/add-market/content');
+
+function ListenEditingMarketsPage() {
     const dispatcher = new Dispatcher/* Dispatcher */.m();
+    (0,react.useEffect)(()=>{
+        const socket = new WebSocket('ws://localhost:8080');
+        socket.onopen = ()=>{
+            console.log('Connected to the WebSocket server');
+        };
+        socket.onmessage = (event)=>{
+            const data = JSON.parse(event.data);
+            if (data.type === 'file-changed') {
+                console.log("File changed: ".concat(data.file));
+            // 在这里可以处理文件变更逻辑，像是刷新 iframe 或其他
+            }
+        };
+        socket.onerror = (error)=>{
+            console.error('WebSocket error:', error);
+        };
+        socket.onclose = ()=>{
+            console.log('WebSocket connection closed');
+        };
+    }, []);
     return /*#__PURE__*/ (0,jsx_runtime.jsx)(AppShell/* AppShell */.G, {
         children: /*#__PURE__*/ (0,jsx_runtime.jsx)(AppBar/* AppbarContainer */.W, {
             appbarProps: {
-                title: t("content.title"),
+                title: "edit",
                 back: true,
                 backDispatcher: dispatcher
             },
-            children: /*#__PURE__*/ (0,jsx_runtime.jsx)(AddMarketPageContent, {})
+            children: /*#__PURE__*/ (0,jsx_runtime.jsx)(ListenEditingMarkets, {})
         })
     });
 }
@@ -272,8 +515,8 @@ var store_page_context = __webpack_require__(57555);
 var next_router = __webpack_require__(53757);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/react@19.0.0/node_modules/react/index.js
 var react = __webpack_require__(94344);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/react-i18next@15.1.4_i18next@24.1.0_typescript@5.8.2__react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/react-i18next/dist/es/index.js + 14 modules
-var es = __webpack_require__(26954);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/react-i18next@15.1.4_i18next@24.1.0_typescript@5.8.2__react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/react-i18next/dist/es/index.js + 15 modules
+var es = __webpack_require__(4216);
 ;// __barrel_optimize__?names=I18nextProvider!=!../../node_modules/.pnpm/react-i18next@15.1.4_i18next@24.1.0_typescript@5.8.2__react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/react-i18next/dist/es/index.js
 
 
@@ -789,9 +1032,9 @@ function AndroidPageContent(param) {
 },
 /******/ __webpack_require__ => { // webpackRuntimeModules
 /******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-/******/ __webpack_require__.O(0, [781,852,426,140,53,636,593,792], () => (__webpack_exec__(45018)));
+/******/ __webpack_require__.O(0, [781,602,852,506,257,888,250,636,593,792], () => (__webpack_exec__(4708)));
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ _N_E = __webpack_exports__;
 /******/ }
 ]);
-//# sourceMappingURL=add-market-27082afdef127054.js.map
+//# sourceMappingURL=listen-editing-market-870ea178cdaa6f07.js.map

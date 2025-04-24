@@ -1,6 +1,6 @@
-(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([[604],{
+(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([[208],{
 
-/***/ 1604:
+/***/ 19208:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -533,11 +533,6 @@ const a11yScript = {
     hasPermissionScript
 }; //# sourceMappingURL=a11y-info.js.map
 
-// EXTERNAL MODULE: ../../node_modules/.pnpm/react-i18next@15.1.4_i18next@24.1.0_typescript@5.8.2__react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/react-i18next/dist/es/index.js + 14 modules
-var dist_es = __webpack_require__(88111);
-;// __barrel_optimize__?names=useTranslation!=!../../node_modules/.pnpm/react-i18next@15.1.4_i18next@24.1.0_typescript@5.8.2__react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/react-i18next/dist/es/index.js
-
-
 ;// ../../libs/app/model/dist/src/mc/android-permission/androidPermission.data.js
 
 
@@ -554,7 +549,8 @@ const androidPermissions = {
     }
 };
 function usePermissionStatus(status) {
-    const { t } = (0,dist_es/* useTranslation */.Bd)("app-model/mc/android-permission/content");
+    console.log("usePermissionStatus_fn", status, dist_src.useTranslation);
+    const { t } = (0,dist_src.useTranslation)("app-model/mc/android-permission/content");
     return t("androidPermission.".concat(status));
 } //# sourceMappingURL=androidPermission.data.js.map
 
@@ -1330,7 +1326,7 @@ function ButtonConfirm(param) {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Bd: () => (/* reexport safe */ C_work_android_droid_html_website_2024_12_node_modules_pnpm_react_i18next_15_1_4_i18next_24_1_0_typescript_5_8_2_react_dom_19_0_0_react_19_0_0_react_19_0_0_node_modules_react_i18next_dist_es_index_js__WEBPACK_IMPORTED_MODULE_0__.Bd)
 /* harmony export */ });
-/* harmony import */ var C_work_android_droid_html_website_2024_12_node_modules_pnpm_react_i18next_15_1_4_i18next_24_1_0_typescript_5_8_2_react_dom_19_0_0_react_19_0_0_react_19_0_0_node_modules_react_i18next_dist_es_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(26954);
+/* harmony import */ var C_work_android_droid_html_website_2024_12_node_modules_pnpm_react_i18next_15_1_4_i18next_24_1_0_typescript_5_8_2_react_dom_19_0_0_react_19_0_0_react_19_0_0_node_modules_react_i18next_dist_es_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4216);
 
 
 
@@ -1345,4 +1341,4 @@ module.exports = {"permissionComponentsSpanPadding":"components_permissionCompon
 /***/ })
 
 }]);
-//# sourceMappingURL=604-8dd755db4fa0aaf1.js.map
+//# sourceMappingURL=208-5a31608a6b8c6ec0.js.map
