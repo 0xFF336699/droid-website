@@ -1,1 +1,49 @@
-import{useState as r}from"react";var e={exports:{}},t={},o=Symbol.for("react.transitional.element"),n=Symbol.for("react.fragment");function a(r,e,t){var n=null;if(void 0!==t&&(n=""+t),void 0!==e.key&&(n=""+e.key),"key"in e)for(var a in t={},e)"key"!==a&&(t[a]=e[a]);else t=e;return{$$typeof:o,type:r,key:n,ref:void 0!==(e=t.ref)?e:null,props:t}}t.Fragment=n,t.jsx=a,t.jsxs=a,e.exports=t;var i=e.exports;let l={MarketSummaryUI:function(){let[e,t]=r(2);return i.jsx("div",{children:i.jsxs("button",{children:["ok",e]})})}};export{l as marketData};
+import { useState } from "react";
+var jsxRuntime = { exports: {} };
+var reactJsxRuntime_production = {};
+/**
+ * @license React
+ * react-jsx-runtime.production.js
+ *
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+var REACT_ELEMENT_TYPE = Symbol.for("react.transitional.element"), REACT_FRAGMENT_TYPE = Symbol.for("react.fragment");
+function jsxProd(type, config, maybeKey) {
+  var key = null;
+  void 0 !== maybeKey && (key = "" + maybeKey);
+  void 0 !== config.key && (key = "" + config.key);
+  if ("key" in config) {
+    maybeKey = {};
+    for (var propName in config)
+      "key" !== propName && (maybeKey[propName] = config[propName]);
+  } else maybeKey = config;
+  config = maybeKey.ref;
+  return {
+    $$typeof: REACT_ELEMENT_TYPE,
+    type,
+    key,
+    ref: void 0 !== config ? config : null,
+    props: maybeKey
+  };
+}
+reactJsxRuntime_production.Fragment = REACT_FRAGMENT_TYPE;
+reactJsxRuntime_production.jsx = jsxProd;
+reactJsxRuntime_production.jsxs = jsxProd;
+{
+  jsxRuntime.exports = reactJsxRuntime_production;
+}
+var jsxRuntimeExports = jsxRuntime.exports;
+function MarketSummaryUI() {
+  const [count, setCount] = useState(2);
+  return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { children: /* @__PURE__ */ jsxRuntimeExports.jsxs("button", { children: [
+    "ok",
+    count
+  ] }) });
+}
+const marketData = { MarketSummaryUI };
+export {
+  marketData
+};
