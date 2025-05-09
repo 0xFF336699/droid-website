@@ -2415,6 +2415,7 @@ var __async = (__this, __arguments, generator)=>{
 
 
 function isValidWebSocketURL(url) {
+    if (!url) return false;
     return validator__WEBPACK_IMPORTED_MODULE_0___default().isURL(url, {
         protocols: [
             "ws",
@@ -2635,4 +2636,4 @@ module.exports = {"permissionComponentsSpanPadding":"components_permissionCompon
 /***/ })
 
 }]);
-//# sourceMappingURL=684-95258398aba73b7d.js.map
+//# sourceMappingURL=684-0a29c0398d2c8674.js.map

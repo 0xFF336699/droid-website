@@ -287,6 +287,7 @@ var __async = (__this, __arguments, generator)=>{
 
 
 function isValidWebSocketURL(url) {
+    if (!url) return false;
     return validator__WEBPACK_IMPORTED_MODULE_0___default().isURL(url, {
         protocols: [
             "ws",
@@ -836,4 +837,4 @@ async function getContacts() {
 /******/ _N_E = __webpack_exports__;
 /******/ }
 ]);
-//# sourceMappingURL=markets-dev-settings-0c2501e64ef0dc51.js.map
+//# sourceMappingURL=markets-dev-settings-d1f54c5445c79e2d.js.map
