@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Lambarka aad rabto inaad soo dirto farriin qoraal ah ama wac wicitaan",
+          "label": "Lambarka taleefanka",
+          "helperText": "Lambarka aad rabto inaad soo dirto farriin qoraal ah ama wac wicitaan"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "SMS nuxurka",
+          "label": "SMS nuxurka",
+          "helperText": "SMS nuxurka"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Liiska Qaadashada SMS"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Lambarka mobilada qaata",
+          "label": "Lambarka mobilada qaata",
+          "helperText": "Lambarka mobilada qaata"
+        }
+      }
+    }
+  }
+}

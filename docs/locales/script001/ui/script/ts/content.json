@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Nomboro leyi u lavaka ku rhumela rungula ra hungu kutani u endla call out .",
+          "label": "Nomboro ya riqingho .",
+          "helperText": "Nomboro leyi u lavaka ku rhumela rungula ra hungu kutani u endla call out ."
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Swilo leswi nga endzeni ka SMS .",
+          "label": "Swilo leswi nga endzeni ka SMS .",
+          "helperText": "Swilo leswi nga endzeni ka SMS ."
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Nxaxamelo wa Muamukeri wa SMS ."
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Nomboro ya movha ya muamukeri .",
+          "label": "Nomboro ya movha ya muamukeri .",
+          "helperText": "Nomboro ya movha ya muamukeri ."
+        }
+      }
+    }
+  }
+}

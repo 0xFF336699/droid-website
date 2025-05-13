@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Сез текст хәбәрен җибәрергә яки шалтыратырга теләгән номер",
+          "label": "Телефон номеры",
+          "helperText": "Сез текст хәбәрен җибәрергә яки шалтыратырга теләгән номер"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "SMS эчтәлеге",
+          "label": "SMS эчтәлеге",
+          "helperText": "SMS эчтәлеге"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "SMS алучы исемлек"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Алучы мобиль номер",
+          "label": "Алучы мобиль номер",
+          "helperText": "Алучы мобиль номер"
+        }
+      }
+    }
+  }
+}

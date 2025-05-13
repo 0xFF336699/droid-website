@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "문자 메시지를 보내거나 전화를 걸고 싶은 번호",
+          "label": "전화 번호",
+          "helperText": "문자 메시지를 보내거나 전화를 걸고 싶은 번호"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "SMS 컨텐츠",
+          "label": "SMS 컨텐츠",
+          "helperText": "SMS 컨텐츠"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "SMS 수신자 목록"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "수신자 휴대 전화 번호",
+          "label": "수신자 휴대 전화 번호",
+          "helperText": "수신자 휴대 전화 번호"
+        }
+      }
+    }
+  }
+}

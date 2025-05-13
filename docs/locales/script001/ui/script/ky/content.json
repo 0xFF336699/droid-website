@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Сиз тексттик билдирүү жөнөтүүнү же чалууну каалаган номер",
+          "label": "телефон номери",
+          "helperText": "Сиз тексттик билдирүү жөнөтүүнү же чалууну каалаган номер"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "SMS мазмунун",
+          "label": "SMS мазмунун",
+          "helperText": "SMS мазмунун"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "SMS Алуучу тизмеси"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Алуучунун мобилдик номери",
+          "label": "Алуучунун мобилдик номери",
+          "helperText": "Алуучунун мобилдик номери"
+        }
+      }
+    }
+  }
+}

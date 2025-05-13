@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Chiwerengero chomwe mukufuna kutumiza meseji kapena kuyimba foni",
+          "label": "nambala yafoni",
+          "helperText": "Chiwerengero chomwe mukufuna kutumiza meseji kapena kuyimba foni"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "SMS",
+          "label": "SMS",
+          "helperText": "SMS"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Mndandanda Wolandila SMS"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Nambala ya mafoni",
+          "label": "Nambala ya mafoni",
+          "helperText": "Nambala ya mafoni"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Ennamba gy’oyagala okuweereza obubaka ku ssimu oba okukuba essimu .",
+          "label": "Ennamba y'essimu .",
+          "helperText": "Ennamba gy’oyagala okuweereza obubaka ku ssimu oba okukuba essimu ."
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Ebirimu SMS .",
+          "label": "Ebirimu SMS .",
+          "helperText": "Ebirimu SMS ."
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Olukalala lw'abaweebwa SMS ."
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Ennamba y'essimu efuna .",
+          "label": "Ennamba y'essimu efuna .",
+          "helperText": "Ennamba y'essimu efuna ."
+        }
+      }
+    }
+  }
+}

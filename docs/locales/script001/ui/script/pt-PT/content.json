@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "O número que você deseja enviar uma mensagem de texto ou fazer uma ligação",
+          "label": "número de telefone",
+          "helperText": "O número que você deseja enviar uma mensagem de texto ou fazer uma ligação"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Conteúdo de SMS",
+          "label": "Conteúdo de SMS",
+          "helperText": "Conteúdo de SMS"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Lista de destinatários do SMS"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Número do celular do destinatário",
+          "label": "Número do celular do destinatário",
+          "helperText": "Número do celular do destinatário"
+        }
+      }
+    }
+  }
+}

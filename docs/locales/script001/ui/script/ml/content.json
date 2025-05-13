@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "നിങ്ങൾ ഒരു വാചക സന്ദേശം അയയ്ക്കാനോ ഒരു കോൾ ചെയ്യാനോ ആഗ്രഹിക്കുന്ന നമ്പർ",
+          "label": "ഫോൺ നമ്പർ",
+          "helperText": "നിങ്ങൾ ഒരു വാചക സന്ദേശം അയയ്ക്കാനോ ഒരു കോൾ ചെയ്യാനോ ആഗ്രഹിക്കുന്ന നമ്പർ"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "SMS ഉള്ളടക്കം",
+          "label": "SMS ഉള്ളടക്കം",
+          "helperText": "SMS ഉള്ളടക്കം"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "SMS സ്വീകരണ പട്ടിക"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "സ്വീകർത്താവ് മൊബൈൽ നമ്പർ",
+          "label": "സ്വീകർത്താവ് മൊബൈൽ നമ്പർ",
+          "helperText": "സ്വീകർത്താവ് മൊബൈൽ നമ്പർ"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Na iwiliwili o via vakauta e dua na itukutuku se cakava e dua na kaci .",
+          "label": "talevoni",
+          "helperText": "Na iwiliwili o via vakauta e dua na itukutuku se cakava e dua na kaci ."
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "E lewena na lewena",
+          "label": "E lewena na lewena",
+          "helperText": "E lewena na lewena"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "SME cioloji ."
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Digitaka nagitaki niba .",
+          "label": "Digitaka nagitaki niba .",
+          "helperText": "Digitaka nagitaki niba ."
+        }
+      }
+    }
+  }
+}

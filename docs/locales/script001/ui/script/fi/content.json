@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Numero, jonka haluat lähettää tekstiviestin tai soittaa",
+          "label": "puhelinnumero",
+          "helperText": "Numero, jonka haluat lähettää tekstiviestin tai soittaa"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "SMS -sisältö",
+          "label": "SMS -sisältö",
+          "helperText": "SMS -sisältö"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "SMS -vastaanottajaluettelo"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Vastaanottajan matkapuhelinnumero",
+          "label": "Vastaanottajan matkapuhelinnumero",
+          "helperText": "Vastaanottajan matkapuhelinnumero"
+        }
+      }
+    }
+  }
+}

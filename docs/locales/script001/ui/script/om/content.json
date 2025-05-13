@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Lakkoofsa ergaa barreeffamaa erguu ykn bilbiluu barbaaddu .",
+          "label": "Lakkoofsa bilbilaa .",
+          "helperText": "Lakkoofsa ergaa barreeffamaa erguu ykn bilbiluu barbaaddu ."
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Qabiyyee SMS .",
+          "label": "Qabiyyee SMS .",
+          "helperText": "Qabiyyee SMS ."
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Tarree Fudhataa SMS ."
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Lakkoofsa moobaayilaa fudhataa .",
+          "label": "Lakkoofsa moobaayilaa fudhataa .",
+          "helperText": "Lakkoofsa moobaayilaa fudhataa ."
+        }
+      }
+    }
+  }
+}

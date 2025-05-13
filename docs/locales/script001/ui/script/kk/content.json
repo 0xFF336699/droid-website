@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Мәтіндік хабарлама жібергіңіз немесе қоңырау шалғыңыз келетін нөмір",
+          "label": "телефон нөмірі",
+          "helperText": "Мәтіндік хабарлама жібергіңіз немесе қоңырау шалғыңыз келетін нөмір"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "SMS мазмұны",
+          "label": "SMS мазмұны",
+          "helperText": "SMS мазмұны"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "SMS алушылардың тізімі"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Алушы ұялы нөмірі",
+          "label": "Алушы ұялы нөмірі",
+          "helperText": "Алушы ұялы нөмірі"
+        }
+      }
+    }
+  }
+}

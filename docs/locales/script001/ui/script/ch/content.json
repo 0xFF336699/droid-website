@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "I numero ni' malago' hao para un na'hanao un mensåhi pat un na'i i inagang",
+          "label": "tilifon",
+          "helperText": "I numero ni' malago' hao para un na'hanao un mensåhi pat un na'i i inagang"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "SMS",
+          "label": "SMS",
+          "helperText": "SMS"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "SMS na taotao siha"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Resiste",
+          "label": "Resiste",
+          "helperText": "Resiste"
+        }
+      }
+    }
+  }
+}

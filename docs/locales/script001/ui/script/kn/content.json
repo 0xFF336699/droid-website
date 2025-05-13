@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "ನೀವು ಪಠ್ಯ ಸಂದೇಶವನ್ನು ಕಳುಹಿಸಲು ಅಥವಾ ಕರೆ ಮಾಡಲು ಬಯಸುವ ಸಂಖ್ಯೆ",
+          "label": "ದೂರವಾಣಿ ಸಂಖ್ಯೆ",
+          "helperText": "ನೀವು ಪಠ್ಯ ಸಂದೇಶವನ್ನು ಕಳುಹಿಸಲು ಅಥವಾ ಕರೆ ಮಾಡಲು ಬಯಸುವ ಸಂಖ್ಯೆ"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "SMS ವಿಷಯ",
+          "label": "SMS ವಿಷಯ",
+          "helperText": "SMS ವಿಷಯ"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "ಎಸ್‌ಎಂಎಸ್ ಸ್ವೀಕರಿಸುವವರ ಪಟ್ಟಿ"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "ಸ್ವೀಕರಿಸುವವರ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ",
+          "label": "ಸ್ವೀಕರಿಸುವವರ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ",
+          "helperText": "ಸ್ವೀಕರಿಸುವವರ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ"
+        }
+      }
+    }
+  }
+}

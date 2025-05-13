@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "I-issssssssssssssasssssssasssssss.",
+          "label": "i",
+          "helperText": "I-issssssssssssssasssssssasssssss."
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Ukukhiqizwa",
+          "label": "Ukukhiqizwa",
+          "helperText": "Ukukhiqizwa"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Hlola umcimbi ."
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Hlala ubukhulu ubukhulu .",
+          "label": "Hlala ubukhulu ubukhulu .",
+          "helperText": "Hlala ubukhulu ubukhulu ."
+        }
+      }
+    }
+  }
+}

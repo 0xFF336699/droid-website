@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Te tau e hiahia ana koe ki te tuku i tetahi panui kuputuhi, ki te karanga ranei",
+          "label": "Tau Waea",
+          "helperText": "Te tau e hiahia ana koe ki te tuku i tetahi panui kuputuhi, ki te karanga ranei"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Ihirangi sms",
+          "label": "Ihirangi sms",
+          "helperText": "Ihirangi sms"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Raarangi Kaitoha SMS"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Tau waea pūkoro",
+          "label": "Tau waea pūkoro",
+          "helperText": "Tau waea pūkoro"
+        }
+      }
+    }
+  }
+}

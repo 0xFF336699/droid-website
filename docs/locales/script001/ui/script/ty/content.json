@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Te numera o ta outou e hinaaro e tono i te hoê poro'i aore râ, e niuniu i te hoê parau",
+          "label": "Tāpa'a",
+          "helperText": "Te numera o ta outou e hinaaro e tono i te hoê poro'i aore râ, e niuniu i te hoê parau"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "SMS",
+          "label": "SMS",
+          "helperText": "SMS"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Te tabula SMS"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Te mau numera o te mau rave'a haaparareraa parau",
+          "label": "Te mau numera o te mau rave'a haaparareraa parau",
+          "helperText": "Te mau numera o te mau rave'a haaparareraa parau"
+        }
+      }
+    }
+  }
+}

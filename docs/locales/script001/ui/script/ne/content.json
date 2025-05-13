@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "नम्बर जुन तपाईं पाठ सन्देश पठाउन चाहानुहुन्छ वा कल गर्नुहोस्",
+          "label": "फोन नम्बर",
+          "helperText": "नम्बर जुन तपाईं पाठ सन्देश पठाउन चाहानुहुन्छ वा कल गर्नुहोस्"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "SMS सामग्री",
+          "label": "SMS सामग्री",
+          "helperText": "SMS सामग्री"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "SMS प्राप्तकर्ता सूची"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "प्राप्तकर्ता मोबाइल नम्बर",
+          "label": "प्राप्तकर्ता मोबाइल नम्बर",
+          "helperText": "प्राप्तकर्ता मोबाइल नम्बर"
+        }
+      }
+    }
+  }
+}

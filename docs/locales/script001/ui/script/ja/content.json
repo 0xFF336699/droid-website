@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "テキストメッセージを送信したい番号または電話をかけたい",
+          "label": "電話番号",
+          "helperText": "テキストメッセージを送信したい番号または電話をかけたい"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "SMSコンテンツ",
+          "label": "SMSコンテンツ",
+          "helperText": "SMSコンテンツ"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "SMSレシピエントリスト"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "受信者の携帯電話番号",
+          "label": "受信者の携帯電話番号",
+          "helperText": "受信者の携帯電話番号"
+        }
+      }
+    }
+  }
+}

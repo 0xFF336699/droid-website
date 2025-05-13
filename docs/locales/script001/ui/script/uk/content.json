@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Номер, який ви хочете надіслати текстове повідомлення або здійснити дзвінок",
+          "label": "Номер телефону",
+          "helperText": "Номер, який ви хочете надіслати текстове повідомлення або здійснити дзвінок"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Вміст SMS",
+          "label": "Вміст SMS",
+          "helperText": "Вміст SMS"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Список одержувачів SMS"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Номер мобільного одержувача",
+          "label": "Номер мобільного одержувача",
+          "helperText": "Номер мобільного одержувача"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Nimero yina nge ke zola kutinda message to kusala telefone out .",
+          "label": "nimero ya nimero",
+          "helperText": "Nimero yina nge ke zola kutinda message to kusala telefone out ."
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Mambu ya SMS",
+          "label": "Mambu ya SMS",
+          "helperText": "Mambu ya SMS"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Liste ya bantu yina ke bakaka SMS"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Nimero ya telefone ya muntu yina ke baka",
+          "label": "Nimero ya telefone ya muntu yina ke baka",
+          "helperText": "Nimero ya telefone ya muntu yina ke baka"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "ᓈᓴᐅᑎᖓ ᓇᒃᓯᐅᔾᔨᔪᒪᔭᐃᑦ ᑎᑎᖅᑲᒥᒃ ᐅᕝᕙᓘᓐᓃᑦ ᐅᖄᓚᓗᑎᑦ",
+          "label": "ᐅᖄᓚᐅᑎᖓᑕ ᓈᓴᐅᑎᖓ",
+          "helperText": "ᓈᓴᐅᑎᖓ ᓇᒃᓯᐅᔾᔨᔪᒪᔭᐃᑦ ᑎᑎᖅᑲᒥᒃ ᐅᕝᕙᓘᓐᓃᑦ ᐅᖄᓚᓗᑎᑦ"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "SMS-ᑯᑦ ᐃᓗᓕᖏᑦ",
+          "label": "SMS-ᑯᑦ ᐃᓗᓕᖏᑦ",
+          "helperText": "SMS-ᑯᑦ ᐃᓗᓕᖏᑦ"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "SMS-ᒧᑦ ᑐᓂᔭᐅᔪᑦ ᑎᑎᕋᖅᓯᒪᔪᑦ"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "ᑐᓂᔭᐅᔪᖅ ᖃᕆᑕᐅᔭᒃᑯᑦ ᓈᓴᐅᑎᖓ",
+          "label": "ᑐᓂᔭᐅᔪᖅ ᖃᕆᑕᐅᔭᒃᑯᑦ ᓈᓴᐅᑎᖓ",
+          "helperText": "ᑐᓂᔭᐅᔪᖅ ᖃᕆᑕᐅᔭᒃᑯᑦ ᓈᓴᐅᑎᖓ"
+        }
+      }
+    }
+  }
+}

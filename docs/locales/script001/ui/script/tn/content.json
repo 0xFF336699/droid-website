@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Nomoro e o batlang go e romela molaetsa wa founo kgotsa go leletsa mogala",
+          "label": "nomoro ya mogala",
+          "helperText": "Nomoro e o batlang go e romela molaetsa wa founo kgotsa go leletsa mogala"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Diteng tsa SMS",
+          "label": "Diteng tsa SMS",
+          "helperText": "Diteng tsa SMS"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Lenaane la moamogedi wa SMS"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Nomoro ya selulafouno e e amogelang",
+          "label": "Nomoro ya selulafouno e e amogelang",
+          "helperText": "Nomoro ya selulafouno e e amogelang"
+        }
+      }
+    }
+  }
+}

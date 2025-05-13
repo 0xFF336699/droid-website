@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "A számot, amelyet szöveges üzenetet küldeni vagy felhívni",
+          "label": "telefonszám",
+          "helperText": "A számot, amelyet szöveges üzenetet küldeni vagy felhívni"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "SMS tartalom",
+          "label": "SMS tartalom",
+          "helperText": "SMS tartalom"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "SMS címzettek listája"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Címzett mobilszám",
+          "label": "Címzett mobilszám",
+          "helperText": "Címzett mobilszám"
+        }
+      }
+    }
+  }
+}

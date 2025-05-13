@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "هغه شمیره چې تاسو یې غواړئ د متن پیغام واستوئ یا زنګ ووهئ",
+          "label": "د تلیفون شمیره",
+          "helperText": "هغه شمیره چې تاسو یې غواړئ د متن پیغام واستوئ یا زنګ ووهئ"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "د ایس ایم ایس مینځپانګه",
+          "label": "د ایس ایم ایس مینځپانګه",
+          "helperText": "د ایس ایم ایس مینځپانګه"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "د SMS ترلاسه کونکي لیست"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "د ترلاسه کونکي ګرځنده شمیره",
+          "label": "د ترلاسه کونکي ګرځنده شمیره",
+          "helperText": "د ترلاسه کونکي ګرځنده شمیره"
+        }
+      }
+    }
+  }
+}

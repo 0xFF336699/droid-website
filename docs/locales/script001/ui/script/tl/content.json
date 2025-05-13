@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Ang numero na nais mong magpadala ng isang text message o tumawag",
+          "label": "numero ng telepono",
+          "helperText": "Ang numero na nais mong magpadala ng isang text message o tumawag"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Nilalaman ng SMS",
+          "label": "Nilalaman ng SMS",
+          "helperText": "Nilalaman ng SMS"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Listahan ng tatanggap ng SMS"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Tatanggap ng mobile number",
+          "label": "Tatanggap ng mobile number",
+          "helperText": "Tatanggap ng mobile number"
+        }
+      }
+    }
+  }
+}

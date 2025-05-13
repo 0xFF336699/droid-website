@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Nọmba ti o fẹ lati firanṣẹ ifiranṣẹ kan tabi ṣe ipe jade",
+          "label": "nomba fonu",
+          "helperText": "Nọmba ti o fẹ lati firanṣẹ ifiranṣẹ kan tabi ṣe ipe jade"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Akoonu SMS",
+          "label": "Akoonu SMS",
+          "helperText": "Akoonu SMS"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Akojọ olugba SMS"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Nọmba alagbeka olugba",
+          "label": "Nọmba alagbeka olugba",
+          "helperText": "Nọmba alagbeka olugba"
+        }
+      }
+    }
+  }
+}

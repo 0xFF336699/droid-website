@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Numéro oyo olingi kotinda message to kosala appel out .",
+          "label": "Numéro ya téléphone .",
+          "helperText": "Numéro oyo olingi kotinda message to kosala appel out ."
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Contenu ya SMS .",
+          "label": "Contenu ya SMS .",
+          "helperText": "Contenu ya SMS ."
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Liste ya ba destinataires ya SMS ."
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Motángo ya telefone ya mabɔkɔ oyo ezwi yango .",
+          "label": "Motángo ya telefone ya mabɔkɔ oyo ezwi yango .",
+          "helperText": "Motángo ya telefone ya mabɔkɔ oyo ezwi yango ."
+        }
+      }
+    }
+  }
+}

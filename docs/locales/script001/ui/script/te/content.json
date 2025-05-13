@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "మీరు వచన సందేశాన్ని పంపించాలనుకుంటున్న సంఖ్య లేదా కాల్ చేయండి",
+          "label": "ఫోన్ నంబర్",
+          "helperText": "మీరు వచన సందేశాన్ని పంపించాలనుకుంటున్న సంఖ్య లేదా కాల్ చేయండి"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "SMS కంటెంట్",
+          "label": "SMS కంటెంట్",
+          "helperText": "SMS కంటెంట్"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "SMS గ్రహీత జాబితా"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "గ్రహీత మొబైల్ సంఖ్య",
+          "label": "గ్రహీత మొబైల్ సంఖ్య",
+          "helperText": "గ్రహీత మొబైల్ సంఖ్య"
+        }
+      }
+    }
+  }
+}

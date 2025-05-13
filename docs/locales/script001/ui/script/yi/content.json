@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "די נומער איר ווילן צו שיקן אַ טעקסט אָנזאָג אָדער מאַכן אַ רוף",
+          "label": "טעלעפאָנ-נומער",
+          "helperText": "די נומער איר ווילן צו שיקן אַ טעקסט אָנזאָג אָדער מאַכן אַ רוף"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "SMS אינהאַלט",
+          "label": "SMS אינהאַלט",
+          "helperText": "SMS אינהאַלט"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "SMS באַקומער רשימה"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "באַקומער מאָביל נומער",
+          "label": "באַקומער מאָביל נומער",
+          "helperText": "באַקומער מאָביל נומער"
+        }
+      }
+    }
+  }
+}

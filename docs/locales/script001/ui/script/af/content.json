@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Die nommer wat u wil stuur 'n SMS of 'n oproep maak",
+          "label": "telefoonnommer",
+          "helperText": "Die nommer wat u wil stuur 'n SMS of 'n oproep maak"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "SMS -inhoud",
+          "label": "SMS -inhoud",
+          "helperText": "SMS -inhoud"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "SMS -ontvangerlys"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Ontvanger -selfoonnommer",
+          "label": "Ontvanger -selfoonnommer",
+          "helperText": "Ontvanger -selfoonnommer"
+        }
+      }
+    }
+  }
+}

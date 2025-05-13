@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "loowo atu rubtam faxxam kutbe farmo hinnay seeco tatrus",
+          "label": "silki qar",
+          "helperText": "loowo atu rubtam faxxam kutbe farmo hinnay seeco tatrus"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "SMS addatino",
+          "label": "SMS addatino",
+          "helperText": "SMS addatino"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "SMS qagisiyenti rorta"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Mobaayil mobaayil ixxima",
+          "label": "Mobaayil mobaayil ixxima",
+          "helperText": "Mobaayil mobaayil ixxima"
+        }
+      }
+    }
+  }
+}

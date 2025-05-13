@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Xexlẽdzesi si nèdi be yeaɖo nyatakaka aɖe ɖa alo aƒo ka na .",
+          "label": "Telefon xexlẽdzesi .",
+          "helperText": "Xexlẽdzesi si nèdi be yeaɖo nyatakaka aɖe ɖa alo aƒo ka na ."
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "SMS ƒe nyatakakawo .",
+          "label": "SMS ƒe nyatakakawo .",
+          "helperText": "SMS ƒe nyatakakawo ."
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "SMS Xɔla ƒe Ŋkɔwo ."
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Ame si xɔ asitelefon ƒe xexlẽdzesi .",
+          "label": "Ame si xɔ asitelefon ƒe xexlẽdzesi .",
+          "helperText": "Ame si xɔ asitelefon ƒe xexlẽdzesi ."
+        }
+      }
+    }
+  }
+}

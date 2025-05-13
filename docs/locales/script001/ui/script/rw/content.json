@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Umubare ushaka kohereza ubutumwa bugufi cyangwa uhamagare",
+          "label": "nimero ya terefone",
+          "helperText": "Umubare ushaka kohereza ubutumwa bugufi cyangwa uhamagare"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "SMS",
+          "label": "SMS",
+          "helperText": "SMS"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Urutonde rwabakiriye SMS"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Nimero igendanwa",
+          "label": "Nimero igendanwa",
+          "helperText": "Nimero igendanwa"
+        }
+      }
+    }
+  }
+}

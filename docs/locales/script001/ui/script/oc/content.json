@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Lo numèro que volètz mandar un messatge de tèxte o far una crida",
+          "label": "numèro de telefòn",
+          "helperText": "Lo numèro que volètz mandar un messatge de tèxte o far una crida"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "contengut SMS",
+          "label": "contengut SMS",
+          "helperText": "contengut SMS"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Lista de destinatari SMS"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Numèro mobil destinatari .",
+          "label": "Numèro mobil destinatari .",
+          "helperText": "Numèro mobil destinatari ."
+        }
+      }
+    }
+  }
+}

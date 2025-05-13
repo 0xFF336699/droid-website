@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "نمبر جيڪو توهان هڪ ٽيڪسٽ پيغام موڪلڻ چاهيو ٿا يا ڪال ڪ out ي ٿو",
+          "label": "فون نمبر",
+          "helperText": "نمبر جيڪو توهان هڪ ٽيڪسٽ پيغام موڪلڻ چاهيو ٿا يا ڪال ڪ out ي ٿو"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "ايس ايم ايس مواد",
+          "label": "ايس ايم ايس مواد",
+          "helperText": "ايس ايم ايس مواد"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "ايس ايم ايس وصول ڪندڙ لسٽ"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "وصول ڪندڙ موبائل نمبر",
+          "label": "وصول ڪندڙ موبائل نمبر",
+          "helperText": "وصول ڪندڙ موبائل نمبر"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Umubare ushaka kohereza ubutumwa canke guhamagara .",
+          "label": "inomero ya telefone",
+          "helperText": "Umubare ushaka kohereza ubutumwa canke guhamagara ."
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Ibiri muri SMS",
+          "label": "Ibiri muri SMS",
+          "helperText": "Ibiri muri SMS"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Urutonde rw'abakira SMS"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Inomero ya telefone ngendanwa",
+          "label": "Inomero ya telefone ngendanwa",
+          "helperText": "Inomero ya telefone ngendanwa"
+        }
+      }
+    }
+  }
+}

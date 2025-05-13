@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Эсир текст хыпарне ярса парас е шăнкăравлăр.",
+          "label": "телефон",
+          "helperText": "Эсир текст хыпарне ярса парас е шăнкăравлăр."
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "СМС содержанийĕ",
+          "label": "СМС содержанийĕ",
+          "helperText": "СМС содержанийĕ"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "СМС илекенсен списокĕ"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Реципиент мобильлĕ номер",
+          "label": "Реципиент мобильлĕ номер",
+          "helperText": "Реципиент мобильлĕ номер"
+        }
+      }
+    }
+  }
+}

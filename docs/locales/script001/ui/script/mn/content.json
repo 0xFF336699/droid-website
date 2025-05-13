@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Текст мессеж илгээхийг хүссэн дугаар эсвэл дуудлага хийх",
+          "label": "утасны дугаар",
+          "helperText": "Текст мессеж илгээхийг хүссэн дугаар эсвэл дуудлага хийх"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "SEMS агуулгыг",
+          "label": "SEMS агуулгыг",
+          "helperText": "SEMS агуулгыг"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "SMS Хүлээн авагчийн жагсаалт"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Хүлээн авагчийн гар утасны дугаар",
+          "label": "Хүлээн авагчийн гар утасны дугаар",
+          "helperText": "Хүлээн авагчийн гар утасны дугаар"
+        }
+      }
+    }
+  }
+}

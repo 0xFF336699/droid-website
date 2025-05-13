@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Nhamba yaunoda kutumira meseji kana kuita runhare",
+          "label": "nhamba yenhare",
+          "helperText": "Nhamba yaunoda kutumira meseji kana kuita runhare"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "SMS zvemukati",
+          "label": "SMS zvemukati",
+          "helperText": "SMS zvemukati"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "SMS Regtient Rondedzero"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Nhamba yekugamuchira nharembozha",
+          "label": "Nhamba yekugamuchira nharembozha",
+          "helperText": "Nhamba yekugamuchira nharembozha"
+        }
+      }
+    }
+  }
+}

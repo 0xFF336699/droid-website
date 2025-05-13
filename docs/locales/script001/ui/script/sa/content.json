@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "भवन्तः पाठसन्देशं प्रेषयितुम् इच्छन्ति वा आह्वानं कर्तुम् इच्छन्ति वा ।",
+          "label": "दूरभाष संख्या 1 .",
+          "helperText": "भवन्तः पाठसन्देशं प्रेषयितुम् इच्छन्ति वा आह्वानं कर्तुम् इच्छन्ति वा ।"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "SMS सामग्री 1 .",
+          "label": "SMS सामग्री 1 .",
+          "helperText": "SMS सामग्री 1 ."
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "SMS प्राप्तकर्ता सूची 1 ."
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "प्राप्तकर्ता मोबाइल नंबर 1 .",
+          "label": "प्राप्तकर्ता मोबाइल नंबर 1 .",
+          "helperText": "प्राप्तकर्ता मोबाइल नंबर 1 ."
+        }
+      }
+    }
+  }
+}

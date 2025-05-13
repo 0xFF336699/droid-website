@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Нумар, які вы хочаце даслаць тэкставае паведамленне альбо патэлефанаваць",
+          "label": "нумар тэлефона",
+          "helperText": "Нумар, які вы хочаце даслаць тэкставае паведамленне альбо патэлефанаваць"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Змест SMS",
+          "label": "Змест SMS",
+          "helperText": "Змест SMS"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Спіс атрымальнікаў SMS"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Нумар мабільнага атрымальніка",
+          "label": "Нумар мабільнага атрымальніка",
+          "helperText": "Нумар мабільнага атрымальніка"
+        }
+      }
+    }
+  }
+}

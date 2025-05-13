@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Numerus vis mittere text nuntium vel vocatio",
+          "label": "phone numerus",
+          "helperText": "Numerus vis mittere text nuntium vel vocatio"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "SMS Content",
+          "label": "SMS Content",
+          "helperText": "SMS Content"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "SMS Recipient List"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Mobile Number Recipient",
+          "label": "Mobile Number Recipient",
+          "helperText": "Mobile Number Recipient"
+        }
+      }
+    }
+  }
+}

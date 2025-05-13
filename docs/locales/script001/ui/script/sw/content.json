@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Nambari unayotaka kutuma ujumbe wa maandishi au kupiga simu",
+          "label": "Nambari ya simu",
+          "helperText": "Nambari unayotaka kutuma ujumbe wa maandishi au kupiga simu"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Yaliyomo SMS",
+          "label": "Yaliyomo SMS",
+          "helperText": "Yaliyomo SMS"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Orodha ya mpokeaji wa SMS"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Mpokeaji nambari ya rununu",
+          "label": "Mpokeaji nambari ya rununu",
+          "helperText": "Mpokeaji nambari ya rununu"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "El número que voleu enviar un missatge de text o fer una trucada",
+          "label": "número de telèfon",
+          "helperText": "El número que voleu enviar un missatge de text o fer una trucada"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Contingut SMS",
+          "label": "Contingut SMS",
+          "helperText": "Contingut SMS"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Llista de destinataris de SMS"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Número de mòbil destinatari",
+          "label": "Número de mòbil destinatari",
+          "helperText": "Número de mòbil destinatari"
+        }
+      }
+    }
+  }
+}

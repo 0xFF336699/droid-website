@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "আপুনি এটা টেক্সট মেছেজ বা কল আউট কৰিব বিচৰা নম্বৰটো",
+          "label": "ফোন নম্বৰ",
+          "helperText": "আপুনি এটা টেক্সট মেছেজ বা কল আউট কৰিব বিচৰা নম্বৰটো"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "SMS বিষয়বস্তু",
+          "label": "SMS বিষয়বস্তু",
+          "helperText": "SMS বিষয়বস্তু"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "SMS গ্ৰহণকাৰী তালিকা"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "গ্ৰাহক মোবাইল নম্বৰ",
+          "label": "গ্ৰাহক মোবাইল নম্বৰ",
+          "helperText": "গ্ৰাহক মোবাইল নম্বৰ"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Číslo, ktoré chcete poslať textovú správu alebo zavolať",
+          "label": "telefónne číslo",
+          "helperText": "Číslo, ktoré chcete poslať textovú správu alebo zavolať"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Obsah SMS",
+          "label": "Obsah SMS",
+          "helperText": "Obsah SMS"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Zoznam príjemcov SMS"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Mobilné číslo príjemcu",
+          "label": "Mobilné číslo príjemcu",
+          "helperText": "Mobilné číslo príjemcu"
+        }
+      }
+    }
+  }
+}

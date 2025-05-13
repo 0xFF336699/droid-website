@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Nnɔmba a wopɛ sɛ wode text message mena anaa wofrɛ no .",
+          "label": "Tɛlɛfon nɔma .",
+          "helperText": "Nnɔmba a wopɛ sɛ wode text message mena anaa wofrɛ no ."
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "SMS mu Nsɛm .",
+          "label": "SMS mu Nsɛm .",
+          "helperText": "SMS mu Nsɛm ."
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "SMS Recipient List ."
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Obi a ogye mobile nɔma .",
+          "label": "Obi a ogye mobile nɔma .",
+          "helperText": "Obi a ogye mobile nɔma ."
+        }
+      }
+    }
+  }
+}

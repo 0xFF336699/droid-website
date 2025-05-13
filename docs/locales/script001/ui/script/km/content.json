@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "លេខដែលអ្នកចង់ផ្ញើសារអត្ថបទឬធ្វើការហៅចេញ",
+          "label": "លេខទូរស័ព្ទ",
+          "helperText": "លេខដែលអ្នកចង់ផ្ញើសារអត្ថបទឬធ្វើការហៅចេញ"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "មាតិកាសារខ្លី",
+          "label": "មាតិកាសារខ្លី",
+          "helperText": "មាតិកាសារខ្លី"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "បញ្ជីអ្នកទទួលសារ SMS"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "លេខទូរស័ព្ទអ្នកទទួល",
+          "label": "លេខទូរស័ព្ទអ្នកទទួល",
+          "helperText": "លេខទូរស័ព្ទអ្នកទទួល"
+        }
+      }
+    }
+  }
+}

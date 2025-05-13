@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "An niverenn a fell deoc'h kas ur gemennadenn destenn pe ober ur galv er-maez",
+          "label": "niverenn bellgomz",
+          "helperText": "An niverenn a fell deoc'h kas ur gemennadenn destenn pe ober ur galv er-maez"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Danvez SMS",
+          "label": "Danvez SMS",
+          "helperText": "Danvez SMS"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Roll ar resever SMS"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Niverenn pellgomz degemerer",
+          "label": "Niverenn pellgomz degemerer",
+          "helperText": "Niverenn pellgomz degemerer"
+        }
+      }
+    }
+  }
+}

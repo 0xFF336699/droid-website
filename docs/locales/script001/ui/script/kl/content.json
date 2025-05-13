@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Nummeri sms-imik nassiussiumasat imaluunniit sianerfigiumasat",
+          "label": "telefonip normua",
+          "helperText": "Nummeri sms-imik nassiussiumasat imaluunniit sianerfigiumasat"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "SMS-imik imaqartoq",
+          "label": "SMS-imik imaqartoq",
+          "helperText": "SMS-imik imaqartoq"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "SMS-imik pissarsisoq allattorsimaffik"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Mobilimik normu",
+          "label": "Mobilimik normu",
+          "helperText": "Mobilimik normu"
+        }
+      }
+    }
+  }
+}

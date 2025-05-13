@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Talið, sum tú vilt senda sms ella ringja út",
+          "label": "telefonnummar",
+          "helperText": "Talið, sum tú vilt senda sms ella ringja út"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "SMS innihald",
+          "label": "SMS innihald",
+          "helperText": "SMS innihald"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "SMS móttakaralisti"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Móttakari fartelefonnummar",
+          "label": "Móttakari fartelefonnummar",
+          "helperText": "Móttakari fartelefonnummar"
+        }
+      }
+    }
+  }
+}

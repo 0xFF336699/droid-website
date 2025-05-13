@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Yn earroo ta shiu dy yannoo text message ny dy yannoo call out",
+          "label": "phone",
+          "helperText": "Yn earroo ta shiu dy yannoo text message ny dy yannoo call out"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Teaghlagh SMS",
+          "label": "Teaghlagh SMS",
+          "helperText": "Teaghlagh SMS"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Lioar tashtee SMS"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Lhiass-mobile mobile",
+          "label": "Lhiass-mobile mobile",
+          "helperText": "Lhiass-mobile mobile"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Numer, który chcesz wysłać wiadomość tekstową lub wykonać wywołanie",
+          "label": "numer telefonu",
+          "helperText": "Numer, który chcesz wysłać wiadomość tekstową lub wykonać wywołanie"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Treść SMS",
+          "label": "Treść SMS",
+          "helperText": "Treść SMS"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Lista odbiorców SMS"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Numer telefonu komórkowego odbiorcy",
+          "label": "Numer telefonu komórkowego odbiorcy",
+          "helperText": "Numer telefonu komórkowego odbiorcy"
+        }
+      }
+    }
+  }
+}
