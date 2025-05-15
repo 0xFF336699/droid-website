@@ -14,8 +14,6 @@ __webpack_require__.d(__webpack_exports__, {
 var jsx_runtime = __webpack_require__(33736);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/react@19.0.0/node_modules/react/index.js
 var react = __webpack_require__(91844);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/axios@1.7.9/node_modules/axios/lib/axios.js + 48 modules
-var axios = __webpack_require__(54154);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@open-iframe-resizer+core@1.4.3/node_modules/@open-iframe-resizer/core/dist/index.js
 var dist = __webpack_require__(20311);
 ;// ../../libs/fanfanlo/dist/src/iframe/IFrameContainer.js
@@ -40,7 +38,6 @@ var __async = (__this, __arguments, generator)=>{
         step((generator = generator.apply(__this, __arguments)).next());
     });
 };
-
 
 class IFrameContainer {
     // private initializeResultList?:InitializeResult[]
@@ -132,35 +129,27 @@ class IFrameContainer {
             }
         });
     }
-    testUrl(url) {
-        return __async(this, null, function*() {
-            try {
-                const res = yield axios/* default */.A.get(url);
-                console.log("res=", res);
-            } catch (e) {
-                console.error("test load url error", e);
-            }
-        });
-    }
     // 移除 createLoadingElement, showLoading, removeLoading 方法
     /**
    * 从URL加载内容并作为字符串显示
    * @param url 要加载的资源URL
    * @returns Promise<void>
-   */ loadUrlAsContent(url, htmlBuilder) {
+   */ loadUrlAsContent(url, onLoad, onError, htmlBuilder) {
         return __async(this, null, function*() {
             console.log("laodUrlAsContent_fn", url);
             try {
                 const response = yield fetch(url);
                 if (!response.ok) {
-                    throw new Error("HTTP error! status: ".concat(response.status));
+                    onError == null ? void 0 : onError(new Error("HTTP error! status: ".concat(response.status)));
+                    return;
                 }
                 const content = yield response.text();
                 console.log("content is", content);
                 this.loadContent(content, htmlBuilder);
+                onLoad == null ? void 0 : onLoad();
             } catch (error) {
                 console.error("Failed to load URL content:", error);
-                throw error;
+                onError == null ? void 0 : onError(error);
             }
         });
     }
@@ -406,7 +395,8 @@ const IFrameReactContainer = (param)=>{
                             onError == null ? void 0 : onError(error);
                         };
                         if (urlAsContent) {
-                            iframeContainer.loadUrlAsContent(url, htmlBuilder);
+                            iframeContainer.loadUrlAsContent(url, handleLoad, handleError, htmlBuilder);
+                            handleLoad();
                         } else {
                             iframeContainer.loadUrl(url, handleLoad, handleError);
                         }
@@ -478,4 +468,4 @@ const IFrameReactContainer = (param)=>{
 /***/ })
 
 }]);
-//# sourceMappingURL=5828-c7e32a2590d1e516.js.map
+//# sourceMappingURL=5828-7065971a31456634.js.map
