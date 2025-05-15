@@ -6401,7 +6401,6 @@ function read(key, defaultValue) {
             console.log("storage get item err", e);
         }
     }
-    console.log("return default", "key=".concat(key), defaultValue);
     return defaultValue || v;
 }
 function write(key, v) {
@@ -41378,6 +41377,7 @@ function createLocalStore(ns, opts) {
 }
 function createJavaStore(ns, opts) {
     const log = new Log/* Log */.tG(false, "createJavaStore_fn ns= " + ns);
+    log.pause = true;
     let unsub;
     let data = createData();
     function createData() {
@@ -62960,4 +62960,4 @@ function getUnshellProxyTarget(target) {
 /******/ _N_E = __webpack_exports__;
 /******/ }
 ]);
-//# sourceMappingURL=_app-463d16272466aed8.js.map
+//# sourceMappingURL=_app-b1eedb44b04939af.js.map

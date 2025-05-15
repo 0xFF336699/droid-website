@@ -711,6 +711,10 @@ function ProjectsUI() {
 
 // EXTERNAL MODULE: ../../libs/fanfanlo/dist/src/index.js
 var dist_src = __webpack_require__(15463);
+// EXTERNAL MODULE: ../../libs/fanfanlo/dist/src/nextjs/env/env.js
+var env = __webpack_require__(91839);
+// EXTERNAL MODULE: ../../libs/fanfanlo/dist/src/iframe/IFrameReactContainer.js + 1 modules
+var IFrameReactContainer = __webpack_require__(5828);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.2.0_@emotion+react@11.14.0_@types+react@19.0.1_react@19.0.0__@emotion+styled@_kpkjigxuopup3qauiigb2zavni/node_modules/@mui/material/Box/Box.js + 2 modules
 var Box_Box = __webpack_require__(20532);
 // EXTERNAL MODULE: ../../libs/droid/android/dist/src/android/AutoWebViewJs.js
@@ -982,7 +986,6 @@ function MarketsDevSettingsOpenLinkButton() {
     const { t } = (0,dist_src.useTranslation)('homepage/components/page/markets-dev-settings/open-link-button/content');
     async function onClick() {
         const bl = await router.push("/markets-dev-settings");
-        console.log('xxxxx', bl);
     }
     return /*#__PURE__*/ (0,jsx_runtime.jsx)(jsx_runtime.Fragment, {
         children: /*#__PURE__*/ (0,jsx_runtime.jsx)(Button_Button/* default */.A, {
@@ -2187,7 +2190,10 @@ function HomePagePermissions() {
 
 // EXTERNAL MODULE: ./src/pages/home/test-script.tsx
 var test_script = __webpack_require__(50647);
+// EXTERNAL MODULE: ./src/markets/market-html-utils.ts
+var market_html_utils = __webpack_require__(61854);
 ;// ./src/pages/home/index.tsx
+
 
 
 
@@ -2267,6 +2273,7 @@ function Content() {
     (0,react.useEffect)(()=>{
         marketsScriptManager.init();
     }, []);
+    console.log('isDev=', env/* isDev */.Cu);
     return /*#__PURE__*/ (0,jsx_runtime.jsxs)(Box_Box/* default */.A, {
         children: [
             /*#__PURE__*/ (0,jsx_runtime.jsx)(SendSms, {}),
@@ -2275,6 +2282,11 @@ function Content() {
             /*#__PURE__*/ (0,jsx_runtime.jsx)(AddExternalMarketButton, {}),
             ui,
             /*#__PURE__*/ (0,jsx_runtime.jsx)(HomePagePermissions, {}),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(IFrameReactContainer/* IFrameReactContainer */.T, {
+                url: "/scripts/fanfanlo/scripts/emergency-alarm/index.js",
+                urlAsContent: true,
+                htmlBuilder: market_html_utils/* marketHtmlUtils */.P.createHtml
+            }),
             /*#__PURE__*/ (0,jsx_runtime.jsx)(Box_Box/* default */.A, {
                 children: /*#__PURE__*/ (0,jsx_runtime.jsx)(OpenA11yNodeButton, {})
             }),
@@ -2455,6 +2467,29 @@ function getSocketConnectStatusEnumI18n(status) {
 /* harmony export */ });
 /* harmony import */ var C_work_android_droid_html_website_2024_12_node_modules_pnpm_react_i18next_15_1_4_i18next_24_1_0_typescript_5_8_2_react_dom_19_0_0_react_19_0_0_react_19_0_0_node_modules_react_i18next_dist_es_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(56750);
 
+
+
+/***/ }),
+
+/***/ 61854:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   P: () => (/* binding */ marketHtmlUtils)
+/* harmony export */ });
+function createHtml(script, opts) {
+    return "<html>\n    <head>\n        <script>\n                const IFRAME_ID = '".concat(opts === null || opts === void 0 ? void 0 : opts.iframeId, "';\n                window.IFRAME_ID = '").concat(opts === null || opts === void 0 ? void 0 : opts.iframeId, '\';\n                \n            var autoWebViewJs = window.autoWebViewJs = window.parent.window.autoWebViewJs;\n            autoWebViewJs = window.parent.window.autoWebViewJs;\n            var isRealInAndroid = window.isRealInAndroid;\n            var storeUtilsConf = window.storeUtilsConf = window.parent.window.storeUtilsConf;\n        </script>\n        <title>droid lego</title>\n        <style>html, body{margin-left:-4px;padding:0;\n        background-color: white;}</style>\n    </head>\n    <body>\n        <div id="app"></div>\n        <script>').concat(script, "</script>\n        <script>\n                // const IFRAME_ID = '").concat(opts === null || opts === void 0 ? void 0 : opts.iframeId, "';\n                function notifyResize() {\n                    const body = document.body;\n                    const html = document.documentElement;\n                    \n                    // 获取实际内容高度（取最大值）\n                    const height = Math.max(\n                        body.scrollHeight,\n                        body.offsetHeight,\n                        html.scrollHeight,\n                        html.offsetHeight\n                    );\n                    \n                    // 获取实际内容宽度\n                    const width = Math.max(\n                        body.scrollWidth,\n                        body.offsetWidth,\n                        html.scrollWidth,\n                        html.offsetWidth\n                    );\n                    \n                    // 发送消息给父窗口\n                    window.parent.postMessage({\n                        type: 'resize',\n                        iframeId: IFRAME_ID,\n                        height,\n                        width\n                    }, '*');\n                }\n                \n                // 监听窗口大小变化\n                window.addEventListener('resize', notifyResize);\n                \n                // 监听DOMContentLoaded，确保DOM加载完毕后调整大小\n                document.addEventListener('DOMContentLoaded', notifyResize);\n                \n                // 监听load事件，确保所有资源加载完毕后调整大小\n                window.addEventListener('load', notifyResize);\n                \n                // 创建MutationObserver监听DOM变化\n                const observer = new MutationObserver(notifyResize);\n                observer.observe(document.documentElement, {\n                    childList: true,\n                    subtree: true,\n                    attributes: true,\n                    characterData: true\n                });\n                \n                // 监听来自父窗口的消息，处理请求重新调整大小的消息\n                window.addEventListener('message', function(event) {\n                    if (event.data && event.data.type === 'requestResize') {\n                        // 主动触发一次尺寸计算和发送\n                        notifyResize();\n                    }\n                });\n                \n                // 初始化大小\n                notifyResize();\n        </script>\n    </body>\n</html>");
+}
+async function createHtmlByUrl(url, opts) {
+    const res = await fetch(url);
+    const content = await res.text();
+    return createHtml(content, opts);
+}
+const marketHtmlUtils = {
+    createHtml,
+    createHtmlByUrl
+};
 
 
 /***/ }),
@@ -2642,4 +2677,4 @@ module.exports = {"permissionComponentsSpanPadding":"components_permissionCompon
 /***/ })
 
 }]);
-//# sourceMappingURL=9684-c0386df98cff3bc1.js.map
+//# sourceMappingURL=9684-e3a1f5c57697532c.js.map
