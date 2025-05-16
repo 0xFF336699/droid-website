@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Swilo leswi nga endzeni ka SMS .",
+          "placeholder": "Ndzi nga ha ntshunxeki nyana, tana laha! ! !",
           "label": "Swilo leswi nga endzeni ka SMS .",
           "helperText": "Swilo leswi nga endzeni ka SMS ."
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Endla ndlela yo koma .",
+      "description": "Endla swipfuxeto eka desktop ya wena ya mobile ."
+    },
+    "launcherName": "Xikombelo xa xihatla xo lava mpfuno ."
+  },
+  "SelectedContackList": {
+    "title": "Munhu wo tihlanganisa na yena wa xihatla ."
   }
 }

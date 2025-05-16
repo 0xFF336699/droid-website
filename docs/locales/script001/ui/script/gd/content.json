@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Sruth SMS",
+          "placeholder": "Tha mi beagan mì-chofhurtail, thig an seo! ! !",
           "label": "Sruth SMS",
           "helperText": "Sruth SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Cruthaich ath-ghoirid",
+      "description": "Cruthaich geàrr-chunntasan air an deasg gluasadach agad"
+    },
+    "launcherName": "Gairm èiginneach airson cuideachadh"
+  },
+  "SelectedContackList": {
+    "title": "Neach-conaltraidh èiginn èiginneach"
   }
 }

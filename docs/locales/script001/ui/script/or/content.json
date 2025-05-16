@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS ବିଷୟବସ୍ତୁ |",
+          "placeholder": "ମୁଁ ଟିକିଏ ଅସହଜ, ଏଠାକୁ ଆସ! ! !",
           "label": "SMS ବିଷୟବସ୍ତୁ |",
           "helperText": "SMS ବିଷୟବସ୍ତୁ |"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "ଏକ ସର୍ଟକଟ୍ ସୃଷ୍ଟି କରନ୍ତୁ |",
+      "description": "ଆପଣଙ୍କ ମୋବାଇଲ୍ ଡେସ୍କଟପରେ ସର୍ଟକଟ୍ ସୃଷ୍ଟି କରନ୍ତୁ |"
+    },
+    "launcherName": "ସାହାଯ୍ୟ ପାଇଁ ଜରୁରୀ କଲ୍ |"
+  },
+  "SelectedContackList": {
+    "title": "ଜରୁରୀକାଳୀନ ଯୋଗାଯୋଗ ବ୍ୟକ୍ତି |"
   }
 }

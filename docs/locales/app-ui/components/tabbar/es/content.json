@@ -2,8 +2,9 @@
   "content": {
     "home": "página delantera",
     "me": "mío",
-    "setting": "configuración",
+    "settings": "configuración",
     "script": "guion",
+    "store": "mercado",
     "market": "mercado"
   },
   "tabbar": {

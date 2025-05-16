@@ -2,8 +2,9 @@
   "content": {
     "home": "I te api i te api",
     "me": "tā'u",
-    "setting": "ta'uru",
+    "settings": "ta'uru",
     "script": "tāuru",
+    "store": "Mahana",
     "market": "Mahana"
   },
   "tabbar": {

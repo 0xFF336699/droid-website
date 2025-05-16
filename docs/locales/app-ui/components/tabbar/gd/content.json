@@ -2,8 +2,9 @@
   "content": {
     "home": "Duilleag aghaidh",
     "me": "Mine",
-    "setting": "Suidhich",
+    "settings": "Suidhich",
     "script": "sgriobt",
+    "store": "margaidh",
     "market": "margaidh"
   },
   "tabbar": {

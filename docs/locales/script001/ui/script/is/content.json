@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS innihald",
+          "placeholder": "Mér er svolítið óþægilegt, komdu hingað! ! !",
           "label": "SMS innihald",
           "helperText": "SMS innihald"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Búðu til flýtileið",
+      "description": "Búðu til flýtileiðir á farsímaskjáborðinu þínu"
+    },
+    "launcherName": "Brýnt ákall um hjálp"
+  },
+  "SelectedContackList": {
+    "title": "Neyðarsamskiptamaður"
   }
 }

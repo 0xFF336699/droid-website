@@ -2,8 +2,9 @@
   "content": {
     "home": "Titelseite",
     "me": "meins",
-    "setting": "aufstellen",
+    "settings": "aufstellen",
     "script": "Skript",
+    "store": "Markt",
     "market": "Markt"
   },
   "tabbar": {

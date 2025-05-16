@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Ihirangi sms",
+          "placeholder": "He iti noa ahau, haere mai! ! !",
           "label": "Ihirangi sms",
           "helperText": "Ihirangi sms"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Waihangahia he pokatata",
+      "description": "Waihangahia nga pokatata i runga i to papamahi pūkoro"
+    },
+    "launcherName": "Karanga tono mo te awhina"
+  },
+  "SelectedContackList": {
+    "title": "Tangata whakapā ohorere"
   }
 }

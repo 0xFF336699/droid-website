@@ -2,8 +2,9 @@
   "content": {
     "home": "આગળનો ભાગ",
     "me": "ખાણ",
-    "setting": "સુયોજિત કરવું",
+    "settings": "સુયોજિત કરવું",
     "script": "લખાણ",
+    "store": "બજાર",
     "market": "બજાર"
   },
   "tabbar": {

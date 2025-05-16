@@ -2,8 +2,9 @@
   "content": {
     "home": "në faqen e parë",
     "me": "imi",
-    "setting": "vendos",
+    "settings": "vendos",
     "script": "skenar",
+    "store": "tregti",
     "market": "tregti"
   },
   "tabbar": {

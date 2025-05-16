@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS Content",
+          "placeholder": "Ego paulo inconvenientes, veni huc! ! !",
           "label": "SMS Content",
           "helperText": "SMS Content"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Partum a brevis",
+      "description": "Create shortcuts in vestri mobile desktop"
+    },
+    "launcherName": "Urgente vocatio auxilium"
+  },
+  "SelectedContackList": {
+    "title": "Subitis contactus hominem"
   }
 }

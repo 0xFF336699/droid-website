@@ -2,8 +2,9 @@
   "content": {
     "home": "foarpagina",
     "me": "myn",
-    "setting": "opsette",
+    "settings": "opsette",
     "script": "skrift",
+    "store": "merk",
     "market": "merk"
   },
   "tabbar": {

@@ -2,8 +2,9 @@
   "content": {
     "home": "የፊት ገጽ",
     "me": "የኔ",
-    "setting": "ማዋቀር",
+    "settings": "ማዋቀር",
     "script": "ስክሪፕት",
+    "store": "ገበያ",
     "market": "ገበያ"
   },
   "tabbar": {

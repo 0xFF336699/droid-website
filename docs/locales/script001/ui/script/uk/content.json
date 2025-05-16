@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Вміст SMS",
+          "placeholder": "Мені трохи незручно, приходьте сюди! ! !",
           "label": "Вміст SMS",
           "helperText": "Вміст SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Створіть ярлик",
+      "description": "Створіть ярлики на своєму мобільному робочому столі"
+    },
+    "launcherName": "Терміновий дзвінок на допомогу"
+  },
+  "SelectedContackList": {
+    "title": "Екстрена контактна особа"
   }
 }

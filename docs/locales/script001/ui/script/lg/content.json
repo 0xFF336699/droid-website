@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Ebirimu SMS .",
+          "placeholder": "Nze sinyuma katono, jangu wano! ! !",
           "label": "Ebirimu SMS .",
           "helperText": "Ebirimu SMS ."
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Tonda ekkubo erimufu .",
+      "description": "Tonda shortcuts ku ssimu yo desktop ."
+    },
+    "launcherName": "Okuyita okw'amangu okuyambibwa ."
+  },
+  "SelectedContackList": {
+    "title": "Omuntu akwatagana n'amangu ."
   }
 }

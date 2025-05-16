@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Okuqukethwe kwe-SMS",
+          "placeholder": "Angikhululekile, woza lapha! ! !",
           "label": "Okuqukethwe kwe-SMS",
           "helperText": "Okuqukethwe kwe-SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Dala isinqamuleli",
+      "description": "Dala izinqamuleli kwideskithophu yakho yeselula"
+    },
+    "launcherName": "Ucingo oluphuthumayo lokuthola usizo"
+  },
+  "SelectedContackList": {
+    "title": "Umuntu oxhumana naye ophuthumayo"
   }
 }

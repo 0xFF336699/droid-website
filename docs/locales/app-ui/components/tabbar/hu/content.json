@@ -2,8 +2,9 @@
   "content": {
     "home": "címlap",
     "me": "enyém",
-    "setting": "felállít",
+    "settings": "felállít",
     "script": "forgatókönyv",
+    "store": "piac",
     "market": "piac"
   },
   "tabbar": {

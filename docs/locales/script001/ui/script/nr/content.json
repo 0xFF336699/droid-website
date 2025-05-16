@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Ukukhiqizwa",
+          "placeholder": "Nxa ngizizwa ngizizwa ngisiza! - -",
           "label": "Ukukhiqizwa",
           "helperText": "Ukukhiqizwa"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Isakhiwo.",
+      "description": "I-asssssssssssssssssssssss."
+    },
+    "launcherName": "Hlala ukhumbule i ."
+  },
+  "SelectedContackList": {
+    "title": "Ukuhlukahluka kakhulu ."
   }
 }

@@ -2,8 +2,9 @@
   "content": {
     "home": "forsiden",
     "me": "mine",
-    "setting": "Sett opp",
+    "settings": "Sett opp",
     "script": "manus",
+    "store": "marked",
     "market": "marked"
   },
   "tabbar": {

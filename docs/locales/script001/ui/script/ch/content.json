@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS",
+          "placeholder": "Estague' un dididi' na incomodo, humalom yu', guini! appak appak",
           "label": "SMS",
           "helperText": "SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Ha fa'tinas un dikike' na",
+      "description": "Fa'tinas i shortcuts gi desktop gi i tilifon ."
+    },
+    "launcherName": "Utitual na inagang para"
+  },
+  "SelectedContackList": {
+    "title": "I para un tungo'"
   }
 }

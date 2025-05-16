@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Diteng tsa SMS",
+          "placeholder": "Ke sa phuthologa go se kae, tla kwano! ! !",
           "label": "Diteng tsa SMS",
           "helperText": "Diteng tsa SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Tlhama tlhabanyetso",
+      "description": "Tlhama dikgaoganyo mo desekethopong ya gago ya selulafouno"
+    },
+    "launcherName": "Tlhotlhela thuso ka bonako"
+  },
+  "SelectedContackList": {
+    "title": "Motho wa maemo a tshoganyetso"
   }
 }

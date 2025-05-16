@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMSコンテンツ",
+          "placeholder": "私は少し不快です、ここに来てください！ ！ ！",
           "label": "SMSコンテンツ",
           "helperText": "SMSコンテンツ"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "ショートカットを作成します",
+      "description": "モバイルデスクトップにショートカットを作成します"
+    },
+    "launcherName": "緊急の助けを求める"
+  },
+  "SelectedContackList": {
+    "title": "緊急連絡先"
   }
 }

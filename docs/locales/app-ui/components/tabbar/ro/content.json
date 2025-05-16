@@ -2,8 +2,9 @@
   "content": {
     "home": "Primul pagină",
     "me": "mina",
-    "setting": "înființat",
+    "settings": "înființat",
     "script": "script",
+    "store": "piaţă",
     "market": "piaţă"
   },
   "tabbar": {

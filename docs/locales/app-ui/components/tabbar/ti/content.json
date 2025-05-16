@@ -2,8 +2,9 @@
   "content": {
     "home": "ናይ ቅድሚት ገጽ",
     "me": "ናይ ባዕለይ",
-    "setting": "ምድላው",
+    "settings": "ምድላው",
     "script": "ፅሑፍ",
+    "store": "ዕዳጋ",
     "market": "ዕዳጋ"
   },
   "tabbar": {

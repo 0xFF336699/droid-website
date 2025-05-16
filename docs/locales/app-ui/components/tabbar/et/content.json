@@ -2,8 +2,9 @@
   "content": {
     "home": "esileleht",
     "me": "kaevandus",
-    "setting": "püstitama",
+    "settings": "püstitama",
     "script": "skript",
+    "store": "turg",
     "market": "turg"
   },
   "tabbar": {

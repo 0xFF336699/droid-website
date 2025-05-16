@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Lokucuketfwe yi-SMS",
+          "placeholder": "Ngingakhululeki kancane, wota lapha! ? ?",
           "label": "Lokucuketfwe yi-SMS",
           "helperText": "Lokucuketfwe yi-SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Dala sicubile",
+      "description": "Dala tindlela letimfisha ku-desktop yakho yeselula"
+    },
+    "launcherName": "Kubita lusito loluphutfumako"
+  },
+  "SelectedContackList": {
+    "title": "Umuntfu lotsintsana na"
   }
 }

@@ -2,8 +2,9 @@
   "content": {
     "home": "алдыңкы бет",
     "me": "меники",
-    "setting": "жайгашуу",
+    "settings": "жайгашуу",
     "script": "сценарий",
+    "store": "базар",
     "market": "базар"
   },
   "tabbar": {

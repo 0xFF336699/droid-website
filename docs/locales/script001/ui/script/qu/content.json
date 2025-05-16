@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS nisqa contenido .",
+          "placeholder": "Estoy un poco incómodo, ven aquí! ! !",
           "label": "SMS nisqa contenido .",
           "helperText": "SMS nisqa contenido ."
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Huk llalliq ñanta ruway .",
+      "description": "Ruwanapaq kuyuchina mesaykipi llalliq ñankunata ruway ."
+    },
+    "launcherName": "Urgente llamada a la ayuda ."
+  },
+  "SelectedContackList": {
+    "title": "Emergencia Contacto Runa ."
   }
 }

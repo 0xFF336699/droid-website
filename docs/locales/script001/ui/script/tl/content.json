@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Nilalaman ng SMS",
+          "placeholder": "Medyo hindi ako komportable, halika rito! ! !",
           "label": "Nilalaman ng SMS",
           "helperText": "Nilalaman ng SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Lumikha ng isang shortcut",
+      "description": "Lumikha ng mga shortcut sa iyong mobile desktop"
+    },
+    "launcherName": "Kagyat na tawag para sa tulong"
+  },
+  "SelectedContackList": {
+    "title": "Emergency contact person"
   }
 }

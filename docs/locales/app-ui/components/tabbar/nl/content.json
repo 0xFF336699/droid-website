@@ -2,8 +2,9 @@
   "content": {
     "home": "voorpagina",
     "me": "de mijne",
-    "setting": "instellen",
+    "settings": "instellen",
     "script": "script",
+    "store": "markt",
     "market": "markt"
   },
   "tabbar": {

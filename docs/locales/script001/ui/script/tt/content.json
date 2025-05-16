@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS эчтәлеге",
+          "placeholder": "Мин монда бераз уңайсыз! ! !",
           "label": "SMS эчтәлеге",
           "helperText": "SMS эчтәлеге"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Кыска юл ясагыз",
+      "description": "Кәрәзле эш өстәлендә кыска юллар булдыру"
+    },
+    "launcherName": "Ярдәм өчен ашыгыч шалтырату"
+  },
+  "SelectedContackList": {
+    "title": "Ашыгыч ярдәм кешесе"
   }
 }

@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS съдържание",
+          "placeholder": "Малко ми е неудобно, ела тук! ! !",
           "label": "SMS съдържание",
           "helperText": "SMS съдържание"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Създайте пряк път",
+      "description": "Създайте преки пътища на вашия мобилен работен плот"
+    },
+    "launcherName": "Спешно обаждане за помощ"
+  },
+  "SelectedContackList": {
+    "title": "Лице за спешни случаи"
   }
 }

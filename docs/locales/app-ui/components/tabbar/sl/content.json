@@ -2,8 +2,9 @@
   "content": {
     "home": "sprednja stran",
     "me": "moj",
-    "setting": "nastavite",
+    "settings": "nastavite",
     "script": "scenarij",
+    "store": "trg",
     "market": "trg"
   },
   "tabbar": {

@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Kontni SMS",
+          "placeholder": "Mwen yon ti kras alèz, vin isit la! ! !",
           "label": "Kontni SMS",
           "helperText": "Kontni SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Kreye yon chemen kout",
+      "description": "Kreye rakoursi sou Desktop mobil ou"
+    },
+    "launcherName": "Rele ijan pou èd"
+  },
+  "SelectedContackList": {
+    "title": "Moun kontak ijans"
   }
 }

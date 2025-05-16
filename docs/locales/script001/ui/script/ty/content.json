@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS",
+          "placeholder": "E mea fifi roa ia'u, a haere mai i ô nei! ! !",
           "label": "SMS",
           "helperText": "SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "A hamani i te hoê vahi poto",
+      "description": "A hamani i te mau mea poto i ni'a i ta outou tahua itenati"
+    },
+    "launcherName": "A ani i te tauturu no te ani i te tauturu no te ani i te tauturu"
+  },
+  "SelectedContackList": {
+    "title": "mā'u"
   }
 }

@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS-ᑯᑦ ᐃᓗᓕᖏᑦ",
+          "placeholder": "ᐊᑲᐅᙱᓕᐅᕈᑎᖃᕋᒪ, ᐅᕗᙵᕐᓗᑎᑦ! ! !",
           "label": "SMS-ᑯᑦ ᐃᓗᓕᖏᑦ",
           "helperText": "SMS-ᑯᑦ ᐃᓗᓕᖏᑦ"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "ᓴᖅᑭᑦᑎᓗᑎᑦ ᓇᐃᓈᕈᑎᒥᒃ",
+      "description": "ᓴᓇᓗᑎᑦ ᓇᐃᓈᕈᑎᓂᒃ ᖃᕆᑕᐅᔭᒃᑯᑦ ᑎᑎᕋᕐᕕᒃᓴᕐᓄᑦ"
+    },
+    "launcherName": "ᑐᐊᕕᕐᓇᖅᑐᒃᑯᑦ ᐅᖄᓚᓗᑎᑦ ᐃᑲᔪᖅᑕᐅᔪᒪᓗᑎᑦ"
+  },
+  "SelectedContackList": {
+    "title": "ᑐᐊᕕᕐᓇᖅᑐᓕᕆᓂᕐᒧᑦ ᖃᐅᔨᒋᐊᕐᕕᒃ"
   }
 }

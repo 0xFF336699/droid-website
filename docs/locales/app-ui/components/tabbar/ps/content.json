@@ -2,8 +2,9 @@
   "content": {
     "home": "مخینه پاڼه",
     "me": "زما",
-    "setting": "چمتو کول",
+    "settings": "چمتو کول",
     "script": "سکریپټ",
+    "store": "بازار",
     "market": "بازار"
   },
   "tabbar": {

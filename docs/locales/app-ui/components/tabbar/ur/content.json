@@ -2,8 +2,9 @@
   "content": {
     "home": "صفحہ اول",
     "me": "میرا",
-    "setting": "سیٹ اپ",
+    "settings": "سیٹ اپ",
     "script": "اسکرپٹ",
+    "store": "مارکیٹ",
     "market": "مارکیٹ"
   },
   "tabbar": {

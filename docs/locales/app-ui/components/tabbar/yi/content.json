@@ -2,8 +2,9 @@
   "content": {
     "home": "פראָנט בלאַט",
     "me": "מייַן",
-    "setting": "שטעלן זיך",
+    "settings": "שטעלן זיך",
     "script": "שריפט",
+    "store": "מאַרק",
     "market": "מאַרק"
   },
   "tabbar": {

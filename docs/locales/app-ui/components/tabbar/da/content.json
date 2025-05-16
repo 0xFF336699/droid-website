@@ -2,8 +2,9 @@
   "content": {
     "home": "forside",
     "me": "mine",
-    "setting": "opsæt",
+    "settings": "opsæt",
     "script": "manuskript",
+    "store": "marked",
     "market": "marked"
   },
   "tabbar": {

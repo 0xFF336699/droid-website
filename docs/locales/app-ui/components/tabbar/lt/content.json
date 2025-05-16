@@ -2,8 +2,9 @@
   "content": {
     "home": "Pirmasis puslapis",
     "me": "mano",
-    "setting": "Nustatykite",
+    "settings": "Nustatykite",
     "script": "scenarijus",
+    "store": "rinka",
     "market": "rinka"
   },
   "tabbar": {

@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS ye awo",
+          "placeholder": "Wuye ganalagǝ kǝji ba, na adǝro isǝ! ! !",
           "label": "SMS ye awo",
           "helperText": "SMS ye awo"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Kurnotə",
+      "description": "Zammana kəla desktopnəm mobileben tandəm"
+    },
+    "launcherName": "Bana matəro abadanro bowotə"
+  },
+  "SelectedContackList": {
+    "title": "Kam kəla kəltə zauro ngəla"
   }
 }

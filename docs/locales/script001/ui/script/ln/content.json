@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Contenu ya SMS .",
+          "placeholder": "Naza mua inconfortable, yaka awa! ! !",
           "label": "Contenu ya SMS .",
           "helperText": "Contenu ya SMS ."
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Bosala nzela mokuse .",
+      "description": "Salá ba raccourcis na bureau na yo ya telefone ya mabɔkɔ ."
+    },
+    "launcherName": "Lisengi ya lisalisi ya nokinoki mpo na lisalisi ."
+  },
+  "SelectedContackList": {
+    "title": "Moto oyo azali kokutana na likambo ya mbalakaka ."
   }
 }

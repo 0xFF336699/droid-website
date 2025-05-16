@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Teaghlagh SMS",
+          "placeholder": "Ta mee beggan anchasley, tar ayns shoh! ! !",
           "label": "Teaghlagh SMS",
           "helperText": "Teaghlagh SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Cruinney y ghleashtan",
+      "description": "Creeaghyn er dty board mobile"
+    },
+    "launcherName": "Coorse y chur son cooney"
+  },
+  "SelectedContackList": {
+    "title": "Dooinney-tastey"
   }
 }

@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS kɔnɔkow .",
+          "placeholder": "Ne dusu man di dɔɔnin, aw ka na yan! ! !",
           "label": "SMS kɔnɔkow .",
           "helperText": "SMS kɔnɔkow ."
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Aw bɛ suruku dɔ da .",
+      "description": "Aw bɛ surukuw da aw ka mobili tabali kan ."
+    },
+    "launcherName": "Kɔrɔtɔko weleli ka kɛ dɛmɛ ye ."
+  },
+  "SelectedContackList": {
+    "title": "Kɔrɔtɔko la mɔgɔ min bɛ se ka kuma ."
   }
 }

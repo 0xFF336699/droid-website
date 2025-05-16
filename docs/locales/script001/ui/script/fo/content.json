@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS innihald",
+          "placeholder": "Eg eri eitt sindur óbehagiligur, kom higar! ! !",
           "label": "SMS innihald",
           "helperText": "SMS innihald"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Stovna ein snarveg",
+      "description": "Skapa snarvegir á tínum fartelefon skriviborði"
+    },
+    "launcherName": "Bráðfeingis áheitan um hjálp"
+  },
+  "SelectedContackList": {
+    "title": "Bráðfeingis kontaktpersónur"
   }
 }

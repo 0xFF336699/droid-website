@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS -содержание",
+          "placeholder": "Мне немного неудобно, иди сюда! ! !",
           "label": "SMS -содержание",
           "helperText": "SMS -содержание"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Создайте ярлык",
+      "description": "Создайте ярлыки на своем мобильном рабочем столе"
+    },
+    "launcherName": "Срочный призыв о помощи"
+  },
+  "SelectedContackList": {
+    "title": "Аварийный контактный человек"
   }
 }

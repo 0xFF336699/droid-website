@@ -2,8 +2,9 @@
   "content": {
     "home": "kumberi peji",
     "me": "mine",
-    "setting": "gadzirira",
+    "settings": "gadzirira",
     "script": "script",
+    "store": "musika",
     "market": "musika"
   },
   "tabbar": {

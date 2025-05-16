@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Cynnwys SMS",
+          "placeholder": "Dwi ychydig yn anghyfforddus, dewch yma! ! !",
           "label": "Cynnwys SMS",
           "helperText": "Cynnwys SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Creu llwybr byr",
+      "description": "Creu llwybrau byr ar eich bwrdd gwaith symudol"
+    },
+    "launcherName": "Galwad brys am help"
+  },
+  "SelectedContackList": {
+    "title": "Person cyswllt brys"
   }
 }

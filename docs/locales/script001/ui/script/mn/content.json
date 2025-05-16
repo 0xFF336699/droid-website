@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SEMS агуулгыг",
+          "placeholder": "Би жаахан эвгүй байна, энд ир! !!!!!!! !!!!!!!",
           "label": "SEMS агуулгыг",
           "helperText": "SEMS агуулгыг"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Товчлол үүсгэх",
+      "description": "Гар утасны ширээнийхээ товчлол үүсгэх"
+    },
+    "launcherName": "Тусламж авахын тулд яаралтай дуудлага хийх"
+  },
+  "SelectedContackList": {
+    "title": "Түрээнд тусламжийн хүнтэй хүн"
   }
 }

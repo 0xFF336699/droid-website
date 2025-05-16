@@ -2,8 +2,9 @@
   "content": {
     "home": "front page",
     "me": "mine",
-    "setting": "set up",
+    "settings": "set up",
     "script": "script",
+    "store": "market",
     "market": "market"
   },
   "tabbar": {

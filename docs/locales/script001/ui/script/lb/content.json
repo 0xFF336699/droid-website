@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS Inhalt",
+          "placeholder": "Ech sinn e bëssen onbequem, komm hei! ! !",
           "label": "SMS Inhalt",
           "helperText": "SMS Inhalt"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Erstellt eng Ofkiirzung",
+      "description": "Erstellt Ofkiirzungen op Ärem mobilen Desktop"
+    },
+    "launcherName": "URGENT Uruff fir Hëllef"
+  },
+  "SelectedContackList": {
+    "title": "Noutkontroll Persoun"
   }
 }

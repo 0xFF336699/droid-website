@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Eusi SMS",
+          "placeholder": "Abdi sakedik teu pikaresepeun, sumping ka dieu! ! !",
           "label": "Eusi SMS",
           "helperText": "Eusi SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Damel potong kompas",
+      "description": "Jieun potong kompas dina desktop sélulér anjeun"
+    },
+    "launcherName": "Tulisan mendesak"
+  },
+  "SelectedContackList": {
+    "title": "Jalma kontak darurat"
   }
 }

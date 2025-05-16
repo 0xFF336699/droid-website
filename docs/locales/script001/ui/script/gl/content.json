@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Contido SMS",
+          "placeholder": "Estou un pouco incómodo, ven aquí! ! !",
           "label": "Contido SMS",
           "helperText": "Contido SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Crea un atallo",
+      "description": "Crea atallos no teu escritorio móbil"
+    },
+    "launcherName": "Chamada urxente de axuda"
+  },
+  "SelectedContackList": {
+    "title": "Persoa de contacto de emerxencia"
   }
 }

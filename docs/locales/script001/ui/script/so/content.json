@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS nuxurka",
+          "placeholder": "Wax yar baan ku faraxsanahay, halkan kaalay! ! !",
           "label": "SMS nuxurka",
           "helperText": "SMS nuxurka"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Abuuro gaagaaban",
+      "description": "Abuur gaagaaban oo gaagaaban oo ku saabsan desktop-kaaga mobilada"
+    },
+    "launcherName": "Wicitaan deg deg ah caawimaad"
+  },
+  "SelectedContackList": {
+    "title": "Qofka lala xiriirayo deg-degga ah"
   }
 }

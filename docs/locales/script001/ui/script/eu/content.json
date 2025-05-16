@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS Edukia",
+          "placeholder": "Pixka bat deseroso nago, etorri hona! ! !",
           "label": "SMS Edukia",
           "helperText": "SMS Edukia"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Sortu lasterbidea",
+      "description": "Sortu lasterbideak zure mugikorreko mahaigainean"
+    },
+    "launcherName": "Laguntza premiazkoa"
+  },
+  "SelectedContackList": {
+    "title": "Larrialdiko harremanetarako pertsona"
   }
 }

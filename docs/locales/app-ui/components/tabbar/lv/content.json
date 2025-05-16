@@ -2,8 +2,9 @@
   "content": {
     "home": "sākumlapa",
     "me": "raktuve",
-    "setting": "uzstādīt",
+    "settings": "uzstādīt",
     "script": "scenārijs",
+    "store": "tirgoties",
     "market": "tirgoties"
   },
   "tabbar": {

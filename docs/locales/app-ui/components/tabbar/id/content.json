@@ -2,8 +2,9 @@
   "content": {
     "home": "halaman depan",
     "me": "milikku",
-    "setting": "mendirikan",
+    "settings": "mendirikan",
     "script": "naskah",
+    "store": "pasar",
     "market": "pasar"
   },
   "tabbar": {

@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Ibiri muri SMS",
+          "placeholder": "Ndi umuntu ntameze neza gatoyi, n’aha! ! !",
           "label": "Ibiri muri SMS",
           "helperText": "Ibiri muri SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Rema inzira ngufi",
+      "description": "Rema inzira ngufi ku biro vyawe vy'amatelefone"
+    },
+    "launcherName": "Gusaba imfashanyo"
+  },
+  "SelectedContackList": {
+    "title": "Umuntu w'umunyamwete"
   }
 }

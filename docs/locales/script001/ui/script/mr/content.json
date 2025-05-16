@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "एसएमएस सामग्री",
+          "placeholder": "मी जरा अस्वस्थ आहे, येथे या! ! !",
           "label": "एसएमएस सामग्री",
           "helperText": "एसएमएस सामग्री"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "शॉर्टकट तयार करा",
+      "description": "आपल्या मोबाइल डेस्कटॉपवर शॉर्टकट तयार करा"
+    },
+    "launcherName": "मदतीसाठी त्वरित कॉल"
+  },
+  "SelectedContackList": {
+    "title": "आपत्कालीन संपर्क व्यक्ती"
   }
 }

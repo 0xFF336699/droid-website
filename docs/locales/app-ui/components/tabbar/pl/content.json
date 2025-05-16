@@ -2,8 +2,9 @@
   "content": {
     "home": "strona tytułowa",
     "me": "kopalnia",
-    "setting": "organizować coś",
+    "settings": "organizować coś",
     "script": "scenariusz",
+    "store": "rynek",
     "market": "rynek"
   },
   "tabbar": {

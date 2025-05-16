@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS -innhold",
+          "placeholder": "Jeg er litt ukomfortabel, kom hit! ! !",
           "label": "SMS -innhold",
           "helperText": "SMS -innhold"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Lag en snarvei",
+      "description": "Lag snarveier på det mobile skrivebordet ditt"
+    },
+    "launcherName": "Presserende samtale om hjelp"
+  },
+  "SelectedContackList": {
+    "title": "Nødkontaktperson"
   }
 }

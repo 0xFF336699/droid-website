@@ -2,8 +2,9 @@
   "content": {
     "home": "Алдыңғы бет",
     "me": "мина",
-    "setting": "орнату",
+    "settings": "орнату",
     "script": "сценарий",
+    "store": "базар",
     "market": "базар"
   },
   "tabbar": {

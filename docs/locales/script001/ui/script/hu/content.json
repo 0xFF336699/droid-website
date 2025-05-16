@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS tartalom",
+          "placeholder": "Kicsit kényelmetlen vagyok, gyere ide! ! !",
           "label": "SMS tartalom",
           "helperText": "SMS tartalom"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Hozzon létre egy parancsikont",
+      "description": "Hozzon létre parancsikonokat a mobil asztalon"
+    },
+    "launcherName": "Sürgős segítség hívás"
+  },
+  "SelectedContackList": {
+    "title": "Sürgősségi kapcsolattartó személy"
   }
 }

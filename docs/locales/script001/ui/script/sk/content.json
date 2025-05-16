@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Obsah SMS",
+          "placeholder": "Som trochu nepríjemný, poď sem! ! !",
           "label": "Obsah SMS",
           "helperText": "Obsah SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Vytvorte skratku",
+      "description": "Vytvorte skratky na mobilnom počítači"
+    },
+    "launcherName": "Naliehavé volanie o pomoc"
+  },
+  "SelectedContackList": {
+    "title": "Pohotovostný kontaktný človek"
   }
 }

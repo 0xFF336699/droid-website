@@ -2,8 +2,9 @@
   "content": {
     "home": "front pagina",
     "me": "miene",
-    "setting": "opzitte",
+    "settings": "opzitte",
     "script": "gesjreve stuk",
+    "store": "merret",
     "market": "merret"
   },
   "tabbar": {

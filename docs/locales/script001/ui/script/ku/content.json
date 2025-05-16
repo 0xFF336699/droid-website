@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Naveroka SMS",
+          "placeholder": "Ez hinekî aciz im, werin vir! ! !",
           "label": "Naveroka SMS",
           "helperText": "Naveroka SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Kurteçek çêbikin",
+      "description": "Li ser sermaseya xweya mobîl kurtek çêbikin"
+    },
+    "launcherName": "Banga lezgîn ji bo alîkariyê"
+  },
+  "SelectedContackList": {
+    "title": "Kesê Têkiliya EMERGENCY"
   }
 }

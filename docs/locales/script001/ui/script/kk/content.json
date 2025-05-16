@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS мазмұны",
+          "placeholder": "Мен сәл ыңғайсызмын, осында кел! ! !",
           "label": "SMS мазмұны",
           "helperText": "SMS мазмұны"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Төте жол жасаңыз",
+      "description": "Ұялы жұмыс үстелінде төте жолдар жасаңыз"
+    },
+    "launcherName": "Көмекке жедел қоңырау"
+  },
+  "SelectedContackList": {
+    "title": "Төтенше байланыс тұлғасы"
   }
 }

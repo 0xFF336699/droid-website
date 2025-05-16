@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS чулацам",
+          "placeholder": "Со жимма синтем боцуш ву, схьавола кхуза! ! !",
           "label": "SMS чулацам",
           "helperText": "SMS чулацам"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Косилка кхолла .",
+      "description": "Хьайн мобилан стоьла тӀехь ярлыкаш кхолла ."
+    },
+    "launcherName": "ГӀалин кхайкхам баре гӀо дан"
+  },
+  "SelectedContackList": {
+    "title": "Орцан контакт стаг"
   }
 }

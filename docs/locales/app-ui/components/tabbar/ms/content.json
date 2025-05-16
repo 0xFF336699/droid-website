@@ -2,8 +2,9 @@
   "content": {
     "home": "halaman depan",
     "me": "Tambang",
-    "setting": "Sediakan",
+    "settings": "Sediakan",
     "script": "Skrip",
+    "store": "pasaran",
     "market": "pasaran"
   },
   "tabbar": {

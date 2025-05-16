@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "ትሕዝቶ ኤስኤምኤስ",
+          "placeholder": "ቁሩብ ዘይምቹእ እየ፣ ንዑ ናብዚ! ! !",
           "label": "ትሕዝቶ ኤስኤምኤስ",
           "helperText": "ትሕዝቶ ኤስኤምኤስ"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "ኣቋራጭ መንገዲ ምፍጣር .",
+      "description": "ኣብ ሞባይልካ ኣቋራጭ መንገዲ ምፍጣር"
+    },
+    "launcherName": "ህጹጽ ጻውዒት ሓገዝ"
+  },
+  "SelectedContackList": {
+    "title": "ናይ ህጹጽ እዋን ርክብ ሰብ"
   }
 }

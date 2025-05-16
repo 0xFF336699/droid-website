@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Contenu SMS",
+          "placeholder": "Je suis un peu mal à l'aise, venez ici! ! !",
           "label": "Contenu SMS",
           "helperText": "Contenu SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Créer un raccourci",
+      "description": "Créer des raccourcis sur votre bureau mobile"
+    },
+    "launcherName": "Appel urgent à l'aide"
+  },
+  "SelectedContackList": {
+    "title": "Personne de contact d'urgence"
   }
 }

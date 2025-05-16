@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS tarkibi",
+          "placeholder": "Men biroz noqulayman, bu erga keling! ! !",
           "label": "SMS tarkibi",
           "helperText": "SMS tarkibi"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Yorliq yaratish",
+      "description": "Mobil ish stoliingizda yorliqlarni yarating"
+    },
+    "launcherName": "Yordam so'rab shoshilinch qo'ng'iroq"
+  },
+  "SelectedContackList": {
+    "title": "Favqulodda vaziyat bilan bog'langan shaxs"
   }
 }

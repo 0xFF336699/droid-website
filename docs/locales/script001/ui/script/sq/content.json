@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Përmbajtja SMS",
+          "placeholder": "Unë jam pak e pakëndshme, eja këtu! ! !",
           "label": "Përmbajtja SMS",
           "helperText": "Përmbajtja SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Krijoni një shkurtore",
+      "description": "Krijoni shkurtore në desktopin tuaj celular"
+    },
+    "launcherName": "Thirrje urgjente për ndihmë"
+  },
+  "SelectedContackList": {
+    "title": "Person kontakti urgjent"
   }
 }

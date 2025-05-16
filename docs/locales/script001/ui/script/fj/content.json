@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "E lewena na lewena",
+          "placeholder": "Sa dua na ka na noqu sega ni marautaka, lako mai eke! ! !",
           "label": "E lewena na lewena",
           "helperText": "E lewena na lewena"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Sega ni dua na lekaleka",
+      "description": "Tuvana vakalekaleka ena nomu teveli ni talevoni veikauyaki na nomu katubaleka."
+    },
+    "launcherName": "Na veikacivi ni veivuke ."
+  },
+  "SelectedContackList": {
+    "title": "Na veitaratara ena dua na gauna ni veitaratara ."
   }
 }

@@ -2,8 +2,9 @@
   "content": {
     "home": "алгы бит",
     "me": "минеке",
-    "setting": "көйләү",
+    "settings": "көйләү",
     "script": "сценарий",
+    "store": "базар",
     "market": "базар"
   },
   "tabbar": {

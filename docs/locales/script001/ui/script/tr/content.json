@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS İçeriği",
+          "placeholder": "Biraz rahatsızım, buraya gel! ! !",
           "label": "SMS İçeriği",
           "helperText": "SMS İçeriği"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Kısayol Oluştur",
+      "description": "Mobil masaüstünüzde kısayollar oluşturun"
+    },
+    "launcherName": "Acil Yardım Çağrısı"
+  },
+  "SelectedContackList": {
+    "title": "Acil durum iletişim kişisi"
   }
 }

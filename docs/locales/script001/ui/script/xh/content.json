@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Umxholo weSMS",
+          "placeholder": "Ndingonwabanga kancinane, yiza apha! ! !",
           "label": "Umxholo weSMS",
           "helperText": "Umxholo weSMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Yenza indlela emfutshane",
+      "description": "Dala iindlela ezimfutshane kwi-desktop yakho yefowuni"
+    },
+    "launcherName": "Umnxeba ongxamisekileyo woncedo"
+  },
+  "SelectedContackList": {
+    "title": "Umntu oQhakamshelana nongxamiseko"
   }
 }

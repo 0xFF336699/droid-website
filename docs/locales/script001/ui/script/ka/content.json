@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS შინაარსი",
+          "placeholder": "ცოტათი არასასიამოვნო ვარ, მოდი აქ! ! !",
           "label": "SMS შინაარსი",
           "helperText": "SMS შინაარსი"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "მალსახმობის შექმნა",
+      "description": "შექმენით მალსახმობები თქვენს მობილურ სამუშაო მაგიდაზე"
+    },
+    "launcherName": "დახმარების გადაუდებელი მოწოდება"
+  },
+  "SelectedContackList": {
+    "title": "საგანგებო კონტაქტის პირი"
   }
 }

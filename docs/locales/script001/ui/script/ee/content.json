@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS ƒe nyatakakawo .",
+          "placeholder": "Nyemevo o vie, va afisia! ! !",
           "label": "SMS ƒe nyatakakawo .",
           "helperText": "SMS ƒe nyatakakawo ."
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Wɔ mɔ kpui aɖe .",
+      "description": "Wɔ mɔ kpuiwo le wò asitelefon dzi kplɔ̃ dzi ."
+    },
+    "launcherName": "Kpekpeɖeŋunana kpata be woakpe ɖe ame ŋu ."
+  },
+  "SelectedContackList": {
+    "title": "Ame si woate ŋu aƒo ka na kpata ."
   }
 }

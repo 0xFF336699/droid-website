@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "СМС аҵакы",
+          "placeholder": "Маҷк сгәы нмырхакәа, арахь уааи! ! !",
           "label": "СМС аҵакы",
           "helperText": "СМС аҵакы"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Иаԥҵатәуп аҿаԥара",
+      "description": "Имобилтә стол аҿы аҿацәқәа ҟашәҵа"
+    },
+    "launcherName": "Ацхыраара азы лассы-лассы ааԥхьара"
+  },
+  "SelectedContackList": {
+    "title": "Аԥшратә контакттә усзуҩы"
   }
 }

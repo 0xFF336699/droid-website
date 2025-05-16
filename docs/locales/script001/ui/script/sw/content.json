@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Yaliyomo SMS",
+          "placeholder": "Sina wasiwasi kidogo, njoo hapa! ! !",
           "label": "Yaliyomo SMS",
           "helperText": "Yaliyomo SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Unda njia ya mkato",
+      "description": "Unda njia za mkato kwenye desktop yako ya rununu"
+    },
+    "launcherName": "Wito wa haraka wa msaada"
+  },
+  "SelectedContackList": {
+    "title": "Mtu wa mawasiliano ya dharura"
   }
 }

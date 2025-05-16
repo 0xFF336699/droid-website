@@ -2,8 +2,9 @@
   "content": {
     "home": "წინა გვერდი",
     "me": "ჩემი",
-    "setting": "დაყენება",
+    "settings": "დაყენება",
     "script": "სკრიპტი",
+    "store": "ბაზარი",
     "market": "ბაზარი"
   },
   "tabbar": {

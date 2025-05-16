@@ -2,8 +2,9 @@
   "content": {
     "home": "förstasida",
     "me": "mina",
-    "setting": "inrätta",
+    "settings": "inrätta",
     "script": "manus",
+    "store": "marknadsföra",
     "market": "marknadsföra"
   },
   "tabbar": {

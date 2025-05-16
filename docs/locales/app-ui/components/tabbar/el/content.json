@@ -2,8 +2,9 @@
   "content": {
     "home": "μπροστινή σελίδα",
     "me": "ορυχείο",
-    "setting": "στήνω",
+    "settings": "στήνω",
     "script": "γραφή",
+    "store": "αγορά",
     "market": "αγορά"
   },
   "tabbar": {

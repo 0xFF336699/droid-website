@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Contingut SMS",
+          "placeholder": "Estic una mica incòmode, vine aquí! ! !",
           "label": "Contingut SMS",
           "helperText": "Contingut SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Creeu una drecera",
+      "description": "Creeu dreceres a l'escriptori mòbil"
+    },
+    "launcherName": "Trucada urgent d’ajuda"
+  },
+  "SelectedContackList": {
+    "title": "Persona de contacte d’emergència"
   }
 }

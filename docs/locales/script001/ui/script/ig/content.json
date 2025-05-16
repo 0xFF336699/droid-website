@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Afọ SMS",
+          "placeholder": "Enweghị m ike na-adịghị ahụ iru ala, bịa ebe a! ! !",
           "label": "Afọ SMS",
           "helperText": "Afọ SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Mepụta ụzọ mkpirisi",
+      "description": "Mepụta ụzọ mkpirisi na desktọpụ gị"
+    },
+    "launcherName": "Oku ngwa ngwa maka enyemaka"
+  },
+  "SelectedContackList": {
+    "title": "Onye na-ahụ maka mberede"
   }
 }

@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "ເນື້ອໃນ SMS",
+          "placeholder": "ຂ້ອຍບໍ່ສະບາຍໃຈ, ມາທີ່ນີ້! ຈ່ໍາ ຈ່ໍາ",
           "label": "ເນື້ອໃນ SMS",
           "helperText": "ເນື້ອໃນ SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "ສ້າງທາງລັດ",
+      "description": "ສ້າງທາງລັດໃນຫນ້າຈໍມືຖືຂອງທ່ານ"
+    },
+    "launcherName": "ການໂທດ່ວນສໍາລັບການຊ່ວຍເຫຼືອ"
+  },
+  "SelectedContackList": {
+    "title": "ບຸກຄົນຕິດຕໍ່ສຸກເສີນ"
   }
 }

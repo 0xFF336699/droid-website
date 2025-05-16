@@ -2,8 +2,9 @@
   "content": {
     "home": "naslovnica",
     "me": "rudnik",
-    "setting": "postaviti",
+    "settings": "postaviti",
     "script": "scenarij",
+    "store": "tržište",
     "market": "tržište"
   },
   "tabbar": {

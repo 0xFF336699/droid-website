@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Nội dung SMS",
+          "placeholder": "Tôi hơi khó chịu, đến đây! !! !!",
           "label": "Nội dung SMS",
           "helperText": "Nội dung SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Tạo một phím tắt",
+      "description": "Tạo các phím tắt trên máy tính để bàn di động của bạn"
+    },
+    "launcherName": "Cuộc gọi khẩn cấp để được giúp đỡ"
+  },
+  "SelectedContackList": {
+    "title": "Người liên hệ khẩn cấp"
   }
 }

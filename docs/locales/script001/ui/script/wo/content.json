@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Ëmbiit SMS",
+          "placeholder": "Man maa ngi ci jafe-jafe, ñëwal fii! ! !",
           "label": "Ëmbiit SMS",
           "helperText": "Ëmbiit SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Sosal ab diir",
+      "description": "Sosal ay gaawaay ci sa biro mobile"
+    },
+    "launcherName": "woote bu am solo ngir ndimbal"
+  },
+  "SelectedContackList": {
+    "title": "Ku nekk ci jokkoo ak jafe-jafe"
   }
 }

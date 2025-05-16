@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Ábhar SMS",
+          "placeholder": "Tá mé rud beag míchompordach, teacht anseo! ! !",
           "label": "Ábhar SMS",
           "helperText": "Ábhar SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Cruthaigh aicearra",
+      "description": "Cruthaigh aicearraí ar do dheasc soghluaiste"
+    },
+    "launcherName": "Glao práinneach ar chabhair"
+  },
+  "SelectedContackList": {
+    "title": "Duine teagmhála éigeandála"
   }
 }

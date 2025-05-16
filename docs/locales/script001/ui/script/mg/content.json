@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS votoatiny",
+          "placeholder": "Tsy dia mahasosotra aho, tonga eto! ! !",
           "label": "SMS votoatiny",
           "helperText": "SMS votoatiny"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Mamorona fohy fohy",
+      "description": "Mamorona fohy fohy amin'ny desktop findainao"
+    },
+    "launcherName": "Antso maika ho an'ny fanampiana"
+  },
+  "SelectedContackList": {
+    "title": "Olona fifandraisana vonjy maika"
   }
 }

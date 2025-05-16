@@ -2,8 +2,9 @@
   "content": {
     "home": "xët ca kanam",
     "me": "sama bos",
-    "setting": "defar",
+    "settings": "defar",
     "script": "mbind",
+    "store": "jaayoon",
     "market": "jaayoon"
   },
   "tabbar": {

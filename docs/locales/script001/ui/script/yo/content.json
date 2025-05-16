@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Akoonu SMS",
+          "placeholder": "Mo jẹ korọrun diẹ, wa nibi! ! !",
           "label": "Akoonu SMS",
           "helperText": "Akoonu SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Ṣẹda ọna abuja",
+      "description": "Ṣẹda awọn ọna abuja lori tabili alagbeka rẹ"
+    },
+    "launcherName": "Ipe kiakia fun iranlọwọ"
+  },
+  "SelectedContackList": {
+    "title": "Eniyan ikanra pajawiri pajawiri"
   }
 }

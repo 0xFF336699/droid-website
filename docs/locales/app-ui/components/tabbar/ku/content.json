@@ -2,8 +2,9 @@
   "content": {
     "home": "Rûpela pêşîn",
     "me": "ya min",
-    "setting": "damezirandin",
+    "settings": "damezirandin",
     "script": "nivîs",
+    "store": "bazar",
     "market": "bazar"
   },
   "tabbar": {

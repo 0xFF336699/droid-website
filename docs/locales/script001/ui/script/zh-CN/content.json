@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "短信内容",
+          "placeholder": "我身体有些不适，快来我这里！！！",
           "label": "短信内容",
           "helperText": "短信内容"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "创建快捷方式",
+      "description": "在手机桌面上创建快捷方式"
+    },
+    "launcherName": "紧急呼救"
+  },
+  "SelectedContackList": {
+    "title": "紧急联系人"
   }
 }

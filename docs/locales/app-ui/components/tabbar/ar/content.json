@@ -2,8 +2,9 @@
   "content": {
     "home": "الصفحة الأولى",
     "me": "مِلكِي",
-    "setting": "يثبت",
+    "settings": "يثبت",
     "script": "السيناريو",
+    "store": "سوق",
     "market": "سوق"
   },
   "tabbar": {

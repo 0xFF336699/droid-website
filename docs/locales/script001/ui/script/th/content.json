@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "เนื้อหา SMS",
+          "placeholder": "ฉันรู้สึกอึดอัดเล็กน้อยมาที่นี่! - -",
           "label": "เนื้อหา SMS",
           "helperText": "เนื้อหา SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "สร้างทางลัด",
+      "description": "สร้างทางลัดบนเดสก์ท็อปมือถือของคุณ"
+    },
+    "launcherName": "ขอความช่วยเหลืออย่างเร่งด่วน"
+  },
+  "SelectedContackList": {
+    "title": "ผู้ติดต่อฉุกเฉิน"
   }
 }

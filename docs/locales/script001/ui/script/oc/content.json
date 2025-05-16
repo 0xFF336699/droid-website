@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "contengut SMS",
+          "placeholder": "Soi un pauc mal a l'aise, venètz aquí ! ! !",
           "label": "contengut SMS",
           "helperText": "contengut SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Crear un acorchi",
+      "description": "Creatz d'acorchis sus vòstre burèu mobil ."
+    },
+    "launcherName": "Convocatòria urgenta per ajudar"
+  },
+  "SelectedContackList": {
+    "title": "Persona de contacte d'urgéncia"
   }
 }

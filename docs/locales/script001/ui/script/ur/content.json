@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "ایس ایم ایس مواد",
+          "placeholder": "میں تھوڑا سا بے چین ہوں ، یہاں آو! ! !",
           "label": "ایس ایم ایس مواد",
           "helperText": "ایس ایم ایس مواد"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "ایک شارٹ کٹ بنائیں",
+      "description": "اپنے موبائل ڈیسک ٹاپ پر شارٹ کٹ بنائیں"
+    },
+    "launcherName": "مدد کے لئے فوری کال"
+  },
+  "SelectedContackList": {
+    "title": "ہنگامی رابطہ شخص"
   }
 }

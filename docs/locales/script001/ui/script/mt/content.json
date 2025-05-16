@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Kontenut SMS",
+          "placeholder": "Jien ftit skomdu, ejja hawn! ! !",
           "label": "Kontenut SMS",
           "helperText": "Kontenut SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Oħloq shortcut",
+      "description": "Oħloq shortcuts fuq id-desktop mobbli tiegħek"
+    },
+    "launcherName": "Sejħa urġenti għall-għajnuna"
+  },
+  "SelectedContackList": {
+    "title": "Persuna ta 'kuntatt ta' emerġenza"
   }
 }

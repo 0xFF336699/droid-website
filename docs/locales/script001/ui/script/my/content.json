@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS အကြောင်းအရာ",
+          "placeholder": "ငါအနည်းငယ်မသက်မသာငါဒီမှာလာ! ! !",
           "label": "SMS အကြောင်းအရာ",
           "helperText": "SMS အကြောင်းအရာ"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "ဖြတ်လမ်းတစ်ခုဖန်တီးပါ",
+      "description": "သင်၏မိုဘိုင်း desktop ပေါ်တွင်ဖြတ်လမ်းများကိုဖန်တီးပါ"
+    },
+    "launcherName": "အကူအညီအတွက်အရေးပေါ်ခေါ်ဆိုမှု"
+  },
+  "SelectedContackList": {
+    "title": "အရေးပေါ်ဆက်သွယ်ရန်ပုဂ္ဂိုလ်"
   }
 }

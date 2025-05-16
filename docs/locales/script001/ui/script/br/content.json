@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Danvez SMS",
+          "placeholder": "Un tamm dic'hoant on, deuit amañ ! ! !",
           "label": "Danvez SMS",
           "helperText": "Danvez SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Krouiñ ur berradenn",
+      "description": "Krouit berradennoù war ho burev pellgomz"
+    },
+    "launcherName": "Galv urzh evit sikour"
+  },
+  "SelectedContackList": {
+    "title": "Perc'henn darempredoù urzh"
   }
 }

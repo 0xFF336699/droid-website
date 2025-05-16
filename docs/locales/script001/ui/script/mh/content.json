@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS",
+          "placeholder": "Ij jidik jab em̧m̧an, itok ijin! ! !",
           "label": "SMS",
           "helperText": "SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Kōṃṃan juon ṃōttan .",
+      "description": "Kōm̧m̧ani m̧ōttan ko ilo jikin jerbal eo am̧ ."
+    },
+    "launcherName": "Kūr eo em̧ōkaj ."
+  },
+  "SelectedContackList": {
+    "title": "Eṃṃan ñan armej ."
   }
 }

@@ -2,8 +2,9 @@
   "content": {
     "home": "Přední stránka",
     "me": "moje",
-    "setting": "nastavit",
+    "settings": "nastavit",
     "script": "skript",
+    "store": "trh",
     "market": "trh"
   },
   "tabbar": {

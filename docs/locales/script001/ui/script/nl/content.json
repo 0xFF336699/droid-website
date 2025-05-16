@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS -inhoud",
+          "placeholder": "Ik voel me een beetje ongemakkelijk, kom hier! ! !",
           "label": "SMS -inhoud",
           "helperText": "SMS -inhoud"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Maak een snelkoppeling",
+      "description": "Maak snelkoppelingen op uw mobiele desktop"
+    },
+    "launcherName": "Dringende oproep om hulp"
+  },
+  "SelectedContackList": {
+    "title": "Noodcontactpersoon"
   }
 }

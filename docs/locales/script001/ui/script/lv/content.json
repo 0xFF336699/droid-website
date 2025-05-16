@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS saturs",
+          "placeholder": "Man ir mazliet neērti, nāc šeit! ! !",
           "label": "SMS saturs",
           "helperText": "SMS saturs"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Izveidojiet saīsni",
+      "description": "Izveidojiet īsceļus savā mobilajā darbvirsmā"
+    },
+    "launcherName": "Steidzams aicinājums pēc palīdzības"
+  },
+  "SelectedContackList": {
+    "title": "Ārkārtas kontaktpersona"
   }
 }

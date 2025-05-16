@@ -2,8 +2,9 @@
   "content": {
     "home": "Old sahifa",
     "me": "meniki",
-    "setting": "sozlash; o'rnatish",
+    "settings": "sozlash; o'rnatish",
     "script": "skript",
+    "store": "bozor",
     "market": "bozor"
   },
   "tabbar": {

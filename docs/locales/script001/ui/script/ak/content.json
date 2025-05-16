@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS mu Nsɛm .",
+          "placeholder": "Me ho nyɛ me dɛ kakra, bra ha! ! !",
           "label": "SMS mu Nsɛm .",
           "helperText": "SMS mu Nsɛm ."
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Yɛ ɔkwan tiawa bi .",
+      "description": "Yɛ akwan tiawa wɔ wo mobile desktop so ."
+    },
+    "launcherName": "Ɔfrɛ a egye ntɛmpɛ a wɔde hwehwɛ mmoa ."
+  },
+  "SelectedContackList": {
+    "title": "Onipa a obi ne no di nkitaho ntɛm ara ."
   }
 }

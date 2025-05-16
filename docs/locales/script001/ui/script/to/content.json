@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Ko e kakano SMS",
+          "placeholder": "'Oku ou ki'i ta'efiemalie, ha'u ki heni! ! !",
           "label": "Ko e kakano SMS",
           "helperText": "Ko e kakano SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Faʻu ha founga fakanounou .",
+      "description": "Faʻu ha ngaahi fakanounou ʻi hoʻo tesi feʻaveʻakí ."
+    },
+    "launcherName": "ui fakavavevave ki ha tokoni ."
+  },
+  "SelectedContackList": {
+    "title": "Tokotaha fetu'utaki fakavavevave"
   }
 }

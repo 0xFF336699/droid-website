@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS-inhoud",
+          "placeholder": "Ich bin 'n bietje ongemakkelik, kom hier! ! !",
           "label": "SMS-inhoud",
           "helperText": "SMS-inhoud"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Maak ‘n sneltoet",
+      "description": "Maak sneltoets op uw mobiele bureaublaad"
+    },
+    "launcherName": "Urgent oproep um hulp"
+  },
+  "SelectedContackList": {
+    "title": "Noodcontak persoon"
   }
 }

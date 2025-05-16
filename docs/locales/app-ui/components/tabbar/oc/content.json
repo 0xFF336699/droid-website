@@ -2,8 +2,9 @@
   "content": {
     "home": "primièra pagina",
     "me": "mieu",
-    "setting": "metre en plaça",
+    "settings": "metre en plaça",
     "script": "scenari",
+    "store": "mercat",
     "market": "mercat"
   },
   "tabbar": {

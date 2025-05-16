@@ -2,8 +2,9 @@
   "content": {
     "home": "Tluka ro sungula .",
     "me": "swa mina",
-    "setting": "ku lulamisa",
+    "settings": "ku lulamisa",
     "script": "xitsalwana",
+    "store": "makete",
     "market": "makete"
   },
   "tabbar": {

@@ -2,8 +2,9 @@
   "content": {
     "home": "hello yeeso ngoo",
     "me": "je am",
-    "setting": "taskugo",
+    "settings": "taskugo",
     "script": "windol",
+    "store": "lumo",
     "market": "lumo"
   },
   "tabbar": {

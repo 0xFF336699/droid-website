@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Kandungan SMS",
+          "placeholder": "Saya agak tidak selesa, datang ke sini! ! !",
           "label": "Kandungan SMS",
           "helperText": "Kandungan SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Buat jalan pintas",
+      "description": "Buat pintasan di desktop mudah alih anda"
+    },
+    "launcherName": "Panggilan segera untuk pertolongan"
+  },
+  "SelectedContackList": {
+    "title": "Orang hubungan kecemasan"
   }
 }

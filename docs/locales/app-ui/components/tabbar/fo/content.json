@@ -2,8 +2,9 @@
   "content": {
     "home": "á forsíðu",
     "me": "mín",
-    "setting": "skipna",
+    "settings": "skipna",
     "script": "handrit",
+    "store": "marknaður",
     "market": "marknaður"
   },
   "tabbar": {

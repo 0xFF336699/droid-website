@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "ኤስኤምኤስ ይዘት",
+          "placeholder": "እኔ ትንሽ ምቾት የለኝም, ወደዚህ ይምጡ! ! !",
           "label": "ኤስኤምኤስ ይዘት",
           "helperText": "ኤስኤምኤስ ይዘት"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "አቋራጭ ይፍጠሩ",
+      "description": "በሞባይል ዴስክቶፕዎ ላይ አቋራጮችን ይፍጠሩ"
+    },
+    "launcherName": "አስቸኳይ ጥሪ"
+  },
+  "SelectedContackList": {
+    "title": "የአደጋ ጊዜ ግንኙነት"
   }
 }

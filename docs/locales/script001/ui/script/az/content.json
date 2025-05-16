@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS məzmunu",
+          "placeholder": "Bir az narahatam, bura gəl! ! !",
           "label": "SMS məzmunu",
           "helperText": "SMS məzmunu"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Qısayol yaratmaq",
+      "description": "Mobil masaüstünüzdə qısa yollar yaradın"
+    },
+    "launcherName": "Yardım üçün təcili zəng"
+  },
+  "SelectedContackList": {
+    "title": "Təcili əlaqə şəxs"
   }
 }

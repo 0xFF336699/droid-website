@@ -2,8 +2,9 @@
   "content": {
     "home": "pàgina principal",
     "me": "mina",
-    "setting": "configurar",
+    "settings": "configurar",
     "script": "manuscrit",
+    "store": "mercat",
     "market": "mercat"
   },
   "tabbar": {

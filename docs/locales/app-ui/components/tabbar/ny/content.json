@@ -2,8 +2,9 @@
   "content": {
     "home": "Tsamba lakutsogolo",
     "me": "changa",
-    "setting": "khazikitsa",
+    "settings": "khazikitsa",
     "script": "zolembedwa",
+    "store": "msika",
     "market": "msika"
   },
   "tabbar": {

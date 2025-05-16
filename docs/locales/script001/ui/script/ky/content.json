@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS мазмунун",
+          "placeholder": "Мен бир аз ыңгайсызмын, бул жерге кел! ! !",
           "label": "SMS мазмунун",
           "helperText": "SMS мазмунун"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Кыска жол түзүңүз",
+      "description": "Мобилдик иш тактаңызда жарлыктарды түзүңүз"
+    },
+    "launcherName": "Жардам үчүн шашылыш чакыруу"
+  },
+  "SelectedContackList": {
+    "title": "Тез жардам кызматы"
   }
 }

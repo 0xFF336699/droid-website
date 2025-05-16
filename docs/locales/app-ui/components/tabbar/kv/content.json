@@ -2,8 +2,9 @@
   "content": {
     "home": "водзын",
     "me": "менам",
-    "setting": "лӧсьӧдны",
+    "settings": "лӧсьӧдны",
     "script": "сценарий",
+    "store": "рынок",
     "market": "рынок"
   },
   "tabbar": {

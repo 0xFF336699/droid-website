@@ -2,8 +2,9 @@
   "content": {
     "home": "Öň sahypasy",
     "me": "meniňki",
-    "setting": "gurmak",
+    "settings": "gurmak",
     "script": "skript",
+    "store": "bazary",
     "market": "bazary"
   },
   "tabbar": {

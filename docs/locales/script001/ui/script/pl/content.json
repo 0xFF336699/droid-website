@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Treść SMS",
+          "placeholder": "Czuję się trochę nieswojo, chodź tutaj! ! !",
           "label": "Treść SMS",
           "helperText": "Treść SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Utwórz skrót",
+      "description": "Utwórz skróty na mobilnym pulpicie"
+    },
+    "launcherName": "Pilne wezwanie pomocy"
+  },
+  "SelectedContackList": {
+    "title": "Osoba kontaktowa w nagłych wypadkach"
   }
 }

@@ -2,8 +2,9 @@
   "content": {
     "home": "première page",
     "me": "le mien",
-    "setting": "installation",
+    "settings": "installation",
     "script": "scénario",
+    "store": "marché",
     "market": "marché"
   },
   "tabbar": {

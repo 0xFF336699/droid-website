@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS zvemukati",
+          "placeholder": "Ini handina kugadzikana, uyai pano! ! !",
           "label": "SMS zvemukati",
           "helperText": "SMS zvemukati"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Gadzira ipfupi",
+      "description": "Gadzira mapfupi pane yako nhare desktop"
+    },
+    "launcherName": "Kurumidza kufona rubatsiro"
+  },
+  "SelectedContackList": {
+    "title": "Emergency Exton"
   }
 }

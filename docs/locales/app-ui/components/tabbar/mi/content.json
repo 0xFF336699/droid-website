@@ -2,8 +2,9 @@
   "content": {
     "home": "Tuhinga o mua",
     "me": "maina",
-    "setting": "whakarite",
+    "settings": "whakarite",
     "script": "tuhi ā ringa",
+    "store": "mākete",
     "market": "mākete"
   },
   "tabbar": {

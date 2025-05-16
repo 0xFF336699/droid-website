@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS -indhold",
+          "placeholder": "Jeg er lidt ubehagelig, kom her! ! !",
           "label": "SMS -indhold",
           "helperText": "SMS -indhold"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Opret en genvej",
+      "description": "Opret genveje på dit mobile skrivebord"
+    },
+    "launcherName": "Hastende opfordring til hjælp"
+  },
+  "SelectedContackList": {
+    "title": "Nødkontaktperson"
   }
 }

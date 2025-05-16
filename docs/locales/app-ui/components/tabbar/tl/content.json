@@ -2,8 +2,9 @@
   "content": {
     "home": "Pahina sa harap",
     "me": "akin",
-    "setting": "I -set up",
+    "settings": "I -set up",
     "script": "script",
+    "store": "Pamilihan",
     "market": "Pamilihan"
   },
   "tabbar": {

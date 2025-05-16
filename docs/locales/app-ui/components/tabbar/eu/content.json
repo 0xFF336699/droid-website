@@ -2,8 +2,9 @@
   "content": {
     "home": "Hasierako orria",
     "me": "nire",
-    "setting": "konfiguratu",
+    "settings": "konfiguratu",
     "script": "letra",
+    "store": "azoka",
     "market": "azoka"
   },
   "tabbar": {

@@ -2,8 +2,9 @@
   "content": {
     "home": "フロントページ",
     "me": "私の",
-    "setting": "設定",
+    "settings": "設定",
     "script": "スクリプト",
+    "store": "市場",
     "market": "市場"
   },
   "tabbar": {

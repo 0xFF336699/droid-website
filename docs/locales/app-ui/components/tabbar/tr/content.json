@@ -2,8 +2,9 @@
   "content": {
     "home": "ön sayfa",
     "me": "bana ait",
-    "setting": "kurmak",
+    "settings": "kurmak",
     "script": "senaryo",
+    "store": "pazar",
     "market": "pazar"
   },
   "tabbar": {

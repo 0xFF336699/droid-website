@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Contenutu SMS",
+          "placeholder": "Sò un pocu scomdu, vene quì! ! !",
           "label": "Contenutu SMS",
           "helperText": "Contenutu SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Crea un scurciatu",
+      "description": "Crea Shortcuts nantu à u vostru Desktop Mobile"
+    },
+    "launcherName": "Chjama urgente per l'aiutu"
+  },
+  "SelectedContackList": {
+    "title": "Persona di cuntattu d'emergenza"
   }
 }

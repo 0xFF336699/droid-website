@@ -2,8 +2,9 @@
   "content": {
     "home": "tsebe ya ntlha",
     "me": "sa me",
-    "setting": "siamisa",
+    "settings": "siamisa",
     "script": "lokwalo",
+    "store": "maraka",
     "market": "maraka"
   },
   "tabbar": {

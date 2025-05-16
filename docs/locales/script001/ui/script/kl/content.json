@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS-imik imaqartoq",
+          "placeholder": "Assut pissangavunga, maani tikigit! ! !",
           "label": "SMS-imik imaqartoq",
           "helperText": "SMS-imik imaqartoq"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Pilersitsigit",
+      "description": "Mobilskrivebordimi shortcut-inik pilersitsigit"
+    },
+    "launcherName": "Urgent ikiorneqarnissamik piumasaqarpoq"
+  },
+  "SelectedContackList": {
+    "title": "Upalungaarsimanermut attaveqartoq"
   }
 }

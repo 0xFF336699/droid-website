@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS -innehåll",
+          "placeholder": "Jag är lite obekväm, kom hit! ! !",
           "label": "SMS -innehåll",
           "helperText": "SMS -innehåll"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Skapa en genväg",
+      "description": "Skapa genvägar på ditt mobila skrivbord"
+    },
+    "launcherName": "Brådskande uppmaning till hjälp"
+  },
+  "SelectedContackList": {
+    "title": "Akutkontaktperson"
   }
 }

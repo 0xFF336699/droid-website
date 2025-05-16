@@ -2,8 +2,9 @@
   "content": {
     "home": "voorblad",
     "me": "myne",
-    "setting": "opgestel",
+    "settings": "opgestel",
     "script": "draaiboek",
+    "store": "mark",
     "market": "mark"
   },
   "tabbar": {

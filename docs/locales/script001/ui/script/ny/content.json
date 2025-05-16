@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS",
+          "placeholder": "Ndine wopanda nkhawa, bwerani kuno! ! !",
           "label": "SMS",
           "helperText": "SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Pangani njira yachidule",
+      "description": "Pangani njira zazifupi patsamba lafoni yanu"
+    },
+    "launcherName": "Kuyitanira kwamphamvu kwa thandizo"
+  },
+  "SelectedContackList": {
+    "title": "Munthu wodziwa bwino"
   }
 }

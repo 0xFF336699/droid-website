@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS -Inhalt",
+          "placeholder": "Ich bin ein bisschen unangenehm, komm her! ! !",
           "label": "SMS -Inhalt",
           "helperText": "SMS -Inhalt"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Erstellen Sie eine Abkürzung",
+      "description": "Erstellen Sie Verknüpfungen auf Ihrem mobilen Desktop"
+    },
+    "launcherName": "Dringender Hilfe um Hilfe"
+  },
+  "SelectedContackList": {
+    "title": "Notfallkontaktperson"
   }
 }

@@ -2,8 +2,9 @@
   "content": {
     "home": "Ñawpaq kaq p'anqa .",
     "me": "mina",
-    "setting": "tupachiy",
+    "settings": "tupachiy",
     "script": "qillqa",
+    "store": "qatu",
     "market": "qatu"
   },
   "tabbar": {

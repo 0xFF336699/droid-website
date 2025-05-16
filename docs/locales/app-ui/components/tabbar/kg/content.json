@@ -2,8 +2,9 @@
   "content": {
     "home": "lutiti ya ntwala",
     "me": "ya mono",
-    "setting": "kusala",
+    "settings": "kusala",
     "script": "bangogo",
+    "store": "zandu",
     "market": "zandu"
   },
   "tabbar": {

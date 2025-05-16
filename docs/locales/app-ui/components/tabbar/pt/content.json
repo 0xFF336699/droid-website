@@ -2,8 +2,9 @@
   "content": {
     "home": "primeira página",
     "me": "meu",
-    "setting": "configurar",
+    "settings": "configurar",
     "script": "script",
+    "store": "mercado",
     "market": "mercado"
   },
   "tabbar": {

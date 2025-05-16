@@ -2,8 +2,9 @@
   "content": {
     "home": "หน้าแรก",
     "me": "ของฉัน",
-    "setting": "ตั้งค่า",
+    "settings": "ตั้งค่า",
     "script": "สคริปต์",
+    "store": "ตลาด",
     "market": "ตลาด"
   },
   "tabbar": {

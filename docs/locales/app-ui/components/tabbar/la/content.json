@@ -2,8 +2,9 @@
   "content": {
     "home": "Front Page",
     "me": "mea",
-    "setting": "profectus",
+    "settings": "profectus",
     "script": "sero",
+    "store": "foro",
     "market": "foro"
   },
   "tabbar": {

@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Litaba tsa SMS",
+          "placeholder": "Ke sa phutholoha hanyane, tla mona! ! !",
           "label": "Litaba tsa SMS",
           "helperText": "Litaba tsa SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Theha sekhukhunyane",
+      "description": "Theha mefutlo e khutšoane ea desktop ea hau ea mobile"
+    },
+    "launcherName": "Mohala o potlakileng oa thuso"
+  },
+  "SelectedContackList": {
+    "title": "Motho ea amanang le maemo a tšohanyetso"
   }
 }

@@ -2,8 +2,9 @@
   "content": {
     "home": "първа страница",
     "me": "Моя",
-    "setting": "настройка",
+    "settings": "настройка",
     "script": "скрипт",
+    "store": "пазар",
     "market": "пазар"
   },
   "tabbar": {

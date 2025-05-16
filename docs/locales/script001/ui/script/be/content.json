@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Змест SMS",
+          "placeholder": "Мне крыху нязручна, ідзі сюды! ! !",
           "label": "Змест SMS",
           "helperText": "Змест SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Стварыце ярлык",
+      "description": "Стварыце цэтлікі на мабільным працоўным стале"
+    },
+    "launcherName": "Тэрміновавы заклік да дапамогі"
+  },
+  "SelectedContackList": {
+    "title": "Аварыйны кантакт"
   }
 }

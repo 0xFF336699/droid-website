@@ -2,8 +2,9 @@
   "content": {
     "home": "প্রথম পৃষ্ঠা",
     "me": "আমার",
-    "setting": "সেট আপ",
+    "settings": "সেট আপ",
     "script": "স্ক্রিপ্ট",
+    "store": "বাজার",
     "market": "বাজার"
   },
   "tabbar": {

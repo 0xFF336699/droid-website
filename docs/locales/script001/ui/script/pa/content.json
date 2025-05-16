@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "ਐਸਐਮਐਸ ਸਮੱਗਰੀ",
+          "placeholder": "ਮੈਂ ਥੋੜਾ ਬੇਅਰਾਮੀ ਹਾਂ, ਇੱਥੇ ਆਓ! ! !",
           "label": "ਐਸਐਮਐਸ ਸਮੱਗਰੀ",
           "helperText": "ਐਸਐਮਐਸ ਸਮੱਗਰੀ"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "ਇੱਕ ਸ਼ਾਰਟਕੱਟ ਬਣਾਓ",
+      "description": "ਆਪਣੇ ਮੋਬਾਈਲ ਡੈਸਕਟਾਪ 'ਤੇ ਸ਼ਾਰਟਕੱਟ ਬਣਾਓ"
+    },
+    "launcherName": "ਮਦਦ ਲਈ ਜ਼ਰੂਰੀ ਕਾਲ"
+  },
+  "SelectedContackList": {
+    "title": "ਐਮਰਜੈਂਸੀ ਸੰਪਰਕ ਵਿਅਕਤੀ"
   }
 }

@@ -2,8 +2,9 @@
   "content": {
     "home": "Lokasa ya liboso .",
     "me": "ya nga",
-    "setting": "kobongisa",
+    "settings": "kobongisa",
     "script": "maloba",
+    "store": "zando",
     "market": "zando"
   },
   "tabbar": {

@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Sadržaj SMS-a",
+          "placeholder": "Malo sam neugodno, dođi ovamo! ! !",
           "label": "Sadržaj SMS-a",
           "helperText": "Sadržaj SMS-a"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Stvoriti prečicu",
+      "description": "Kreirajte prečice na svojoj mobilnoj radnoj površini"
+    },
+    "launcherName": "Hitni poziv za pomoć"
+  },
+  "SelectedContackList": {
+    "title": "Hitna kontakt osoba"
   }
 }

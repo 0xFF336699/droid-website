@@ -2,8 +2,9 @@
   "content": {
     "home": "tabana",
     "me": "noqu",
-    "setting": "tauyavutaki",
+    "settings": "tauyavutaki",
     "script": "ivolanikalou",
+    "store": "makete",
     "market": "makete"
   },
   "tabbar": {

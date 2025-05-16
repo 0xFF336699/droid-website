@@ -2,8 +2,9 @@
   "content": {
     "home": "Olupapula lw'omu maaso .",
     "me": "wange",
-    "setting": "okutandika",
+    "settings": "okutandika",
     "script": "ekiwandiiko",
+    "store": "akatale",
     "market": "akatale"
   },
   "tabbar": {

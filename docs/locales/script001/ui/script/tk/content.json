@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS mazmuny",
+          "placeholder": "Men az oňaýsyz, bärik gel, bärik geliň! ! !",
           "label": "SMS mazmuny",
           "helperText": "SMS mazmuny"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Gysga ýol dörediň",
+      "description": "Ykjam iş stoluňyzda gysga ýollary dörediň"
+    },
+    "launcherName": "Kömek üçin gyssagly jaň"
+  },
+  "SelectedContackList": {
+    "title": "Gyssagly habarlaşyň"
   }
 }

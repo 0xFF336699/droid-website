@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS -sisu",
+          "placeholder": "Mul on natuke ebamugav, tule siia! ! !",
           "label": "SMS -sisu",
           "helperText": "SMS -sisu"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Looge otsetee",
+      "description": "Looge otseteed oma mobiili töölauale"
+    },
+    "launcherName": "Kiireloomuline abi"
+  },
+  "SelectedContackList": {
+    "title": "Hädaabikontakt"
   }
 }

@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS -Enhavo",
+          "placeholder": "Mi estas iomete malkomforta, venu ĉi tien! ! !",
           "label": "SMS -Enhavo",
           "helperText": "SMS -Enhavo"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Kreu ŝparvojon",
+      "description": "Kreu ŝparvojojn sur via movebla labortablo"
+    },
+    "launcherName": "Urĝa alvoko por helpo"
+  },
+  "SelectedContackList": {
+    "title": "Kriz -kontaktulo"
   }
 }

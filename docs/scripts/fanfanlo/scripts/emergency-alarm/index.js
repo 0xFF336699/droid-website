@@ -24682,7 +24682,7 @@ var __publicField = (obj, key, value) => __defNormalProp(obj, typeof key !== "sy
      * This source code is licensed under the MIT license found in the
      * LICENSE file in the root directory of this source tree.
      */
-    var b = "function" === typeof Symbol && Symbol.for, c = b ? Symbol.for("react.element") : 60103, d = b ? Symbol.for("react.portal") : 60106, e = b ? Symbol.for("react.fragment") : 60107, f = b ? Symbol.for("react.strict_mode") : 60108, g = b ? Symbol.for("react.profiler") : 60114, h = b ? Symbol.for("react.provider") : 60109, k = b ? Symbol.for("react.context") : 60110, l = b ? Symbol.for("react.async_mode") : 60111, m = b ? Symbol.for("react.concurrent_mode") : 60111, n = b ? Symbol.for("react.forward_ref") : 60112, p = b ? Symbol.for("react.suspense") : 60113, q = b ? Symbol.for("react.suspense_list") : 60120, r$1 = b ? Symbol.for("react.memo") : 60115, t = b ? Symbol.for("react.lazy") : 60116, v$1 = b ? Symbol.for("react.block") : 60121, w = b ? Symbol.for("react.fundamental") : 60117, x = b ? Symbol.for("react.responder") : 60118, y = b ? Symbol.for("react.scope") : 60119;
+    var b = "function" === typeof Symbol && Symbol.for, c = b ? Symbol.for("react.element") : 60103, d = b ? Symbol.for("react.portal") : 60106, e = b ? Symbol.for("react.fragment") : 60107, f = b ? Symbol.for("react.strict_mode") : 60108, g = b ? Symbol.for("react.profiler") : 60114, h = b ? Symbol.for("react.provider") : 60109, k = b ? Symbol.for("react.context") : 60110, l = b ? Symbol.for("react.async_mode") : 60111, m = b ? Symbol.for("react.concurrent_mode") : 60111, n = b ? Symbol.for("react.forward_ref") : 60112, p = b ? Symbol.for("react.suspense") : 60113, q = b ? Symbol.for("react.suspense_list") : 60120, r$1 = b ? Symbol.for("react.memo") : 60115, t = b ? Symbol.for("react.lazy") : 60116, v = b ? Symbol.for("react.block") : 60121, w = b ? Symbol.for("react.fundamental") : 60117, x = b ? Symbol.for("react.responder") : 60118, y = b ? Symbol.for("react.scope") : 60119;
     function z(a) {
       if ("object" === typeof a && null !== a) {
         var u = a.$$typeof;
@@ -24767,7 +24767,7 @@ var __publicField = (obj, key, value) => __defNormalProp(obj, typeof key !== "sy
       return z(a) === p;
     };
     reactIs_production_min.isValidElementType = function(a) {
-      return "string" === typeof a || "function" === typeof a || a === e || a === m || a === g || a === f || a === p || a === q || "object" === typeof a && null !== a && (a.$$typeof === t || a.$$typeof === r$1 || a.$$typeof === h || a.$$typeof === k || a.$$typeof === n || a.$$typeof === w || a.$$typeof === x || a.$$typeof === y || a.$$typeof === v$1);
+      return "string" === typeof a || "function" === typeof a || a === e || a === m || a === g || a === f || a === p || a === q || "object" === typeof a && null !== a && (a.$$typeof === t || a.$$typeof === r$1 || a.$$typeof === h || a.$$typeof === k || a.$$typeof === n || a.$$typeof === w || a.$$typeof === x || a.$$typeof === y || a.$$typeof === v);
     };
     reactIs_production_min.typeOf = z;
     {
@@ -26675,7 +26675,13 @@ var __publicField = (obj, key, value) => __defNormalProp(obj, typeof key !== "sy
         if (raw && raw.length > 0) {
           o = Object.fromEntries(raw);
         }
-        if (!o) o = {};
+        if (!o) {
+          if ((opts == null ? void 0 : opts.defData) && opts.mergeDefData) {
+            o = opts.defData;
+          } else {
+            o = {};
+          }
+        }
         yield mergeDefault();
         function mergeDefault() {
           return __async$1(this, null, function* () {
@@ -26892,6 +26898,7 @@ var __publicField = (obj, key, value) => __defNormalProp(obj, typeof key !== "sy
     }
     function createJavaStore(ns, opts) {
       const log2 = new Log(false, "createJavaStore_fn ns= " + ns);
+      log2.pause = true;
       let unsub;
       let data = createData();
       function createData() {
@@ -40886,14 +40893,12 @@ export default theme;`;
       if (!store) return;
       unwatch = watchUpdates(store, (data) => {
         alarmStore.data.script = getAlarmScriptString();
-        console.log("alarmStore.data.script=", alarmStore.data.script);
       });
     }
     let alarmStore;
     async function initAlarmStore() {
       if (alarmStore) return;
       alarmStore = await storeUtils.getNamespaceStoreWithData(scriptNamespace, { defData: { script: "" }, forceReset: false, mergeDefData: true });
-      console.log("script conf alarm store global id=", objectCountUtils.getObjectCount(alarmStore.data));
     }
     let store;
     function getStoreData() {
@@ -40903,7 +40908,6 @@ export default theme;`;
       if (store) return store;
       const defData = createDefData();
       const res = await storeUtils.getNamespaceStoreWithData(confNamespace, { defData, forceReset: false, mergeDefData: true });
-      console.log("script conf global id=", objectCountUtils.getObjectCount(res.data));
       store = res;
       await initAlarmStore();
       watchStore();
@@ -40925,93 +40929,11 @@ export default theme;`;
           fullWidth: true,
           value: content,
           sx: { mr: "20px", mt: "10px" },
-          helperText: t2("content.intf.sms.content.helperText"),
           placeholder: t2("content.intf.sms.content.placeholder"),
           label: t2("content.intf.sms.content.label"),
           onChange: (e2) => sms.content = e2.target.value
         }
       ) }) });
-    }
-    function getInstalledAppList() {
-      return `
-    var app = com.fanfanlo.lib.mc.LibMainModel.instance.application;
-    var pm = app.getPackageManager();
-    
-    var intent = new android.content.Intent(android.content.Intent.ACTION_MAIN, null);
-    intent.addCategory(android.content.Intent.CATEGORY_LAUNCHER);
-    
-    var resolveInfos;
-    if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.TIRAMISU) {
-        resolveInfos  = pm.queryIntentActivities(
-            intent,
-            android.content.pm.PackageManager.ResolveInfoFlags.of(
-                java.lang.Long.valueOf(android.content.pm.PackageManager.MATCH_ALL)
-            )
-        );
-    } else {
-        resolveInfos = pm.queryIntentActivities(
-            intent,
-            android.content.pm.PackageManager.GET_META_DATA
-        );
-    }
-    
-    var vendorPrefixes = [
-        'com.android', 'com.google', 'com.miui', 'com.huawei',
-        'com.vivo', 'com.oppo', 'com.samsung', 'com.realme'
-    ];
-    
-    function isVendorPackage(packageName) {
-        for (var i = 0; i < vendorPrefixes.length; i++) {
-            if (packageName.indexOf(vendorPrefixes[i]) === 0) {
-                return true;
-            }
-        }
-        return false;
-    }
-    
-    var appList = '';
-    var count = 0;
-    for (var i = 0; i < resolveInfos.size(); i++) {
-        var info = resolveInfos.get(i);
-        var pkgName = info.activityInfo.packageName;
-        if (!isVendorPackage(pkgName)) {
-            appList += pkgName + '\\n';
-            count++;
-        }
-    }
-    
-    'Total (filtered): ' + count + '\\n' + appList;
-    `;
-    }
-    function pushNotificationCode() {
-      return `
-var app = com.fanfanlo.lib.mc.LibMainModel.instance.application;
-var context = app.getApplicationContext();
-var channelId = "default_channel_id";
-
-// 获取 NotificationManager
-var notificationManager = context.getSystemService(android.content.Context.NOTIFICATION_SERVICE);
-
-// Android 8.0+ 要先创建 NotificationChannel
-if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
-    var channel = new android.app.NotificationChannel(
-        channelId,
-        "Default Channel",
-        android.app.NotificationManager.IMPORTANCE_DEFAULT
-    );
-    notificationManager.createNotificationChannel(channel);
-}
-
-// 构建通知
-var builder = new Packages.androidx.core.app.NotificationCompat.Builder(context, channelId)
-    .setSmallIcon(android.R.drawable.ic_dialog_info)
-    .setContentTitle("来自 JS 的通知")
-    .setContentText("这是一条来自 JS 脚本的测试消息")
-    .setPriority(Packages.androidx.core.app.NotificationCompat.PRIORITY_DEFAULT);
-
-// 发送通知（id 可随意）
-notificationManager.notify(1001, builder.build());
-`;
     }
     const UserContactSelectorContainer = () => {
       const data = useScriptContext();
@@ -41096,7 +41018,7 @@ notificationManager.notify(1001, builder.build());
         ) })
       ] }) });
     };
-    const userContactSelectorMockData = { "data": { "data": { "contactList": [{ "name": "胡师傅领秀", "phone": "157 1290 8753" }, { "name": "西二旗搬家2020", "phone": "173 1609 8396" }, { "name": "魏窑村房东姚先生", "phone": "177 7782 5655" }, { "name": "张志", "phone": "186 2252 1773" }, { "name": "姜祎短信", "phone": "177 5295 8320" }, { "name": "电信上网卡2020", "phone": "153 8141 8053" }, { "name": "申通严沖 开放平台", "phone": "152 2196 6960" }, { "name": "高佣金商务", "phone": "176 6092 0555" }, { "name": "王飞", "phone": "182 1113 6588" }, { "name": "高原句子互动", "phone": "139 4751 9555" }, { "name": "刘建国新基建", "phone": "139 1050 4818" }, { "name": "小布，市场部", "phone": "182 0099 2531" }, { "name": "李士琦移动", "phone": "150 1080 8828" }, { "name": "李士琦联通", "phone": "186 1831 8009" }, { "name": "胡建海", "phone": "139 7722 6644" }, { "name": "装空调2021", "phone": "150 1149 5780" }, { "name": "联通四川2023 7月", "phone": "185 8280 2979" }, { "name": "佟总", "phone": "139 3601 4930" }, { "name": "江西电信上网卡20210607", "phone": "19170165346" }, { "name": "2021疑似装空调家人", "phone": "131 2670 8232" }, { "name": "李璐璐律师", "phone": "152 0148 9401" }, { "name": "李超帅5", "phone": "133 9172 1915" }, { "name": "叶俊宇", "phone": "138 1002 0901" }, { "name": "2021电信2", "phone": "173 7129 4970" }, { "name": "李松银-科罗菲特", "phone": "+86 10 6284 3090" }, { "name": "领秀郝房东", "phone": "13331016489" }, { "name": "陈云超", "phone": "186 1818 4964" }, { "name": "哥哥", "phone": "138 0532 5322" }, { "name": "姐姐", "phone": "131 5627 0489" }, { "name": "四舅", "phone": "130 0168 8036" }, { "name": "春晓姐姐", "phone": "137 3099 6270" }, { "name": "小山爸爸", "phone": "0532 8786 5292" }, { "name": "二舅", "phone": "136 8767 8337" }, { "name": "汪汪汪汪" }, { "name": "妈", "phone": "138 5428 2199" }, { "name": "袁东", "phone": "135 5302 2861" }, { "name": "李超帅", "phone": "176 0089 9008" }, { "name": "京东周再振", "phone": "186 1856 9396" }, { "name": "阿里云办公司倪云龙", "phone": "184 5710 9694" }, { "name": "贺玮", "phone": "156 3296 6065" }, { "name": "妈联通卡", "phone": "156 2113 1529" }, { "name": "可能是民生银行", "phone": "010 6077 9375" }, { "name": "可能是民生银行来的", "phone": "183 1145 4960" }, { "name": "邮政有个面签包裹", "phone": "185 1936 4736" }, { "name": "蓝猫卡", "phone": "16553511099" }, { "name": "王志诚 京东快递", "phone": "193 3790 3300" }, { "name": "京东魏窑", "phone": "131 2697 8011" }, { "name": "钉钉专属顾问", "phone": "057156215888" }, { "name": "钉钉官方短信", "phone": "106575258192144" }, { "name": "丰强妹妹丰月", "phone": "177 0114 7006" }, { "name": "昌平翁青海警官网站安全", "phone": "156 1190 1810" }, { "name": "仉 zhang，有各种车拉活", "phone": "189 1185 4438" }, { "name": "袁华盛", "phone": "135 8323 8769" }, { "name": "袁东升", "phone": "133 6148 4577" }, { "name": "姨", "phone": "13964896386" }, { "name": "张念超", "phone": "136 1118 4043" }, { "name": "微利快递收件", "phone": "178 1308 4208" }, { "name": "京东魏窑送电话卡", "phone": "172 7673 8041" }, { "name": "妈电信长期上网卡", "phone": "153 6732 4368" }, { "name": "驿站谭老板", "phone": "184 0089 6369" }, { "name": "10100699" }, { "name": "联通激活卡", "phone": "182 0113 7237" }, { "name": "小山", "phone": "159 6688 8333" }, { "name": "修洗衣机张师傅", "phone": "136 8304 3856" }, { "name": "军庄镇经济普查办", "phone": "188 1071 9298" }, { "name": "中信银行信用卡中心", "phone": "400 119 5558" }, { "name": "0898 3662 5630", "phone": "0898 3662 5630" }, { "name": "民生银行", "phone": "95568" }, { "name": "魏窑京东电话卡激活", "phone": "135 8191 8115" }, { "name": "四舅妈", "phone": "150 6396 5287" }, { "name": "微利超市", "phone": "135 2183 7018" }, { "name": "二舅妈", "phone": "135 7322 9308" }, { "name": "光明二哥", "phone": "159 5325 1369" }, { "name": "王恒", "phone": "183 1077 6671" }, { "name": "城阳洗牙", "phone": "176 6248 6186" }, { "name": "黄岛肿瘤刘主任", "phone": "137 9181 0702" }, { "name": "郭林 中心医院病房3号楼", "phone": "185 6168 1556" }, { "name": "中心医院住院部3楼3层", "phone": "6866 5105" }, { "name": "要买公司的", "phone": "171 5116 3189" }, { "name": "德邦魏窑", "phone": "177 1092 9777" }, { "name": "华城路2小区中介", "phone": "187 5329 1789" }, { "name": "青福房东", "phone": "183 5329 5035" }, { "name": "金领怀念堂", "phone": "0532 8483 1389" }, { "name": "青福小区供热", "phone": "178 5321 1051" }, { "name": "城阳宽带焦先生", "phone": "151 9260 6258" }, { "name": "世纪民生顺风", "phone": "150 9216 0155" }, { "name": "青福邮政标快", "phone": "153 7670 5398" }, { "name": "青福小区邮政快递", "phone": "133 6149 1716" }, { "name": "龙哥", "phone": "139 5322 8896" }, { "name": "青福小区京东王佳麟", "phone": "195 2671 7462" }, { "name": "青福小区京东张彤辉", "phone": "176 5719 1136" }, { "name": "青福小区天猫超市", "phone": "151 5441 8949" }, { "name": "恐吓电话", "phone": "133 1805 7403" }, { "name": "袁宝玉", "phone": "139 6965 0256" }, { "name": "袁宝玉", "phone": "159 6682 7111" }, { "name": "龙龙 牛金全", "phone": "131 6507 5751" }, { "name": "大江", "phone": "186 6179 4532" }, { "name": "东升老婆", "phone": "158 5327 9871" }, { "name": "任军义", "phone": "131 5623 1996" }, { "name": "青福小区圆通快递", "phone": "185 2180 0509" }, { "name": "青福小区楼上", "phone": "131 5620 0008" }, { "name": "转让公司", "phone": "162 3041 0425" }, { "name": "陈送水", "phone": "134 7582 6166" }, { "name": "城阳宽带孙先生", "phone": "158 6422 3091" }] } } };
+    const userContactSelectorMockData = { "data": { "data": { "contactList": [{ "name": "胡师傅", "phone": "120 1010 1666" }, { "name": "西二旗搬家2020", "phone": "120 1010 2666" }, { "name": "魏窑", "phone": "120 1010 3666" }, { "name": "短信", "phone": "120 1010 4666" }, { "name": "电信上网卡2020", "phone": "120 1010 5666" }, { "name": "高佣金商务", "phone": "120 1010 6666" }] } } };
     function createReadContactsScript(id) {
       return `
   var Manifest = Packages.android.Manifest;
@@ -41336,69 +41258,13 @@ notificationManager.notify(1001, builder.build());
         }) })
       ] }) });
     };
-    function MobileSenderNumber({ mobileSenderNumber }) {
-      const { t: t2 } = useTranslation("script001/ui/script/content");
-      const onChangeNumber = (e2) => {
-        mobileSenderNumber.number = e2.target.value;
-      };
-      return /* @__PURE__ */ jsxRuntimeExports.jsx(Box, { sx: { width: "100%", mt: "10px" }, children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-        TextField,
-        {
-          fullWidth: true,
-          value: mobileSenderNumber.number,
-          sx: { mr: "20px" },
-          helperText: t2("content.intf.mobileSenderNumberList.number.helperText"),
-          placeholder: t2("content.intf.mobileSenderNumberList.number.placeholder"),
-          label: t2("content.intf.mobileSenderNumberList.number.label"),
-          onChange: onChangeNumber
-        }
-      ) });
-    }
-    function MobileSenderNumberList() {
-      const data = useScriptContext();
-      return /* @__PURE__ */ jsxRuntimeExports.jsx(Box, { children: data.mobileSenderNumberList && data.mobileSenderNumberList.map((item, index2) => {
-        return /* @__PURE__ */ jsxRuntimeExports.jsx(MobileSenderNumber, { mobileSenderNumber: item }, `${item.number}-${item.slot}-${item.region}`);
-      }) });
-    }
-    function DevTime() {
-      return /* @__PURE__ */ jsxRuntimeExports.jsxs(Box, { children: [
-        "time:",
-        (/* @__PURE__ */ new Date()).toLocaleTimeString()
-      ] });
-    }
     function Content() {
       const data = useScriptContext();
-      function onClick() {
-        const res = window.parent.window.autoWebViewJs.callScript(getInstalledAppList());
-        const content = res.javaResultString;
-        if (content) {
-          const list = content.split("\n");
-          list.shift();
-          console.log("list=", list);
-        }
-      }
-      function onFullScreenClick() {
-        console.log("onFullScreenClick_fn", window.IFRAME_ID);
-        const iframe = window.parent.window.document.getElementById(window.IFRAME_ID);
-        console.log("iframe=", iframe);
-        if (iframe) {
-          iframe.controller.toggleFullscreen();
-        }
-      }
-      function runPushNotification() {
-        const res = window.parent.window.autoWebViewJs.callScript(pushNotificationCode());
-        console.log("res=", res);
-      }
       if (!isRealInAndroid && (!data.userContactList || data.userContactList.length == 0)) {
         data.userContactList = userContactSelectorMockData.data.data.contactList;
       }
       return /* @__PURE__ */ jsxRuntimeExports.jsxs(Box, { sx: { width: "100%", p: "4px", m: "4px", pr: "20px", border: "1px solid #ccc" }, children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(DevTime, {}),
         /* @__PURE__ */ jsxRuntimeExports.jsx(Box, { children: /* @__PURE__ */ jsxRuntimeExports.jsx(CreateShortcutButton, {}) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("button", { onClick, children: "get package list false" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("button", { onClick: runPushNotification, children: "run push notification " }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("button", { onClick: onFullScreenClick, children: "run push notification ggg" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(MobileSenderNumberList, {}),
         /* @__PURE__ */ jsxRuntimeExports.jsx(SmsContainer, {}),
         /* @__PURE__ */ jsxRuntimeExports.jsx(SelectedContackList, {}),
         /* @__PURE__ */ jsxRuntimeExports.jsx(Box, { children: /* @__PURE__ */ jsxRuntimeExports.jsx(ReadContactsButton, {}) }),
@@ -41420,14 +41286,13 @@ notificationManager.notify(1001, builder.build());
         }
       ) });
     }
-    const v = "2025/5/9 12:39:30";
+    const buildTime = "2025/5/16 22:43:32";
     const version = {
-      v
+      buildTime
     };
     console.log("version is 4", version);
     async function init() {
       storeUtils.setStoresProxy(storeUtilsConf);
-      console.log("storeUtils initialized", storeUtils);
       const mountNode = document.getElementById("app");
       if (mountNode) {
         const root2 = ReactDOM.createRoot(mountNode);

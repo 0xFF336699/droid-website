@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "ايس ايم ايس مواد",
+          "placeholder": "مان ٿورڙو ناجائز آهيان، هتي اچ! ! !",
           "label": "ايس ايم ايس مواد",
           "helperText": "ايس ايم ايس مواد"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "شارٽ ڪٽ ٺاهيو",
+      "description": "توهان جي موبائل ڊيسڪ ٽاپ تي شارٽ ڪٽ ٺاهيو"
+    },
+    "launcherName": "مدد لاء تڪڙي ڪال"
+  },
+  "SelectedContackList": {
+    "title": "ايمرجنسي رابطو ماڻهو"
   }
 }

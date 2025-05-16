@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS -inhoud",
+          "placeholder": "Ek is 'n bietjie ongemaklik, kom hier! ! !",
           "label": "SMS -inhoud",
           "helperText": "SMS -inhoud"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Skep 'n kortpad",
+      "description": "Skep kortpaaie op u mobiele tafelblad"
+    },
+    "launcherName": "Dringende oproep om hulp"
+  },
+  "SelectedContackList": {
+    "title": "Noodkontakpersoon"
   }
 }

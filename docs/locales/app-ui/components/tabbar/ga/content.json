@@ -2,8 +2,9 @@
   "content": {
     "home": "leathanach tosaigh",
     "me": "an teach s'agamsa",
-    "setting": "Bunaithe",
+    "settings": "Bunaithe",
     "script": "script",
+    "store": "margaigh",
     "market": "margaigh"
   },
   "tabbar": {

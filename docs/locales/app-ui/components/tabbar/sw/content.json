@@ -2,8 +2,9 @@
   "content": {
     "home": "Ukurasa wa mbele",
     "me": "yangu",
-    "setting": "Sanidi",
+    "settings": "Sanidi",
     "script": "maandishi",
+    "store": "soko",
     "market": "soko"
   },
   "tabbar": {

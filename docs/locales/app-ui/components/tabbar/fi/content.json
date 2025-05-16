@@ -2,8 +2,9 @@
   "content": {
     "home": "etusivu",
     "me": "minun",
-    "setting": "asentaa",
+    "settings": "asentaa",
     "script": "käsikirjoitus",
+    "store": "markkinoida",
     "market": "markkinoida"
   },
   "tabbar": {

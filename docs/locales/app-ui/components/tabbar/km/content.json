@@ -2,8 +2,9 @@
   "content": {
     "home": "ទំព័រមុខ",
     "me": "របស់ខុ្ញ",
-    "setting": "រៀបចំ",
+    "settings": "រៀបចំ",
     "script": "អត្ថបត",
+    "store": "ផសារ",
     "market": "ផសារ"
   },
   "tabbar": {

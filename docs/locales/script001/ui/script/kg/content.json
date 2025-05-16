@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Mambu ya SMS",
+          "placeholder": "Mono kele mwa mpasi, kwisa awa! ! !",
           "label": "Mambu ya SMS",
           "helperText": "Mambu ya SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Sala nzila ya nkufi",
+      "description": "Sala ba nzila ya nkufi na ordinatere na nge ya maboko"
+    },
+    "launcherName": "Kubinga yandi nswalu sambu na kulomba lusadisu"
+  },
+  "SelectedContackList": {
+    "title": "Muntu ya ke solulaka na urgence"
   }
 }

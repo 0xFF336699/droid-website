@@ -2,8 +2,9 @@
   "content": {
     "home": "predná strana",
     "me": "vyťažiť",
-    "setting": "nastaviť",
+    "settings": "nastaviť",
     "script": "skript",
+    "store": "trh",
     "market": "trh"
   },
   "tabbar": {

@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "Conținut SMS",
+          "placeholder": "Sunt puțin incomod, vino aici! ! !",
           "label": "Conținut SMS",
           "helperText": "Conținut SMS"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Creați o scurtătură",
+      "description": "Creați comenzi rapide pe desktopul dvs. mobil"
+    },
+    "launcherName": "Apel urgent pentru ajutor"
+  },
+  "SelectedContackList": {
+    "title": "Persoană de contact de urgență"
   }
 }

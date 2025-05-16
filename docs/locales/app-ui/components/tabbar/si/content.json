@@ -2,8 +2,9 @@
   "content": {
     "home": "මුල් පිටුව",
     "me": "මගේ",
-    "setting": "සැලසුම",
+    "settings": "සැලසුම",
     "script": "පිටපත",
+    "store": "වෙළඳපොළ",
     "market": "වෙළඳපොළ"
   },
   "tabbar": {

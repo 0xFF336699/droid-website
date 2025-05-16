@@ -10,7 +10,7 @@
       },
       "sms": {
         "content": {
-          "placeholder": "SMS abun ciki",
+          "placeholder": "Ni dan kadan ba shi da daɗi, zo nan! ! !",
           "label": "SMS abun ciki",
           "helperText": "SMS abun ciki"
         }
@@ -28,5 +28,15 @@
         }
       }
     }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Ƙirƙiri gajeriyar hanya",
+      "description": "Createirƙiri gajerun hanyoyi a kan teburinku na hannu"
+    },
+    "launcherName": "Kiran gaggawa don taimako"
+  },
+  "SelectedContackList": {
+    "title": "Mutumin gaggawa"
   }
 }

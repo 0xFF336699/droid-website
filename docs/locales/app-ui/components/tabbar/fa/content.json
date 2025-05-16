@@ -2,8 +2,9 @@
   "content": {
     "home": "صفحه اول",
     "me": "معدن",
-    "setting": "تنظیم کردن",
+    "settings": "تنظیم کردن",
     "script": "فیلمنامه",
+    "store": "بازار",
     "market": "بازار"
   },
   "tabbar": {
