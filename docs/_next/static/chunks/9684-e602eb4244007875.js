@@ -2224,7 +2224,7 @@ function Home() {
                 ns: "homepage/pages/home/content",
                 key: "home.title"
             },
-            children: !env/* isDev */.Cu ? /*#__PURE__*/ (0,jsx_runtime.jsx)(Content, {}) : /*#__PURE__*/ (0,jsx_runtime.jsx)(ProdContent, {})
+            children: env/* isDev */.Cu ? /*#__PURE__*/ (0,jsx_runtime.jsx)(Content, {}) : /*#__PURE__*/ (0,jsx_runtime.jsx)(ProdContent, {})
         })
     });
 }
@@ -2694,4 +2694,4 @@ module.exports = {"permissionComponentsSpanPadding":"components_permissionCompon
 /***/ })
 
 }]);
-//# sourceMappingURL=9684-8fc48da9d7c6def2.js.map
+//# sourceMappingURL=9684-e602eb4244007875.js.map
