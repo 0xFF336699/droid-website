@@ -41286,20 +41286,30 @@ export default theme;`;
         }
       ) });
     }
-    const buildTime = "2025/5/16 22:43:32";
+    const buildTime = "2025/5/17 10:52:02";
     const version = {
       buildTime
     };
     console.log("version is 4", version);
+    let initCount = 0;
     async function init() {
       storeUtils.setStoresProxy(storeUtilsConf);
       const mountNode = document.getElementById("app");
       if (mountNode) {
         const root2 = ReactDOM.createRoot(mountNode);
         root2.render(/* @__PURE__ */ jsxRuntimeExports.jsx(ScriptItem, {}));
+      } else {
+        initCount++;
+        if (initCount < 10) {
+          setTimeout(() => {
+            init();
+          }, 1e3 * 1);
+        }
       }
     }
-    init();
+    setTimeout(() => {
+      init();
+    }, 1e3 * 2);
     var browserPonyfill$2 = { exports: {} };
     (function(module, exports) {
       var __global__ = typeof globalThis !== "undefined" && globalThis || typeof self !== "undefined" && self || typeof commonjsGlobal !== "undefined" && commonjsGlobal;

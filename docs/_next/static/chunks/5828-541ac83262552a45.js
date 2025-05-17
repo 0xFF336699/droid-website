@@ -129,12 +129,14 @@ class IFrameContainer {
    * @returns Promise<void>
    */ loadUrlAsContent(url, onLoad, onError, htmlBuilder) {
         return __async(this, null, function*() {
+            console.log("llllllllllllllload");
             try {
                 const response = yield fetch(url);
                 if (!response.ok) {
                     onError == null ? void 0 : onError(new Error("HTTP error! status: ".concat(response.status)));
                     return;
                 }
+                console.log("loaded");
                 const content = yield response.text();
                 this.loadContent(content, htmlBuilder);
                 onLoad == null ? void 0 : onLoad();
@@ -459,4 +461,4 @@ const IFrameReactContainer = (param)=>{
 /***/ })
 
 }]);
-//# sourceMappingURL=5828-a22fc502aeaf8f1f.js.map
+//# sourceMappingURL=5828-541ac83262552a45.js.map
