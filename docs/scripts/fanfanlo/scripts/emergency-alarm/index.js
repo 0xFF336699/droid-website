@@ -41261,10 +41261,12 @@ export default theme;`;
     function Content() {
       const data = useScriptContext();
       if (!isRealInAndroid && (!data.userContactList || data.userContactList.length == 0)) {
+        console.log("mock recipients");
         data.userContactList = userContactSelectorMockData.data.data.contactList;
       }
       return /* @__PURE__ */ jsxRuntimeExports.jsxs(Box, { sx: { width: "100%", p: "4px", m: "4px", pr: "20px", border: "1px solid #ccc" }, children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx(Box, { children: /* @__PURE__ */ jsxRuntimeExports.jsx(CreateShortcutButton, {}) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { children: "dddddddddddd" }),
         /* @__PURE__ */ jsxRuntimeExports.jsx(SmsContainer, {}),
         /* @__PURE__ */ jsxRuntimeExports.jsx(SelectedContackList, {}),
         /* @__PURE__ */ jsxRuntimeExports.jsx(Box, { children: /* @__PURE__ */ jsxRuntimeExports.jsx(ReadContactsButton, {}) }),
@@ -41273,10 +41275,14 @@ export default theme;`;
     }
     i18nInit();
     function ScriptItem() {
+      console.log("ScriptItem_fn start");
+      console.log("ScriptItem_fn loader");
       return /* @__PURE__ */ jsxRuntimeExports.jsx(reactExports.Suspense, { fallback: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { children: "Loading..." }), children: /* @__PURE__ */ jsxRuntimeExports.jsx(Item, { store: loadAppData() }) });
     }
     function Item({ store: store3 }) {
+      console.log("Item_fn start");
       const res = reactExports.use(store3);
+      console.log("Item_fn res");
       return /* @__PURE__ */ jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, { children: /* @__PURE__ */ jsxRuntimeExports.jsx(
         ContextWrapper,
         {
@@ -41286,19 +41292,26 @@ export default theme;`;
         }
       ) });
     }
-    const buildTime = "2025/5/17 10:52:02";
+    const buildTime = "2025/5/17 12:45:08";
     const version = {
       buildTime
     };
     console.log("version is 4", version);
+    const dateTime = (/* @__PURE__ */ new Date()).toLocaleString();
+    console.log(`iframe start ${dateTime}`);
     let initCount = 0;
     async function init() {
-      storeUtils.setStoresProxy(storeUtilsConf);
+      console.log(`iframe init ${dateTime}`);
+      console.log("storeUtils initialized2");
       const mountNode = document.getElementById("app");
       if (mountNode) {
+        console.log(`iframe mountNode2 ${dateTime}`);
         const root2 = ReactDOM.createRoot(mountNode);
+        console.log(`iframe root created ${dateTime}`);
         root2.render(/* @__PURE__ */ jsxRuntimeExports.jsx(ScriptItem, {}));
+        console.log(`iframe rendered ${dateTime}`);
       } else {
+        console.log(`iframe mountNode not found ${initCount} ${dateTime}`);
         initCount++;
         if (initCount < 10) {
           setTimeout(() => {
@@ -41307,9 +41320,13 @@ export default theme;`;
         }
       }
     }
-    setTimeout(() => {
-      init();
-    }, 1e3 * 2);
+    window.addEventListener("DOMContentLoaded", () => {
+      console.log(`iframe domContentLoaded ${dateTime}`);
+      setTimeout(() => {
+        console.log(`iframe init later ${dateTime}`);
+        init();
+      }, 100);
+    });
     var browserPonyfill$2 = { exports: {} };
     (function(module, exports) {
       var __global__ = typeof globalThis !== "undefined" && globalThis || typeof self !== "undefined" && self || typeof commonjsGlobal !== "undefined" && commonjsGlobal;

@@ -2304,6 +2304,11 @@ function Content() {
                 urlAsContent: true,
                 htmlBuilder: market_html_utils/* marketHtmlUtils */.P.createHtml
             }),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(IFrameReactContainer/* IFrameReactContainer */.T, {
+                url: "/scripts/fanfanlo/scripts/emergency-alarm/index.js",
+                urlAsContent: true,
+                htmlBuilder: market_html_utils/* marketHtmlUtils */.P.createHtml
+            }),
             /*#__PURE__*/ (0,jsx_runtime.jsx)(Box_Box/* default */.A, {
                 children: /*#__PURE__*/ (0,jsx_runtime.jsx)(OpenA11yNodeButton, {})
             }),
@@ -2694,4 +2699,4 @@ module.exports = {"permissionComponentsSpanPadding":"components_permissionCompon
 /***/ })
 
 }]);
-//# sourceMappingURL=9684-e602eb4244007875.js.map
+//# sourceMappingURL=9684-81efb4fc563b84e2.js.map

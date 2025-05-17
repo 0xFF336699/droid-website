@@ -658,10 +658,10 @@ async function loadMarketPageData() {
 
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.2.0_@emotion+react@11.14.0_@types+react@19.0.1_react@19.0.0__@emotion+styled@_kpkjigxuopup3qauiigb2zavni/node_modules/@mui/material/Box/Box.js + 2 modules
 var Box = __webpack_require__(20532);
-// EXTERNAL MODULE: ../../libs/fanfanlo/dist/src/iframe/IFrameReactContainer.js + 1 modules
-var IFrameReactContainer = __webpack_require__(5828);
 // EXTERNAL MODULE: ./src/markets/market-html-utils.ts
 var market_html_utils = __webpack_require__(61854);
+// EXTERNAL MODULE: ../../libs/fanfanlo/dist/src/iframe/IFrameReactContainer.js + 1 modules
+var IFrameReactContainer = __webpack_require__(5828);
 ;// ./src/components/page/market/components/scripts/Script.tsx
 
 
@@ -782,4 +782,4 @@ function MarketPage() {
 /******/ _N_E = __webpack_exports__;
 /******/ }
 ]);
-//# sourceMappingURL=market-5aa9b864440bced7.js.map
+//# sourceMappingURL=market-afd1a3bc759fcc73.js.map

@@ -42,6 +42,7 @@ var __async = (__this, __arguments, generator)=>{
 class IFrameContainer {
     // private initializeResultList?:InitializeResult[]
     fitIframe() {
+        return;
         this.initializeResultList = (0,dist/* initialize */.n_)({
             bodyMargin: "0px",
             bodyPadding: "0px",
@@ -62,7 +63,14 @@ class IFrameContainer {
         let c = htmlBuilder ? htmlBuilder(content, {
             iframeId: this.iframeId
         }) : content;
-        this.iframe.srcdoc = c;
+        const blob = new Blob([
+            c
+        ], {
+            type: "text/html"
+        });
+        const url = URL.createObjectURL(blob);
+        this.blobUrl = url;
+        this.iframe.src = url;
     }
     template(s) {
         return '\n        <html>\n        <head>\n        </head>\n        <body>\n        <div id="app"></div>\n        <script>'.concat(s, "</script>\n        </body>\n        </html>");
@@ -251,6 +259,18 @@ class IFrameContainer {
             }, "*");
         }
     }
+    exit() {
+        const iframe = this.iframe;
+        if (!iframe) return;
+        const clone = iframe.cloneNode(false);
+        iframe.replaceWith(clone);
+        iframe.remove();
+        if (this.blobUrl) {
+            URL.revokeObjectURL(this.blobUrl);
+            this.blobUrl = void 0;
+        }
+        console.log("iframe released", this.iframeId);
+    }
     constructor(){
         this.minWidth = null;
         this.minHeight = null;
@@ -344,6 +364,13 @@ const IFrameReactContainer = (param)=>{
     const iframeContainerRef = (0,react.useRef)(null);
     const [iframeLoading, setIframeLoading] = (0,react.useState)(false);
     const [iframeError, setIframeError] = (0,react.useState)(null);
+    (0,react.useEffect)(()=>{
+        return ()=>{
+            if (iframeContainerRef.current) {
+                iframeContainerRef.current.exit();
+            }
+        };
+    }, []);
     (0,react.useEffect)(()=>{
         if (!iframeContainerRef.current && containerRef.current) {
             iframeContainerRef.current = new IFrameContainer();
@@ -461,4 +488,4 @@ const IFrameReactContainer = (param)=>{
 /***/ })
 
 }]);
-//# sourceMappingURL=5828-541ac83262552a45.js.map
+//# sourceMappingURL=5828-b1de7af18046cb1a.js.map
