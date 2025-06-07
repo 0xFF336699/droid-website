@@ -1,8 +1,0 @@
-{
-  "Components": {
-    "pass": "Auktoriserad",
-    "notPass": "Obehörig",
-    "danger": "Fara",
-    "setting": "inrätta"
-  }
-}

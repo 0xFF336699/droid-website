@@ -1,7 +1,0 @@
-{
-  "androidPermission": {
-    "denied": "avvisa",
-    "granted": "Auktoriserad",
-    "shouldAskAgain": "Obehörig"
-  }
-}

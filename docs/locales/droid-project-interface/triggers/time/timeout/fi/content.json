@@ -1,7 +1,0 @@
-{
-  "ITriggerTimeout": {
-    "title": "Viivästynyt toteutus",
-    "content_delay": "Viivästyminen",
-    "content_milliseconds": "Toteuttaa millisekunnissa"
-  }
-}

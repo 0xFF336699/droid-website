@@ -1,8 +1,0 @@
-{
-  "Components": {
-    "pass": "Yetkili",
-    "notPass": "Yetkisiz",
-    "danger": "Tehlike",
-    "setting": "kurmak"
-  }
-}

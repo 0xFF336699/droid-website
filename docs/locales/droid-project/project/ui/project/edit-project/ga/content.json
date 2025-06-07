@@ -1,9 +1,0 @@
-{
-  "content": {
-    "projectNotExist": "Níl an tionscadal ann",
-    "clickToSetProjectName": "Tionscadail gan ainm",
-    "projectTools": {
-      "run": "cuir i láthair"
-    }
-  }
-}

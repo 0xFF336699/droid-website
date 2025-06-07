@@ -1,9 +1,0 @@
-{
-  "content": {
-    "create": "crear",
-    "delete": "escafar",
-    "confirmDelete": "Sètz segur que volètz suprimir aqueste element ?",
-    "cancel": "abandonar",
-    "title": "avisar"
-  }
-}

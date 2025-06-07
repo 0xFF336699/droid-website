@@ -1,9 +1,0 @@
-{
-  "content": {
-    "projectNotExist": "Projektia ei ole olemassa",
-    "clickToSetProjectName": "Nimeämättömät projektit",
-    "projectTools": {
-      "run": "panna täytäntöön"
-    }
-  }
-}

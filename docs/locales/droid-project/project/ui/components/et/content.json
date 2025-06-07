@@ -1,9 +1,0 @@
-{
-  "content": {
-    "create": "looma",
-    "delete": "kustutama",
-    "confirmDelete": "Kas olete kindel, et soovite selle üksuse kustutada?",
-    "cancel": "loobuma",
-    "title": "hoiatama"
-  }
-}

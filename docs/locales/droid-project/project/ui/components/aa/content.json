@@ -1,9 +1,0 @@
-{
-  "content": {
-    "create": "gin",
-    "delete": "bayis",
-    "confirmDelete": "Atu taa duyye bayissam faxxam tasmiteh?",
-    "cancel": "niya yargiqeenimi",
-    "title": "takkawso"
-  }
-}

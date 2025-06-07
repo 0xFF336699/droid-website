@@ -1,9 +1,0 @@
-{
-  "content": {
-    "projectNotExist": "A projekt nem létezik",
-    "clickToSetProjectName": "Névtelen projektek",
-    "projectTools": {
-      "run": "megvalósít"
-    }
-  }
-}

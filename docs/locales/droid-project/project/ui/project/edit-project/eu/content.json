@@ -1,9 +1,0 @@
-{
-  "content": {
-    "projectNotExist": "Proiektua ez da existitzen",
-    "clickToSetProjectName": "Izenik gabeko proiektuak",
-    "projectTools": {
-      "run": "gauzatu"
-    }
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "content": {
-    "projectNotExist": "Dự án không tồn tại",
-    "clickToSetProjectName": "Các dự án không tên",
-    "projectTools": {
-      "run": "thực hiện"
-    }
-  }
-}
